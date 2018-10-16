@@ -1,3 +1,28 @@
-.bg-light2 {
-  background-color: white !important;
+
+@font-face {
+  font-family:"Jelly-Bean-Script";
+  src: url('../font/JellyBean/Jelly-Bean-Script.ttf'),
+          url('../font/JellyBean/jelly-bean-script.eot?'),
+          url('../font/JellyBean/jelly-bean-script.woff'),
+          url('../font/JellyBean/jelly-bean-script.woff2'),
+          url('../font/JellyBean/jelly-bean-script.svg');
+  font-weight: normal;
+}
+
+@font-face {
+    font-family:"Champagne";
+    src: url('../font/Champagne/champagne-limousines.ttf'),
+    url('../font/Champagne/champagne-limousines.eot?'),
+    url('../font/Champagne/champagne-limousines.woff'),
+    url('../font/Champagne/champagne-limousines.woff2'),
+    url('../font/Champagne/champagne-limousines.svg');
+    font-weight: normal;
+}
+
+.jellybean {
+  font-family: "Jelly-Bean-Script";
+}
+
+.champagne {
+    font-family: "Champagne";
 }

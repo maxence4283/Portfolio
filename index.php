@@ -8,7 +8,7 @@
     <meta name="author" content="NICOLE Maxence">
 
     <link rel="stylesheet" href="Public/css/bootstrap.css">
-    <link rel="stylesheet" href="Public/css/style.css">
+    <link rel="stylesheet" href="Public/css/portfolio.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -64,7 +64,7 @@
 		</nav>
 
   	</div>
-      
+
   </div>
 
 <div id="Presentation">
@@ -75,7 +75,7 @@
 
 	  	<div class="col-12 col-xs-12 col-sm-12 col-md-9 col-xl-9 col-lg-9">
 
-	  		<p class="text-center display-2" style="margin-bottom: -2%">
+	  		<p class="text-center display-2  jellybean" style="margin-bottom: -2%">
 	  			WEB DEVELOPER
 	  		</p>
 
@@ -85,7 +85,7 @@
 
                 <div class="col-12 col-xs-12 col-sm-12 col-md-9 col-xl-6 col-lg-6">
 
-                    <div class="" style="font-size: 1.2rem; margin-left: 2%;margin-right: 2%">
+                    <div class="champagne" style="font-size: 1.2rem; margin-left: 2%;margin-right: 2%">
                         NOM : NICOLE<br>
                         PRENOM : Maxence<br>
                         DATE DE NAISSANCE : 08/03/1998<br>
@@ -100,7 +100,7 @@
 
                 <div class="col-12 col-xs-12 col-sm-12 col-md-9 col-xl-6 col-lg-6">
 
-                    <div class="" style="font-size: 1.2rem; margin-left: 2%;margin-right: 2%">
+                    <div class="champagne" style="font-size: 1.2rem; margin-left: 2%;margin-right: 2%">
 
                         CENTRE D'INTERETS : <br>
                         J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
