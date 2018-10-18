@@ -72,7 +72,7 @@
           </div>
 
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-8 col-lg-8">
                 <!-- partie lg-->
                 <p class="text-center display-2  jellybean d-none d-xl-block" style="margin-bottom: -2%; font-size: 5vw">
                     WEB DEVELOPER
@@ -104,7 +104,7 @@
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
 
                         <!-- partie lg-->
-                        <div class="champagne d-none d-xl-block" style="font-size: 1vw; margin-left: 2%;margin-right: 2%">
+                        <div class="champagne d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%">
                             NOM : NICOLE<br>
                             PRENOM : Maxence<br>
                             DATE DE NAISSANCE : 08/03/1998<br>
@@ -113,7 +113,7 @@
                             Je suis étudiant en BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions logicielles et applications métiers forme des spécialistes des logiciels).<br>
                             ECOLE : Lycée Simone Weil (Saint-Etienne)<br>
                             FORMATIONS : BAC STMG SIG (Mention BIEN), Permis de conduire.
-                        </div><br>
+                        </div>
 
                         <!-- partie xl-->
                         <div class="champagne d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
@@ -140,7 +140,7 @@
                         </div><br>
 
                         <!-- partie sm-->
-                        <div class="champagne d-none d-sm-block d-md-none" style="font-size: 1.2rem; margin-left: 2%;margin-right: 2%">
+                        <div class="champagne d-none d-sm-block d-md-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
                             NOM : NICOLE<br>
                             PRENOM : Maxence<br>
                             DATE DE NAISSANCE : 08/03/1998<br>
@@ -153,7 +153,7 @@
 
 
                         <!-- partie xs-->
-                        <div class="champagne d-block d-sm-none" style="font-size: 1.2rem; margin-left: 2%;margin-right: 2%">
+                        <div class="champagne d-block d-sm-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
                             NOM : NICOLE<br>
                             PRENOM : Maxence<br>
                             DATE DE NAISSANCE : 08/03/1998<br>
@@ -168,12 +168,12 @@
 
                     <div class="col-12 col-xs-12 col-sm-12 col-md-9 col-xl-6 col-lg-6">
                         <!-- partie lg-->
-                        <div class="champagne d-none d-xl-block" style="font-size: 1vw; margin-left: 2%;margin-right: 2%">
+                        <div class="champagne d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%">
                             CENTRE D'INTERETS : <br>
                             J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                             OBJECTIF : <br>
                             Mon objectif après le BTS est de pouvoir intégrer une licence proffessionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
-                        </div><br>
+                        </div>
 
                         <!-- partie xl-->
                         <div class="champagne d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
@@ -211,10 +211,10 @@
                 </div>
             </div>
 
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4">
                 <!-- partie lg-->
-                <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-xl-block" style="margin-top: 10%;margin-right: 5%">
-                    <img src="Public/img/moi.jpg" style="max-width: 100%"/>
+                <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-xl-block" style="margin-top: 10%;">
+                    <img src="Public/img/moi.jpg" style="max-width: 28.5vw"/>
                 </div>
 
                 <!-- partie xl-->
