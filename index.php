@@ -214,7 +214,7 @@
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4">
                 <!-- partie lg-->
                 <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-xl-block" style="margin-top: 10%;">
-                    <img src="Public/img/moi.jpg" style="max-width: 28.5vw"/>
+                    <img src="Public/img/moi.jpg" style="max-width: 100%"/>
                 </div>
 
                 <!-- partie xl-->
