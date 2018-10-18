@@ -19,10 +19,24 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family:"caviardreams";
+    src: url('../font/CaviarDreams/caviardreams.ttf'),
+    url('../font/CaviarDreams/caviardreams.eot?'),
+    url('../font/CaviarDreams/caviardreams.woff'),
+    url('../font/CaviarDreams/caviardreams.woff2'),
+    url('../font/CaviarDreams/caviardreams.svg');
+    font-weight: normal;
+}
+
 .jellybean {
   font-family: "Jelly-Bean-Script";
 }
 
 .champagne {
-    font-family: "Champagne";
+     font-family: "Champagne";
+ }
+
+.caviardreams {
+    font-family: "caviardreams";
 }
