@@ -72,9 +72,29 @@
           </div>
 
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-9 col-xl-9 col-lg-9">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
+                <!-- partie lg-->
+                <p class="text-center display-2  jellybean d-none d-xl-block" style="margin-bottom: -2%; font-size: 5vw">
+                    WEB DEVELOPER
+                </p>
 
-                <p class="text-center display-2  jellybean" style="margin-bottom: -2%">
+                <!-- partie xl-->
+                <p class="text-center display-2  jellybean d-none d-lg-block d-xl-none" style="margin-bottom: -2%">
+                    WEB DEVELOPER
+                </p>
+
+                <!-- partie md-->
+                <p class="text-center display-2  jellybean d-none d-md-block d-lg-none" style="margin-bottom: -2%">
+                    WEB DEVELOPER
+                </p>
+
+                <!-- partie sm-->
+                <p class="text-center display-2  jellybean d-none d-sm-block d-md-none" style="margin-bottom: -2%">
+                    WEB DEVELOPER
+                </p>
+
+                <!-- partie xs-->
+                <p class="text-center display-2  jellybean d-block d-sm-none" style="margin-bottom: -2%">
                     WEB DEVELOPER
                 </p>
 
@@ -191,9 +211,29 @@
                 </div>
             </div>
 
-            <div class="col-12 col-xs-12 col-sm-12 col-md-3 col-xl-3 col-lg-3">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3">
+                <!-- partie lg-->
+                <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-xl-block" style="margin-top: 10%;margin-right: 5%">
+                    <img src="Public/img/moi.jpg" style="max-width: 100%"/>
+                </div>
 
-                <div class="shadow-lg p-3 mb-5 bg-white rounded" style="margin-top: 10%;margin-right: 5%">
+                <!-- partie xl-->
+                <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-lg-block d-xl-none" style="margin-top: 10%;margin-right: 5%">
+                    <img src="Public/img/moi.jpg" style="max-width: 100%"/>
+                </div>
+
+                <!-- partie md-->
+                <div class="shadow-lg p-3 mb-5 bg-white rounded  d-none d-md-block d-lg-none" style="margin-top: 10%;margin-right: 5%">
+                    <img src="Public/img/moi.jpg" style="max-width: 100%"/>
+                </div>
+
+                <!-- partie sm-->
+                <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-sm-block d-md-none" style="margin-top: 10%;margin-right: 5%">
+                    <img src="Public/img/moi.jpg" style="max-width: 100%"/>
+                </div>
+
+                <!-- partie xs-->
+                <div class="shadow-lg p-3 mb-5 bg-white rounded d-block d-sm-none" style="margin-top: 10%;margin-right: 5%">
                     <img src="Public/img/moi.jpg" style="max-width: 100%"/>
                 </div>
 
