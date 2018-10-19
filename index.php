@@ -379,16 +379,16 @@
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
 
-              <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
-
-
-                  <img id="arcenciel" class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
-
-                  <div id="myModal" class="modal">
+                <div id="myModal" class="modal">
                       <span class="close">&times;</span>
                       <img class="modal-content" id="img01">
                       <div id="caption"></div>
                     </div>
+
+              <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
+
+
+                  <img id="arcenciel" class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
 
                   <div class="card-body" style="background-color: #b7bdbf">
                       <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">Les enfants d'arc en ciel</h5>
@@ -441,6 +441,22 @@
           </div>
       </div>
   </div>
+</div>
+
+<div id="Cv">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="background-color: #B7BDBF">
+
+                <p class="text-center display-4 caviardreams" style="margin-bottom: -1%;padding-top: 0.75%">
+                    Mon CV
+                </p>
+
+                <hr class="my-5">
+
+            </div>
+        </div>
+    </div>
 </div>
 
 
