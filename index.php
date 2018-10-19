@@ -380,7 +380,16 @@
           <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
 
               <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
-                  <img class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
+
+
+                  <img id="arcenciel" class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
+
+                  <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+
                   <div class="card-body" style="background-color: #b7bdbf">
                       <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">Les enfants d'arc en ciel</h5>
 
@@ -397,7 +406,11 @@
           <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
 
               <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
-                  <img class="card-img-top" src="Public/img/lecarrefour.jpg" alt="Card image cap">
+
+
+                  <img id="carrefour" class="card-img-top" src="Public/img/lecarrefour.jpg" alt="Card image cap">
+
+
                   <div class="card-body" style="background-color: #b7bdbf">
                       <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">Restaurant Le Carrefour</h5>
 
@@ -447,4 +460,46 @@
             }
         })
     })
+
+        // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('arcenciel');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+
+      // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('carrefour');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
 </script>
