@@ -361,11 +361,14 @@
 <div id="projets">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center">
 
-              <p class="text-center display-4 caviardreams" style="margin-bottom: -1%;padding-top: 0.75%">
+              <p class="display-4 caviardreams" style="padding-top: 0.75%;margin-bottom: -0.4%">
                   Mes Projets
               </p>
+              <div style="margin-bottom: -2%">
+                <small class="text-muted">(ici sont présentés seulement mes projets principaux et concret)</small>
+              </div>
 
               <hr class="my-5">
 
@@ -374,9 +377,9 @@
       </div>
 
       <div class="row">
-          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center ">
+          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
 
-              <div class="card" style="width: 100%;">
+              <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
                   <img class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
                   <div class="card-body" style="background-color: #b7bdbf">
                       <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">Les enfants d'arc en ciel</h5>
@@ -386,14 +389,14 @@
                       <p class="card-text champagne" style="margin-top: -5%">Voici un site internet que j'ai réalisé à partir d'une page blanche pour une association
                       dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'evolution du
                       site internet est géré par moi-même.</p>
-                      <a href="https://www.lesenfantsdarcenciel.ovh/" class="btn btn-outline-secondary" target="_blank" >Lien du site</a>
+                      <a href="https://www.lesenfantsdarcenciel.ovh/" class="btn btn-outline-secondary btn-lg btn-block" target="_blank" >Lien du site</a>
                   </div>
               </div>
 
           </div>
           <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
 
-              <div class="card" style="width: 100%;">
+              <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
                   <img class="card-img-top" src="Public/img/lecarrefour.jpg" alt="Card image cap">
                   <div class="card-body" style="background-color: #b7bdbf">
                       <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">Restaurant Le Carrefour</h5>
@@ -406,13 +409,19 @@
 
           </div>
 
-          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4">
+          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
 
-              <div class="card" style="width: 100%;">
+              <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
                   <img class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
-                  <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="card-body" style="background-color: #b7bdbf">
+                      <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">3eme projet</h5>
+
+                      <hr class="my-5" style="width:30%">
+
+                      <p class="card-text champagne" style="margin-top: -5%">Voici un site internet que j'ai réalisé à partir d'une page blanche pour une association
+                      dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'evolution du
+                      site internet est géré par moi-même.</p>
+                      <a href="https://www.lesenfantsdarcenciel.ovh/" class="btn btn-outline-secondary btn-lg btn-block" target="_blank" >Lien du site</a>
                   </div>
               </div>
 
