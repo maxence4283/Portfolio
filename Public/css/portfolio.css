@@ -143,3 +143,10 @@
         width: 100%;
     }
 }
+
+.jumbotronCV {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #cbd2d4;
+  border-radius: 0.3rem;
+}

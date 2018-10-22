@@ -454,6 +454,13 @@
 
                 <hr class="my-5">
 
+                <div class="jumbotronCV text-center">
+                  <h1 class="display-4">TELECHARGEMENT</h1>
+                  <p class="lead">Cliquez sur le lien afin de pouvoir telecharger mon cv !</p>
+                  <hr class="my-4">
+                  <a class="btn btn-primary btn-lg" href="Public/file/cvsansphoto.zip" role="button">MON CV</a>
+                </div>
+
             </div>
         </div>
     </div>
