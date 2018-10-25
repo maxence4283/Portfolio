@@ -6239,7 +6239,7 @@ button.bg-dark:focus {
 }
 
 .border-light {
-  border-color: white !important;
+  border-color: #f8f9fa !important;
 }
 
 .border-dark {
@@ -7638,7 +7638,7 @@ button.bg-dark:focus {
 }
 
 .p-2 {
-  padding: 0.5rem !important;
+  padding: 0.75rem !important;
 }
 
 .pt-2,

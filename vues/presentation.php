@@ -17,22 +17,22 @@
             </p>
 
             <!-- partie xl-->
-            <p class="text-center display-2  jellybean d-none d-lg-block d-xl-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="margin-bottom: -5%">
                 WEB DEVELOPER
             </p>
 
             <!-- partie md-->
-            <p class="text-center display-2  jellybean d-none d-md-block d-lg-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="margin-bottom: -5%">
                 WEB DEVELOPER
             </p>
 
             <!-- partie sm-->
-            <p class="text-center display-2  jellybean d-none d-sm-block d-md-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="margin-bottom: -5%">
                 WEB DEVELOPER
             </p>
 
             <!-- partie xs-->
-            <p class="text-center display-2  jellybean d-block d-sm-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-block d-sm-none" style="margin-bottom: -5%">
                 WEB DEVELOPER
             </p>
 
@@ -157,28 +157,8 @@
 
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4">
             <!-- partie lg-->
-            <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-xl-block" style="margin-top: 10%;">
-                <img src="Public/img/moi.jpg" style="max-width: 100%"/>
-            </div>
-
-            <!-- partie xl-->
-            <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-lg-block d-xl-none" style="margin-top: 10%;margin-right: 5%">
-                <img src="Public/img/moi.jpg" style="max-width: 100%"/>
-            </div>
-
-            <!-- partie md-->
-            <div class="shadow-lg p-3 mb-5 bg-white rounded  d-none d-md-block d-lg-none" style="margin-top: 10%;margin-right: 5%">
-                <img src="Public/img/moi.jpg" style="max-width: 100%"/>
-            </div>
-
-            <!-- partie sm-->
-            <div class="shadow-lg p-3 mb-5 bg-white rounded d-none d-sm-block d-md-none" style="margin-top: 10%;margin-right: 5%">
-                <img src="Public/img/moi.jpg" style="max-width: 100%"/>
-            </div>
-
-            <!-- partie xs-->
-            <div class="shadow-lg p-3 mb-5 bg-white rounded d-block d-sm-none" style="margin-top: 10%;margin-right: 5%">
-                <img src="Public/img/moi.jpg" style="max-width: 100%"/>
+            <div class="shadow-lg p-2 mb-0 bg-white rounded" style="margin-top: 10%;">
+                <img class="img-fluid" src="Public/img/moi.jpg"/>
             </div>
 
         </div>
