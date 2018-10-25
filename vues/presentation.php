@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-8 col-lg-8">
             <!-- partie lg-->
-            <p class="text-center display-2  jellybean d-none d-xl-block" style="margin-bottom: -5%; font-size: 5vw">
+            <p class="text-center display-2  jellybean d-none d-xl-block" style="margin-bottom: -5%; font-size: 6vw">
                 WEB DEVELOPER
             </p>
 

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
 
-                <p class="text-center display-4 caviardreams" style="margin-bottom: -1%;padding-top: 0.75%">
+                <p class="text-center display-4 funsized" style="margin-bottom: -2%;padding-top: 1.5%">
                     CONTACT
                 </p>
 

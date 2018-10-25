@@ -9,6 +9,7 @@
   font-weight: normal;
 }
 
+
 @font-face {
   font-family:"funsized";
   src: url('../font/funsized/funsized.ttf'),
@@ -16,6 +17,16 @@
           url('../font/funsized/funsized.woff'),
           url('../font/funsized/funsized.woff2'),
           url('../font/funsized/funsized.svg');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family:"york";
+  src: url('../font/york/york.ttf'),
+          url('../font/york/york.eot?'),
+          url('../font/york/york.woff'),
+          url('../font/york/york.woff2'),
+          url('../font/york/york.svg');
   font-weight: normal;
 }
 
@@ -67,6 +78,10 @@
 
 .funsized {
     font-family: "funsized";
+}
+
+.york {
+    font-family: "york";
 }
 
 .bg-projet {

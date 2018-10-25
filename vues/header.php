@@ -58,7 +58,7 @@
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="connexion.php"><i class="far fa-user-circle" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="?action=connexion"><i class="far fa-user-circle" aria-hidden="true"></i></a>
                     </li>
 
                     </ul>
