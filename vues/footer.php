@@ -63,6 +63,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 text-center" style="margin-top: -2%">
+                <small class="text-muted">Copyright © NICOLE Maxence. All right reserved</small>
+            </div>
+        </div>
     </div>
 </div>
 <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
