@@ -42,7 +42,7 @@
                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
 
                     <!-- partie lg-->
-                    <div class="champagne d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%">
                         NOM : NICOLE<br>
                         PRENOM : Maxence<br>
                         DATE DE NAISSANCE : 08/03/1998<br>
@@ -54,7 +54,7 @@
                     </div>
 
                     <!-- partie xl-->
-                    <div class="champagne d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
                         NOM : NICOLE<br>
                         PRENOM : Maxence<br>
                         DATE DE NAISSANCE : 08/03/1998<br>
@@ -66,7 +66,7 @@
                     </div><br>
 
                     <!-- partie md-->
-                    <div class="champagne d-none d-md-block d-lg-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-md-block d-lg-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
                         NOM : NICOLE<br>
                         PRENOM : Maxence<br>
                         DATE DE NAISSANCE : 08/03/1998<br>
@@ -78,7 +78,7 @@
                     </div><br>
 
                     <!-- partie sm-->
-                    <div class="champagne d-none d-sm-block d-md-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-sm-block d-md-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
                         NOM : NICOLE<br>
                         PRENOM : Maxence<br>
                         DATE DE NAISSANCE : 08/03/1998<br>
@@ -91,7 +91,7 @@
 
 
                     <!-- partie xs-->
-                    <div class="champagne d-block d-sm-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-block d-sm-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
                         NOM : NICOLE<br>
                         PRENOM : Maxence<br>
                         DATE DE NAISSANCE : 08/03/1998<br>
@@ -106,7 +106,7 @@
 
                 <div class="col-12 col-xs-12 col-sm-12 col-md-9 col-xl-6 col-lg-6">
                     <!-- partie lg-->
-                    <div class="champagne d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%">
                         CENTRE D'INTERETS : <br>
                         J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                         OBJECTIF : <br>
@@ -114,7 +114,7 @@
                     </div>
 
                     <!-- partie xl-->
-                    <div class="champagne d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
                         CENTRE D'INTERETS : <br>
                         J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                         OBJECTIF : <br>
@@ -122,7 +122,7 @@
                     </div><br>
 
                     <!-- partie md-->
-                    <div class="champagne d-none d-md-block d-lg-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-md-block d-lg-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%">
                         CENTRE D'INTERETS : <br>
                         J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                         OBJECTIF : <br>
@@ -130,7 +130,7 @@
                     </div><br>
 
                     <!-- partie sm-->
-                    <div class="champagne d-none d-sm-block d-md-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-none d-sm-block d-md-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
                         CENTRE D'INTERETS : <br>
                         J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                         OBJECTIF : <br>
@@ -138,7 +138,7 @@
                     </div><br>
 
                     <!-- partie xs-->
-                    <div class="champagne d-block d-sm-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
+                    <div class="djbchalk d-block d-sm-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%">
                         CENTRE D'INTERETS : <br>
                         J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                         OBJECTIF : <br>

@@ -20,6 +20,16 @@
 }
 
 @font-face {
+  font-family:"djbchalk";
+  src: url('../font/djbchalk/djbchalk.ttf'),
+          url('../font/djbchalk/djbchalk.eot?'),
+          url('../font/djbchalk/djbchalk.woff'),
+          url('../font/djbchalk/djbchalk.woff2'),
+          url('../font/djbchalk/djbchalk.svg');
+  font-weight: normal;
+}
+
+@font-face {
     font-family:"Champagne";
     src: url('../font/Champagne/champagne-limousines.ttf'),
     url('../font/Champagne/champagne-limousines.eot?'),
@@ -49,6 +59,10 @@
 
 .caviardreams {
     font-family: "caviardreams";
+}
+
+.djbchalk {
+    font-family: "djbchalk";
 }
 
 .funsized {
