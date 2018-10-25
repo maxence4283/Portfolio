@@ -9,9 +9,12 @@
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
                             <div class="row">
 
-                                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
+                                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 text-right">
 
-                                    
+                                    <div style="margin-top: 42%;">
+                                     <a target="_blank" href="https://www.google.com/maps/place/Lyc%C3%A9e+Simone+Weil+-+42/@45.4754112,4.3653718,17z/data=!3m1!4b1!4m5!3m4!1s0x47f5ac59fbcd0317:0x437e3f71138bd9b2!8m2!3d45.4754112!4d4.3675605"><img style="width: 40%" src="Public/img/wayn.png" alt= "Localisation" ></a>
+                                    </div>
+
                                 </div>
 
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 text-right ">
@@ -48,9 +51,11 @@
 
                             </div>
 
-                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 text-left">
 
-                                
+                                <div style="margin-top: 40%;">
+                                  <a target="_blank" href="mailto:maxencen.contact@gmail.com"><img style="width: 40%" src="Public/img/post.png" alt= "Profile github" ></a>
+                                </div>
 
                             </div>
                         </div>
