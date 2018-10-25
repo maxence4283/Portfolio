@@ -22,7 +22,7 @@
                                 Pour ce qui est du PHP je le pratique assez régulièrement mais étant donnée la richesse de ce langage je ne le maîtrise pas a 100%, de nombreuse bases du langages sont acquise.<br>
                                 La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.<br><br>
                                 Quant au framework Laravel je m'y interresse activement et suit de nombreux tutoriels le concernant. <br><br>
-                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.<br>
+                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.
                             </p>
 
                             <!-- partie xl-->
@@ -33,7 +33,7 @@
                                 Pour ce qui est du PHP je le pratique assez régulièrement mais étant donnée la richesse de ce langage je ne le maîtrise pas a 100%, de nombreuse bases du langages sont acquise.<br>
                                 La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.<br><br>
                                 Quant au framework Laravel je m'y interresse activement et suit de nombreux tutoriels le concernant. <br><br>
-                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.<br>
+                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.
                             </p>
 
                             <!-- partie md-->
@@ -44,7 +44,7 @@
                                 Pour ce qui est du PHP je le pratique assez régulièrement mais étant donnée la richesse de ce langage je ne le maîtrise pas a 100%, de nombreuse bases du langages sont acquise.<br>
                                 La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.<br><br>
                                 Quant au framework Laravel je m'y interresse activement et suit de nombreux tutoriels le concernant. <br><br>
-                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.<br>
+                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.
                             </p>
 
                             <!-- partie sm-->
@@ -55,7 +55,7 @@
                                 Pour ce qui est du PHP je le pratique assez régulièrement mais étant donnée la richesse de ce langage je ne le maîtrise pas a 100%, de nombreuse bases du langages sont acquise.<br>
                                 La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.<br><br>
                                 Quant au framework Laravel je m'y interresse activement et suit de nombreux tutoriels le concernant. <br><br>
-                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.<br>
+                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.
                             </p>
 
                             <!-- partie xs-->
@@ -66,7 +66,7 @@
                                 Pour ce qui est du PHP je le pratique assez régulièrement mais étant donnée la richesse de ce langage je ne le maîtrise pas a 100%, de nombreuse bases du langages sont acquise.<br>
                                 La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.<br><br>
                                 Quant au framework Laravel je m'y interresse activement et suit de nombreux tutoriels le concernant. <br><br>
-                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.<br>
+                                JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.
                             </p>
 
                         </div>

@@ -178,3 +178,11 @@
   background-color: #cbd2d4;
   border-radius: 0.3rem;
 }
+
+.border2 {
+  border: 10px solid #dee2e6 !important;
+}
+
+.border-light2 {
+  border-color: white !important;
+}
