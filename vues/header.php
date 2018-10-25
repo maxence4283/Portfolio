@@ -30,7 +30,7 @@
 
                  </button>
 
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <div class="collapse navbar-collapse justify-content-end caviardreams font-weight-bold" id="navbarNav">
                     <ul class="navbar-nav">
 
                       <li class="nav-item active">

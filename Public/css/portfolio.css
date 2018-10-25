@@ -21,6 +21,16 @@
 }
 
 @font-face {
+  font-family:"sketch";
+  src: url('../font/sketch/sketch.ttf'),
+          url('../font/sketch/sketch.eot?'),
+          url('../font/sketch/sketch.woff'),
+          url('../font/sketch/sketch.woff2'),
+          url('../font/sketch/sketch.svg');
+  font-weight: normal;
+}
+
+@font-face {
   font-family:"york";
   src: url('../font/york/york.ttf'),
           url('../font/york/york.eot?'),
@@ -66,6 +76,10 @@
 
 .champagne {
      font-family: "Champagne";
+ }
+
+ .sketch {
+     font-family: "sketch";
  }
 
 .caviardreams {
