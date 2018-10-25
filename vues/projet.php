@@ -17,7 +17,7 @@
       </div>
 
       <div class="row">
-          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
+          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center">
 
                 <div id="myModal" class="modal">
                       <span class="close">&times;</span>
@@ -38,12 +38,65 @@
                       <p class="card-text champagne" style="margin-top: -5%">Voici un site internet que j'ai réalisé à partir d'une page blanche pour une association
                       dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'evolution du
                       site internet est géré par moi-même.</p>
-                      <a href="https://www.lesenfantsdarcenciel.ovh/" class="btn btn-outline-secondary btn-lg btn-block" target="_blank" >Lien du site</a>
+                      <a href="https://www.lesenfantsdarcenciel.ovh/" class="btn btn-outline-secondary btn-lg btn-block sketch" target="_blank" >ACCEDER AU SITE</a>
                   </div>
               </div>
 
           </div>
-          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
+          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
+            <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
+              <div id="carouselprojet" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselprojet" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselprojet" data-slide-to="1"></li>
+                  <li data-target="#carouselprojet" data-slide-to="2"></li>
+                  <li data-target="#carouselprojet" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="Public/img/carousel/lecarrefour.jpg" alt="Le carrefour">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Projet "Le Carrefour"</h5>
+                      <p>Non responsive</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="Public/img/carousel/arcenciel.jpg" alt="Arc en ciel">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Projet "Arc En Ciel"</h5>
+                      <p>Version ordinateur</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="Public/img/carousel/arcencielmobil.png" alt="Arc en ciel mobile">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Projet "Arc En Ciel"</h5>
+                        <p>Version mobile</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="Public/img/carousel/arcencielteblette.png" alt="Arc en ciel Tablette">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Projet "Arc En Ciel"</h5>
+                      <p>Version tablette</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselprojet" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselprojet" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+            </div>
+              
+          </div>
+
+          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center">
 
               <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
 
@@ -57,24 +110,6 @@
                       <hr class="my-5" style="width:30%">
 
                       <p class="card-text champagne" style="margin-top: -5%">Site réalisé avec deux collègues de classe dans le cadre de mon épreuve de bac durant ma terminal STMG SIG, le restaurant n'ayant pas souhaité le mettre en ligne je reste a disposition pour une meilleure visualisation du projet.</p>
-                  </div>
-              </div>
-
-          </div>
-
-          <div class="col-12 col-xs-12 col-sm-4 col-lg-4 col-xl-4 text-center">
-
-              <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;">
-                  <img class="card-img-top" src="Public/img/arcenciel.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-color: #b7bdbf">
-                      <h5 class="card-title caviardreams" style="font-size: 1.4rem; margin-bottom: -5%">3eme projet</h5>
-
-                      <hr class="my-5" style="width:30%">
-
-                      <p class="card-text champagne" style="margin-top: -5%">Voici un site internet que j'ai réalisé à partir d'une page blanche pour une association
-                      dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'evolution du
-                      site internet est géré par moi-même.</p>
-                      <a href="https://www.lesenfantsdarcenciel.ovh/" class="btn btn-outline-secondary btn-lg btn-block" target="_blank" >Lien du site</a>
                   </div>
               </div>
 
