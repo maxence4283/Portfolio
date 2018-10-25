@@ -22,7 +22,7 @@
         <div  class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
             <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light2">
 
-                <a class="navbar-brand display-4" href="#">N.M</a>
+                <a class="navbar-brand display-4 funsized" href="#">N.M</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 

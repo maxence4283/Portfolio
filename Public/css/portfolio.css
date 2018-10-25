@@ -10,6 +10,16 @@
 }
 
 @font-face {
+  font-family:"funsized";
+  src: url('../font/funsized/funsized.ttf'),
+          url('../font/funsized/funsized.eot?'),
+          url('../font/funsized/funsized.woff'),
+          url('../font/funsized/funsized.woff2'),
+          url('../font/funsized/funsized.svg');
+  font-weight: normal;
+}
+
+@font-face {
     font-family:"Champagne";
     src: url('../font/Champagne/champagne-limousines.ttf'),
     url('../font/Champagne/champagne-limousines.eot?'),
@@ -39,6 +49,10 @@
 
 .caviardreams {
     font-family: "caviardreams";
+}
+
+.funsized {
+    font-family: "funsized";
 }
 
 .bg-projet {

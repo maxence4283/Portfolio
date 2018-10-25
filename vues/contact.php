@@ -69,7 +69,7 @@
                       </div>
                       <div><br>
 
-                        <button type="submit" class="btn btn-lg btn-secondary btn-block">ENVOYER !</button>
+                        <button type="submit" class="btn btn-lg btn-secondary btn-block">ENVOYER !</button><br>
                       </div>
                     </form>
                 </div>
