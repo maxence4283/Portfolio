@@ -16,7 +16,7 @@
     <title>Maxence NICOLE</title>
 
   </head>
-      <body>
+      <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <a name="haut" id="haut"></a>
       <div id="nav" class="container-fluid sticky-top">
         <div  class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
@@ -33,8 +33,8 @@
                   <div class="collapse navbar-collapse justify-content-end caviardreams font-weight-bold" id="navbarNav">
                     <ul class="navbar-nav">
 
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#Presentation">Accueil <span class="sr-only">(current)</span></a>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="#haut">Accueil <span class="sr-only">(current)</span></a>
                       </li>
 
                       <li class="nav-item">
