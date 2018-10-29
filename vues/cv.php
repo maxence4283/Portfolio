@@ -30,11 +30,26 @@
 
                 <hr class="mb-4">
 
-                <div class="col-12 col-xs12 col-sm-12 col-md-12  offset-xl-3 col-xl-6 offset-lg-3 col-lg-6">
+                <div class="col-12 col-xs12 col-sm-12 col-md-12  offset-xl-3 col-xl-6 col-lg-12">
                   <div class="shadow-lg p-3 mb-5 rounded border2 border-light2" style="background-color: #555b61; margin-left: 1.5%">
 
                     <div class="jumbotronCV text-center">
-                      <h1 class="display-4 djbchalk" style="color:white">TELECHARGEMENT</h1>
+
+                      <!-- partie lg -->
+                      <h1 class="display-4 djbchalk d-none d-xl-block" style="color:white">TELECHARGEMENT</h1>
+
+                      <!-- partie xl -->
+                      <h1 class="display-4 djbchalk d-none d-lg-block d-xl-none" style="color:white">TELECHARGEMENT</h1>
+
+                      <!-- partie md -->
+                      <h1 class="display-4 djbchalk d-none d-md-block d-lg-none" style="color:white; font-size: 8vw">TELECHARGEMENT</h1>
+
+                      <!-- partie sm -->
+                      <h1 class="display-4 djbchalk d-none d-sm-block d-md-none" style="color:white; font-size: 8vw">TELECHARGEMENT</h1>
+
+                      <!-- partie xs -->
+                      <h1 class="display-4 djbchalk d-block d-sm-none" style="color:white; font-size: 8vw">TELECHARGEMENT</h1>
+
                       <p class="djbchalk" style="color:white">Cliquez sur le lien afin de pouvoir telecharger mon cv !</p>
                       <hr class="my-4">
                       <a class="btn btn-light btn-lg sketch" href="Public/file/cv.zip" role="button">MON CV</a>
