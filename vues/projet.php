@@ -2,15 +2,36 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center">
-
-              <p class="display-4 funsized" style="padding-top: 1.5%;margin-bottom: -0.4%">
+              <!-- partie lg -->
+              <p class="funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
                   Mes Projets
               </p>
+
+              <!-- partie xl -->
+              <p class="funsized display-2 d-none d-lg-block d-xl-none pt-2" style=" font-size: 5vw">
+                  Mes Projets
+              </p>
+
+              <!-- partie md -->
+              <p class="funsized display-2 d-none d-md-block d-lg-none mt-3 pt-2" style=" font-size: 7vw">
+                  Mes Projets
+              </p>
+
+              <!-- partie sm -->
+              <p class="funsized display-2 d-none d-sm-block d-md-none mt-3" style=" font-size: 10vw">
+                  Mes Projets
+              </p>
+
+              <!-- partie xs -->
+              <p class="funsized display-2 d-block d-sm-none mt-3 pt-2" style=" font-size: 10vw">
+                  Mes Projets
+              </p>
+
               <div>
                 <small class="text-muted">(ici sont présentés seulement mes projets principaux et concret)</small>
               </div>
 
-              <hr class="my-4">
+              <hr class="mb-4">
 
           </div>
 

@@ -3,13 +3,34 @@
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pb-4" style="background-color: #B7BDBF">
 
-            <p class="text-center display-3 funsized" style="margin-bottom: -2%;padding-top: 1.5%;">
-                competence
+            <!-- partie lg -->
+            <p class="text-center funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
+                competences
             </p>
 
-            <hr class="my-5">
+            <!-- partie xl -->
+            <p class="text-center funsized display-2 d-none d-lg-block d-xl-none pt-2" style=" font-size: 5vw">
+                competences
+            </p>
 
-                <div class="row" style="margin-top: -1%">
+            <!-- partie md -->
+            <p class="text-center funsized display-2 d-none d-md-block d-lg-none mt-3 pt-2" style=" font-size: 7vw">
+                competences
+            </p>
+
+            <!-- partie sm -->
+            <p class="text-center funsized display-2 d-none d-sm-block d-md-none mt-3" style=" font-size: 10vw">
+                competences
+            </p>
+
+            <!-- partie xs -->
+            <p class="text-center funsized display-2 d-block d-sm-none mt-3 pt-2" style=" font-size: 10vw">
+                competences
+            </p>
+
+            <hr class="mb-4">
+
+                <div class="row">
 
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 champagne font-weight-bold pl-4 pr-4 mb-3">
 

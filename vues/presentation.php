@@ -17,22 +17,22 @@
             </p>
 
             <!-- partie xl-->
-            <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="margin-bottom: -5%; font-size: 6vw">
                 WEB DEVELOPER
             </p>
 
             <!-- partie md-->
-            <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="margin-bottom: -5%; font-size: 12vw">
                 WEB DEVELOPER
             </p>
 
             <!-- partie sm-->
-            <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="margin-bottom: -5% ; font-size: 12vw">
                 WEB DEVELOPER
             </p>
 
             <!-- partie xs-->
-            <p class="text-center display-2  sketch d-block d-sm-none" style="margin-bottom: -5%">
+            <p class="text-center display-2  sketch d-block d-sm-none" style="margin-bottom: -5%; font-size: 12vw">
                 WEB DEVELOPER
             </p>
 

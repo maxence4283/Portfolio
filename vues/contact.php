@@ -3,11 +3,32 @@
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
 
-                <p class="text-center display-4 funsized" style="margin-bottom: -2%;padding-top: 1.5%">
+                <!-- partie lg -->
+                <p class="text-center funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
                     CONTACT
                 </p>
 
-                <hr class="my-5">
+                <!-- partie xl -->
+                <p class="text-center funsized display-2 d-none d-lg-block d-xl-none pt-2" style=" font-size: 5vw">
+                    CONTACT
+                </p>
+
+                <!-- partie md -->
+                <p class="text-center funsized display-2 d-none d-md-block d-lg-none mt-3 pt-2" style=" font-size: 7vw">
+                    CONTACT
+                </p>
+
+                <!-- partie sm -->
+                <p class="text-center funsized display-2 d-none d-sm-block d-md-none mt-3" style=" font-size: 10vw">
+                    CONTACT
+                </p>
+
+                <!-- partie xs -->
+                <p class="text-center funsized display-2 d-block d-sm-none mt-3 pt-2" style=" font-size: 10vw">
+                    CONTACT
+                </p>
+
+                <hr class="mb-4">
 
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-6 offset-lg-3 col-lg-6 offset-xl-3 text-center">
                  <form action="" method="post" class="needs-validation" data-form-title="CONTACT US">
@@ -43,7 +64,7 @@
                         <label for="Sujet" style="font-size: 150%"></label>
                       <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="subject"><i class="fas fa-font"></i></span>
+                                <span class="input-group-text" id="subject"><i class=funsized"fas fa-font"></i></span>
                             </div>
                         <input type="text" class="form-control" name="object" id="Sujet" required="required" placeholder="Sujet" data-form-field="sujet">
                             <div class="invalid-feedback">

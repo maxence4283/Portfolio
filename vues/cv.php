@@ -3,11 +3,32 @@
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="background-color: #B7BDBF">
 
-                <p class="text-center display-4 funsized" style="margin-bottom: -2%;padding-top: 1.5%">
+                <!-- partie lg -->
+                <p class="text-center funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
                     Mon CV
                 </p>
 
-                <hr class="my-5">
+                <!-- partie xl -->
+                <p class="text-center funsized display-2 d-none d-lg-block d-xl-none pt-2" style=" font-size: 5vw">
+                    Mon CV
+                </p>
+                
+                <!-- partie md -->
+                <p class="text-center funsized display-2 d-none d-md-block d-lg-none mt-3 pt-2" style=" font-size: 7vw">
+                    Mon CV
+                </p>
+
+                <!-- partie sm -->
+                <p class="text-center funsized display-2 d-none d-sm-block d-md-none mt-3" style=" font-size: 10vw">
+                    Mon CV
+                </p>
+
+                <!-- partie xs -->
+                <p class="text-center funsized display-2 d-block d-sm-none mt-3 pt-2" style=" font-size: 10vw">
+                    Mon CV
+                </p>
+
+                <hr class="mb-4">
 
                 <div class="col-12 col-xs12 col-sm-12 col-md-12  offset-xl-3 col-xl-6 offset-lg-3 col-lg-6">
                   <div class="shadow-lg p-3 mb-5 rounded border2 border-light2" style="background-color: #555b61; margin-left: 1.5%">
