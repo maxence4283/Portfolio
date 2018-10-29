@@ -64,7 +64,7 @@
                         <label for="Sujet" style="font-size: 150%"></label>
                       <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="subject"><i class=funsized"fas fa-font"></i></span>
+                                <span class="input-group-text" id="subject"><i class="funsized fas fa-font"></i></span>
                             </div>
                         <input type="text" class="form-control" name="object" id="Sujet" required="required" placeholder="Sujet" data-form-field="sujet">
                             <div class="invalid-feedback">

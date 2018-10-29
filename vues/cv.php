@@ -52,7 +52,7 @@
 
                       <p class="djbchalk" style="color:white">Cliquez sur le lien afin de pouvoir telecharger mon cv !</p>
                       <hr class="my-4">
-                      <a class="btn btn-light btn-lg sketch" href="Public/file/cv.zip" role="button">MON CV</a>
+                      <a class="btn btn-light btn-lg sketch" href="Public/file/cv.pdf" target="__blank" role="button">MON CV</a>
                     </div>
 
                   </div>
