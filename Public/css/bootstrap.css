@@ -5074,7 +5074,7 @@ input[type="button"].btn-block {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #dfe6e9;
+  background-color: #555b61;
   transition: width 0.6s ease;
 }
 
@@ -5088,7 +5088,7 @@ input[type="button"].btn-block {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #BEC4C7;
+  background-color: white;
   transition: width 0.6s ease;
 }
 
