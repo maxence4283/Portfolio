@@ -157,8 +157,8 @@
 
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4">
             <!-- partie lg-->
-            <div class="shadow-lg p-2 mb-0 bg-white rounded" style="margin-top: 10%;">
-                <img class="img-fluid" src="Public/img/moi.jpg"/>
+            <div class="shadow-lg p-2 mb-0 bg-white rounded">
+                <img class="img-fluid" src="Public/img/5.png"/>
             </div>
 
         </div>
