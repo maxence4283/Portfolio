@@ -10,7 +10,7 @@
       </div>
 
     <div class="row">
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-8 col-lg-8">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
             <!-- partie lg-->
             <p class="text-center display-2 sketch d-none d-xl-block" style="margin-bottom: -5%; font-size: 6vw">
                 WEB DEVELOPER
@@ -155,9 +155,9 @@
             </div>
         </div>
 
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3">
             <!-- partie lg-->
-            <div class="shadow-lg p-2 mb-0 bg-white rounded">
+            <div class="shadow-lg p-2 mt-2 bg-white rounded">
                 <img class="img-fluid" src="Public/img/5.png"/>
             </div>
 
