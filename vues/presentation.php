@@ -2,28 +2,28 @@
   <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pt-4" style="background-color: white; margin-left: 3%">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pt-4 ml-2 mb-2 border-dev" style="background-color: white;">
                     <!-- partie lg-->
-                    <p class="text-center display-2 sketch d-none d-xl-block pb-2 pr-4" style=" font-size: 6vw">
+                    <p class="text-center display-2 sketch d-none d-xl-block" style=" font-size: 6vw">
                         WEB DEVELOPER
                     </p>
                 <!-- partie xl-->
-                <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="margin-bottom: -5%; font-size: 6vw">
+                <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="font-size: 6vw">
                     WEB DEVELOPER
                 </p>
 
                 <!-- partie md-->
-                <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="margin-bottom: -5%; font-size: 12vw">
+                <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="font-size: 12vw">
                     WEB DEVELOPER
                 </p>
 
                 <!-- partie sm-->
-                <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="margin-bottom: -5% ; font-size: 12vw">
+                <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="font-size: 12vw">
                     WEB DEVELOPER
                 </p>
 
                 <!-- partie xs-->
-                <p class="text-center display-2  sketch d-block d-sm-none" style="margin-bottom: -5%; font-size: 12vw">
+                <p class="text-center display-2  sketch d-block d-sm-none" style="font-size: 12vw">
                     WEB DEVELOPER
                 </p>
 
@@ -148,7 +148,7 @@
 
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3">
 
-            <div class="p-2 pt-5 mt-0 bg-white rounded mr-2">
+            <div class=" mt-3 rounded mr-2 border-presentation" style="background-color: white">
                 <img class="img-fluid" src="Public/img/5.png"/>
             </div>
 

@@ -257,6 +257,13 @@ a#cRetour.cVisible{
 }
 
 .border-bottom2 {
-  border-bottom: 2px solid black !important;
+  border-bottom: 2px solid #555b61 !important;
 }
 
+.border-presentation {
+  border: 10px solid white !important;
+}
+
+.border-dev {
+  border: 3px solid #555b61 !important;
+}
