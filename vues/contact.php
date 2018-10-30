@@ -1,7 +1,7 @@
 <div id="contact">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+            <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 border-bottom2" style="background-color: white">
 
                 <!-- partie lg -->
                 <p class="text-center funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
@@ -28,9 +28,10 @@
                     CONTACT
                 </p>
 
-                <hr class="mb-4">
-
-                <div class="col-12 col-xs-12 col-sm-12 col-xl-6 offset-lg-3 col-lg-6 offset-xl-3 text-center">
+                <hr class="mb-0">
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+                <div class="col-12 col-xs-12 col-sm-12 col-xl-6 offset-lg-3 col-lg-6 offset-xl-3 text-center mt-4">
                  <form action="" method="post" class="needs-validation" data-form-title="CONTACT US">
 
                     <div class="input-group">

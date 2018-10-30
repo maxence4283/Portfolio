@@ -1,7 +1,7 @@
 <div id="Competence">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pb-4" style="background-color: #B7BDBF">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2" style="background-color:white">
 
             <!-- partie lg -->
             <p class="text-center funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
@@ -28,8 +28,8 @@
                 competences
             </p>
 
-            <hr class="mb-4">
-
+        </div>
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pb-4 pt-4" style="background-color: #B7BDBF">
                 <div class="row">
 
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 champagne font-weight-bold pl-4 pr-4 mb-3">

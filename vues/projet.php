@@ -1,7 +1,7 @@
 <div id="projets">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center">
+          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center border-bottom2 pb-1" style="background-color: white">
               <!-- partie lg -->
               <p class="funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
                   Mes Projets
@@ -31,13 +31,12 @@
                 <small class="text-muted">(ici sont présentés seulement mes projets principaux et concret)</small>
               </div>
 
-              <hr class="mb-4">
 
           </div>
 
       </div>
 
-      <div class="row">
+      <div class="row mt-4">
           <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center">
 
                 <div id="myModal" class="modal">
@@ -45,9 +44,6 @@
                       <img class="modal-content" id="img01">
                       <div id="caption"></div>
                     </div>
-
-              <!-- <div class="card shadow-lg p-0 mb-4 rounded " style="width: 100%; background-color: #555b61"> -->
-
 
                   <img id="arcenciel" class="card-img-top" src="Public/img/arcenciel.jpg" alt="Les enfants d'arc en ciel">
 
@@ -58,11 +54,9 @@
                       dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'evolution du
                       site internet est géré par moi-même.</p>
                   </div>
-              <!-- </div> -->
 
           </div>
           <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center mb-4">
-            <!-- <div class="card shadow-lg p-2 mb-4 bg-projet rounded" style="width: 100%;"> -->
               <div id="carouselprojet" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselprojet" data-slide-to="0" class="active"></li>
@@ -107,14 +101,10 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-
-            <!-- </div> -->
               
           </div>
 
           <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center">
-
-              <!-- <div class="card shadow-lg p-0 mb-4 bg-projet rounded" style="width: 100%; background-color: white"> -->
 
 
                   <img id="carrefour" class="card-img-top" src="Public/img/lecarrefour.jpg" alt="Restaurant Le Carrefour">
@@ -125,7 +115,6 @@
 
                       <p class="card-text champagne font-weight-bold" style="color: white">Site réalisé avec deux collègues de classe dans le cadre de mon épreuve de bac durant ma terminal STMG SIG, le restaurant n'ayant pas souhaité le mettre en ligne je reste a disposition pour une meilleure visualisation du projet.</p>
                   </div>
-              <!-- </div> -->
 
           </div>
       </div>
