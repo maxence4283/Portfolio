@@ -28,7 +28,7 @@
               </p>
 
               <div>
-                <small class="text-muted">(ici sont présentés seulement mes projets principaux et concret)</small>
+                <small class="text-muted">(ici sont présentés seulement mes projets principaux et concrets)</small>
               </div>
 
 
@@ -51,7 +51,7 @@
                       <h4 class="champagne font-weight-bold">Les enfants d'arc en ciel</h4><br>
 
                       <p class="card-text champagne font-weight-bold">Voici un site internet que j'ai réalisé à partir d'une page blanche pour une association
-                      dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'evolution du
+                      dans le cadre de mon stage de première année. La maintenance, le lien avec l'hébérgeur et l'évolution du
                       site internet est géré par moi-même.</p>
                   </div>
 
@@ -113,7 +113,7 @@
                   <div class="card-body" style="background-color: #555b61">
                       <h4 class="champagne font-weight-bold" style=" color:white">Restaurant Le Carrefour</h4><br>
 
-                      <p class="card-text champagne font-weight-bold" style="color: white">Site réalisé avec deux collègues de classe dans le cadre de mon épreuve de bac durant ma terminal STMG SIG, le restaurant n'ayant pas souhaité le mettre en ligne je reste a disposition pour une meilleure visualisation du projet.</p>
+                      <p class="card-text champagne font-weight-bold" style="color: white">Site réalisé avec deux collègues de classe dans le cadre de mon épreuve de bac durant ma terminale STMG SIG, le restaurant n'ayant pas souhaité le mettre en ligne je reste à disposition pour une meilleure visualisation du projet.</p>
                   </div>
 
           </div>

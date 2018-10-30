@@ -103,41 +103,41 @@
                                 <!-- partie lg-->
                                 <div class="djbchalk d-none d-xl-block" style="font-size: 1.2vw; margin-left: 2%;margin-right: 2%; color:white">
                                     <u>CENTRE D'INTERETS :</u> <br>
-                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
+                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidemment l'informatique, je développe assez souvent à la maison et suis de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                                     <u>OBJECTIF :</u> <br>
-                                    Mon objectif après le BTS est de pouvoir intégrer une licence proffessionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
+                                    Mon objectif après le BTS est de pouvoir intégrer une licence professionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
                                 </div>
 
                                 <!-- partie xl-->
                                 <div class="djbchalk d-none d-lg-block d-xl-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%; color:white">
                                     <u>CENTRE D'INTERETS :</u> <br>
-                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
+                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidemment l'informatique, je développe assez souvent à la maison et suis de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                                     <u>OBJECTIF :</u> <br>
-                                    Mon objectif après le BTS est de pouvoir intégrer une licence proffessionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
+                                    Mon objectif après le BTS est de pouvoir intégrer une licence professionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
                                 </div>
 
                                 <!-- partie md-->
                                 <div class="djbchalk d-none d-md-block d-lg-none" style="font-size: 130%; margin-left: 2%;margin-right: 2%; color: white">
                                     <u>CENTRE D'INTERETS :</u> <br>
-                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
+                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidemment l'informatique, je développe assez souvent à la maison et suis de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                                     <u>OBJECTIF :</u> <br>
-                                    Mon objectif après le BTS est de pouvoir intégrer une licence proffessionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
+                                    Mon objectif après le BTS est de pouvoir intégrer une licence professionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
                                 </div>
 
                                 <!-- partie sm-->
                                 <div class="djbchalk d-none d-sm-block d-md-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%; color:white">
                                     <u>CENTRE D'INTERETS :</u> <br>
-                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
+                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidemment l'informatique, je développe assez souvent à la maison et suis de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                                     <u>OBJECTIF :</u> <br>
-                                    Mon objectif après le BTS est de pouvoir intégrer une licence proffessionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
+                                    Mon objectif après le BTS est de pouvoir intégrer une licence professionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
                                 </div>
 
                                 <!-- partie xs-->
                                 <div class="djbchalk d-block d-sm-none" style="font-size: 110%; margin-left: 2%;margin-right: 2%; color:white">
                                     <u>CENTRE D'INTERETS :</u> <br>
-                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidement l'informatique, je développe assez souvent à la maison et suit de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
+                                    J'ai différents centres d'intérêts dans la vie quotidienne tel que le sport et plus particulièrement le foot et bien évidemment l'informatique, je développe assez souvent à la maison et suis de très près les différentes évolutions dans le domaine de l'informatique et de la technologie en général. <br>
                                     <u>OBJECTIF :</u> <br>
-                                    Mon objectif après le BTS est de pouvoir intégrer une licence proffessionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
+                                    Mon objectif après le BTS est de pouvoir intégrer une licence professionnelle en alternance afin de trouver un travail me permettant d'etre pleinement épanouis dans ce que je vais faire.
                                 </div>
                             </div>
                         </div>

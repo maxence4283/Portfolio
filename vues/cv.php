@@ -36,21 +36,21 @@
                     <div class="jumbotronCV text-center">
 
                       <!-- partie lg -->
-                      <h1 class="display-4 djbchalk d-none d-xl-block" style="color:white">TELECHARGEMENT</h1>
+                      <h1 class="display-4 djbchalk d-none d-xl-block text-uppercase" style="color:white">téléchargement</h1>
 
                       <!-- partie xl -->
-                      <h1 class="display-4 djbchalk d-none d-lg-block d-xl-none" style="color:white">TELECHARGEMENT</h1>
+                      <h1 class="display-4 djbchalk d-none d-lg-block d-xl-none text-uppercase" style="color:white">téléchargement</h1>
 
                       <!-- partie md -->
-                      <h1 class="display-4 djbchalk d-none d-md-block d-lg-none" style="color:white; font-size: 8vw">TELECHARGEMENT</h1>
+                      <h1 class="display-4 djbchalk d-none d-md-block d-lg-none text-uppercase" style="color:white; font-size: 8vw">téléchargement</h1>
 
                       <!-- partie sm -->
-                      <h1 class="display-4 djbchalk d-none d-sm-block d-md-none" style="color:white; font-size: 8vw">TELECHARGEMENT</h1>
+                      <h1 class="display-4 djbchalk d-none d-sm-block d-md-none text-uppercase" style="color:white; font-size: 8vw">téléchargement</h1>
 
                       <!-- partie xs -->
-                      <h1 class="display-4 djbchalk d-block d-sm-none" style="color:white; font-size: 8vw">TELECHARGEMENT</h1>
+                      <h1 class="display-4 djbchalk d-block d-sm-none text-uppercase" style="color:white; font-size: 8vw">téléchargement</h1>
 
-                      <p class="djbchalk" style="color:white">Cliquez sur le lien afin de pouvoir telecharger mon cv !</p>
+                      <p class="djbchalk " style="color:white">Cliquez sur le lien afin de pouvoir télécharger mon cv !</p>
                       <hr class="my-4">
                       <a class="btn btn-light btn-lg sketch" href="Public/file/cv.pdf" target="__blank" role="button">MON CV</a>
                     </div>
