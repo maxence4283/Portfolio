@@ -58,8 +58,8 @@
                         <a class="nav-link" href="#contact">Contact</a>
                       </li>
 
-                      <li class="nav-item">
-                        <a class="nav-link" href="?action=connexion"><i class="far fa-user-circle" aria-hidden="true"></i></a>
+                      <li class="nav-item d-none d-xl-block" >
+                        <a class="nav-link" href="#footer"><i class="fas fa-ellipsis-v" aria-hidden="true"></i></a>
                     </li>
 
                     </ul>
