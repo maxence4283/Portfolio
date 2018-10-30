@@ -37,7 +37,7 @@
       </div>
 
       <div class="row mt-4">
-          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center">
+          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center mb-3">
 
                 <div id="myModal" class="modal">
                       <span class="close">&times;</span>
@@ -104,7 +104,7 @@
               
           </div>
 
-          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center">
+          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mb-3 text-center">
 
 
                   <img id="carrefour" class="card-img-top" src="Public/img/lecarrefour.jpg" alt="Restaurant Le Carrefour">

@@ -1,6 +1,6 @@
 <div id="Presentation">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row mr-1">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pt-4 ml-2 mb-2 border-dev" style="background-color: white;">
                     <!-- partie lg-->
@@ -13,24 +13,24 @@
                 </p>
 
                 <!-- partie md-->
-                <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="font-size: 12vw">
+                <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="font-size: 11vw">
                     WEB DEVELOPER
                 </p>
 
                 <!-- partie sm-->
-                <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="font-size: 12vw">
+                <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="font-size: 11vw">
                     WEB DEVELOPER
                 </p>
 
                 <!-- partie xs-->
-                <p class="text-center display-2  sketch d-block d-sm-none" style="font-size: 12vw">
+                <p class="text-center display-2  sketch d-block d-sm-none" style="font-size: 11vw">
                     WEB DEVELOPER
                 </p>
 
             </div>
 
             <div class="row">
-                <div class="shadow-lg p-3 mb-5 rounded border2 border-light2 ml-3" style="background-color: #555b61;">
+                <div class="shadow-lg p-3 mb-4 rounded border2 border-light2 ml-3" style="background-color: #555b61;">
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
                         <div class="row">
                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
@@ -146,9 +146,9 @@
             </div>
         </div>
 
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3 mb-3 d-md-none d-lg-block">
 
-            <div class=" mt-3 rounded mr-2 border-presentation" style="background-color: white">
+            <div class=" mt-3 rounded ml-3 border-presentation" style="background-color: white">
                 <img class="img-fluid" src="Public/img/5.png"/>
             </div>
 

@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Site officiel de l'association 'Les enfants d'arc en ciel' vous trouverez ici différentes informations conçerant l'histoire de notre association.">
-    <meta name="keywords" content="Association, enfants, arc, en, ciel, arc-en-ciel, les villettes, 43600, France, Les enfants d'arc en ciel, Association les enfants d'arc en ciel, villettes, Gagnoa, cote-d'ivoire">
+    <meta name="description" content="Voici mon Portfolio, vous y retrouverez différentes informations me concernant et concernant mes différentes compétences et projets réalisés.">
+    <meta name="keywords" content="Portfolio, port-folio, port, folio, maxence, nicole, Maxence, NICOLE, Monistrol sur loire, saint-etienne, saint-priest-en-jarez, 20, ans, Lycée, Simone, Weil, Lycée Simone Weil, Etudiant, étudiant, BTS, sio, informatique, developpement web, developpement, web.">
     <meta name="author" content="NICOLE Maxence">
+    <link rel="shortcut icon" href="Public/img/logoportfolio.png">
 
     <link rel="stylesheet" href="Public/css/bootstrap.css">
     <link rel="stylesheet" href="Public/css/portfolio.css">
