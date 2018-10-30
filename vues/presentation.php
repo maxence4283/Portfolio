@@ -1,45 +1,36 @@
 <div id="Presentation">
   <div class="container-fluid">
-      <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="margin-top: -2.5%; margin-bottom: -2%">
-
-            <hr class="my-5">
-
-          </div>
-
-      </div>
-
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
-            <!-- partie lg-->
-            <p class="text-center display-2 sketch d-none d-xl-block" style="margin-bottom: -5%; font-size: 6vw">
-                WEB DEVELOPER
-            </p>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pt-4" style="background-color: white; margin-left: 3%">
+                    <!-- partie lg-->
+                    <p class="text-center display-2 sketch d-none d-xl-block pb-2 pr-4" style=" font-size: 6vw">
+                        WEB DEVELOPER
+                    </p>
+                <!-- partie xl-->
+                <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="margin-bottom: -5%; font-size: 6vw">
+                    WEB DEVELOPER
+                </p>
 
-            <!-- partie xl-->
-            <p class="text-center display-2  sketch d-none d-lg-block d-xl-none" style="margin-bottom: -5%; font-size: 6vw">
-                WEB DEVELOPER
-            </p>
+                <!-- partie md-->
+                <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="margin-bottom: -5%; font-size: 12vw">
+                    WEB DEVELOPER
+                </p>
 
-            <!-- partie md-->
-            <p class="text-center display-2  sketch d-none d-md-block d-lg-none" style="margin-bottom: -5%; font-size: 12vw">
-                WEB DEVELOPER
-            </p>
+                <!-- partie sm-->
+                <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="margin-bottom: -5% ; font-size: 12vw">
+                    WEB DEVELOPER
+                </p>
 
-            <!-- partie sm-->
-            <p class="text-center display-2  sketch d-none d-sm-block d-md-none" style="margin-bottom: -5% ; font-size: 12vw">
-                WEB DEVELOPER
-            </p>
+                <!-- partie xs-->
+                <p class="text-center display-2  sketch d-block d-sm-none" style="margin-bottom: -5%; font-size: 12vw">
+                    WEB DEVELOPER
+                </p>
 
-            <!-- partie xs-->
-            <p class="text-center display-2  sketch d-block d-sm-none" style="margin-bottom: -5%; font-size: 12vw">
-                WEB DEVELOPER
-            </p>
+            </div>
 
-                <hr class="my-5">
-
-            <div class="row" style="margin-top: -2%">
-                <div class="shadow-lg p-3 mb-5 rounded border2 border-light2" style="background-color: #555b61; margin-left: 1.5%">
+            <div class="row">
+                <div class="shadow-lg p-3 mb-5 rounded border2 border-light2 ml-3" style="background-color: #555b61;">
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
                         <div class="row">
                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
@@ -156,8 +147,8 @@
         </div>
 
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-3 col-lg-3">
-            <!-- partie lg-->
-            <div class="shadow-lg p-2 mt-2 bg-white rounded">
+
+            <div class="p-2 pt-5 mt-0 bg-white rounded mr-2">
                 <img class="img-fluid" src="Public/img/5.png"/>
             </div>
 
