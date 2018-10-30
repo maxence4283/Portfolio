@@ -1,7 +1,7 @@
 <div id="footer">
     <div class="container-fluid" style="background-color: white">
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-top2">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-top2 mb-5">
                 <div class="row">
 
                     <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-xl-4 col-lg-4">

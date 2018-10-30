@@ -3,9 +3,11 @@ $(document).ready(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 40) {
             $("#nav").css("background" , "white");
+            $("#nav").addClass("border-bottom2");
         }
         else{
             $("#nav").css("background" , "#dfe6e9");
+            $("#nav").removeClass("border-bottom2");
         }
     })
 })
