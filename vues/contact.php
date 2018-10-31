@@ -31,7 +31,23 @@
                 <hr class="mb-0">
             </div>
             <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
-                <div class="col-12 col-xs-12 col-sm-12 col-xl-6 offset-lg-3 col-lg-6 offset-xl-3 text-center mt-4">
+              <div class="row">
+                <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4 champagne font-weight-bold" >
+                  <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+
+                  <img class="img-fluid" src="Public/img/location.png" alt="location"> 8 avenue de la libération<br>
+                  <div style="margin-left: 13%">43120<br>
+                  Monistrol-Sur-Loire</div><br>
+                  </img>
+
+                  </div>
+                  <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 mt-4">
+
+                  <img class="img-fluid" src="Public/img/call.png" alt="tel"> +33 6 72 66 87 37</img>
+                  
+                  </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-xl-6 col-lg-6 text-center mt-4">
                  <form action="" method="post" class="needs-validation" data-form-title="CONTACT US">
 
                     <div class="input-group">
@@ -95,6 +111,15 @@
                       </div>
                     </form>
                 </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4  champagne font-weight-bold">
+                   <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+
+                      <img class="img-fluid" src="Public/img/arroba.png" alt="mail"> maxencen.contact@gmail.com
+                      </img>
+
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
