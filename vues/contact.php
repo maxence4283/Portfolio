@@ -114,7 +114,7 @@
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4  champagne font-weight-bold">
                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
 
-                      <img class="img-fluid" src="Public/img/arroba.png" alt="mail"> maxencen.contact@gmail.com
+                      <img class="img-fluid mb-4" src="Public/img/arroba.png" alt="mail"> maxencen.contact@gmail.com
                       </img>
 
                   </div>
