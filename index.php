@@ -1,10 +1,20 @@
 <?php
-require_once 'Controllers/Controller.php';
+session_start();
+require_once 'Controllers/UserController.php';
 include 'vues/header.php';
+
     if(isset($_GET['action'])){
         switch ($_GET['action']) {
             case 'connexion':
-                    include("vues/connexion.php");
+                    if (isset($_SESSION['connecte'])){
+                        header('Location: index.php');
+                    } else {
+                        include("vues/connexion.php");
+                    }
+                break;
+            case 'deconnexion' :
+                $connexion = new Connexion();
+                $connexion->deconnexion();
                 break;
             case 'login':
                 $connexion = new Connexion();
@@ -27,7 +37,7 @@ include 'vues/header.php';
              echo '1';
             break;
         }
-    }
+    } else {
 
 include("vues/nav.php");
 
@@ -44,5 +54,5 @@ include("vues/contact.php");
 include("vues/footerbar.php");
 
 include("vues/footer.php");
-    
+}
 ?>

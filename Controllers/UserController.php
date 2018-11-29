@@ -1,15 +1,16 @@
 <?php
-require 'Models/Model.php';
+require 'Models/UserModel.php';
 
 class Connexion {
 
     public function login(){
+
         if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])) {
 
-                $email = $_POST['email'];
-                $mdp = $_POST['mdp'];
+                $email = htmlspecialchars($_POST['email']);
+                $mdp = htmlspecialchars($_POST['mdp']);
 
-                $model = new Pdoco();
+                $model = new User();
                 $user = $model->getUser($email, $mdp);
 
                 if ($user != null) {
@@ -26,6 +27,7 @@ class Connexion {
                     $_SESSION['email'] = $email;
                     $_SESSION['tel'] = $tel;
                     $_SESSION['role_id'] = $role_id;
+                    $_SESSION['connecte'] = 1;
 
                     header('Location: index.php?action=reussi');
 
@@ -35,6 +37,12 @@ class Connexion {
         } else {
             header('Location: index.php?action=coerror');
         }
+    }
+
+    public function deconnexion () {
+        session_destroy();
+        header('Location: index.php');
+
     }
 
 }

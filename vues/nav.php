@@ -37,9 +37,21 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
+                    <?php
+                        if (isset($_SESSION['connecte'])) {
+                    ?>
+                    <li class="nav-item d-none d-xl-block" >
+                        <a class="nav-link" href="index.php?action=deconnexion">Déconnexion</a>
+                    </li>
+                    <?php
+                        } else {
+                    ?>
                     <li class="nav-item d-none d-xl-block" >
                         <a class="nav-link" href="index.php?action=connexion">Connexion</a>
                     </li>
+                    <?php
+                        }
+                    ?>
 
                 </ul>
             </div>
