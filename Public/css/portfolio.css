@@ -1,3 +1,7 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 @font-face {
   font-family:"Jelly-Bean-Script";
@@ -270,4 +274,112 @@ a#cRetour.cVisible{
 
 .border-dev {
   border: 3px solid #555b61 !important;
+}
+
+.progress-barcompetence {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #555b61;
+  transition: width 0.6s ease;
+}
+
+.progresscompetence {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem ;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #b7bdbf;
+  border-radius: 0.25rem;
+}
+
+.titre {
+  font-size : 5vw;
+}
+
+.titrewebdev {
+  font-size:6vw;
+}
+
+.textepresentation {
+  font-size: 1.2vw;
+  margin-left: 2%;
+  margin-right: 2%;
+  color:white;
+}
+
+.texteprojet {
+  font-size: 1.1vw;
+}
+
+.textecompetence {
+  font-size: 1.1vw;
+}
+
+.textecompetence2 {
+  font-size: 1.6vw;
+}
+
+.iconecompetence {
+  font-size: 2.8vw;
+}
+/*Titre des card des projets*/
+.titreprojet{
+  font-size: 1.6vw;
+}
+/*"Téléchargement"*/
+.titrecv {
+  font-size: 5vw;
+}
+
+@media screen and (max-width: 992px) {
+  .titrecv {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .titre {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .titrewebdev {
+    font-size: 11vw;
+  }
+@media screen and (max-width: 992px) {
+  .textepresentation {
+    font-size: 130%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color:white;
+  }
+}
+@media screen and (max-width: 992px) {
+  .texteprojet {
+    font-size: 110%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .textecompetence {
+    font-size: 110%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .textecompetence2 {
+  font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .iconecompetence {
+  font-size: 175%;
+  }
 }

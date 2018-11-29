@@ -1,43 +1,22 @@
 <div id="Competence">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2" style="background-color:white">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 titre" style="background-color:white">
 
-            <!-- partie lg -->
-            <p class="text-center funsized display-2 d-none d-xl-block pt-2" style=" font-size: 5vw">
-                competences
-            </p>
-
-            <!-- partie xl -->
-            <p class="text-center funsized display-2 d-none d-lg-block d-xl-none pt-2" style=" font-size: 5vw">
-                competences
-            </p>
-
-            <!-- partie md -->
-            <p class="text-center funsized display-2 d-none d-md-block d-lg-none mt-3 pt-2" style=" font-size: 7vw">
-                competences
-            </p>
-
-            <!-- partie sm -->
-            <p class="text-center funsized display-2 d-none d-sm-block d-md-none mt-3" style=" font-size: 10vw">
-                competences
-            </p>
-
-            <!-- partie xs -->
-            <p class="text-center funsized display-2 d-block d-sm-none mt-3 pt-2" style=" font-size: 10vw">
+            <p class="text-center funsized pt-2">
                 competences
             </p>
 
         </div>
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pb-4 pt-4" style="background-color: #B7BDBF">
-                <div class="row">
+                <div class="row  mb-5">
 
-                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 champagne font-weight-bold pl-4 pr-4 mb-3">
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 champagne font-weight-bold pl-4 pr-4 mb-3 textecompetence">
 
                             <div class="row">
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
                                     <p class="text-center">SQL</p>
-                                   <p>Je suis passionné par les bases de données et tout ce qui les entoures et notamment le langage SQL que je maîtrise pratiquement à 100% seule quelque notions me sont à apprendre.</p>
+                                   <p style="margin-bottom: 7vw">Je suis passionné par les bases de données et tout ce qui les entoures et notamment le langage SQL que je maîtrise pratiquement à 100% seule quelque notions me sont à apprendre.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">HTML/CSS (BOOTSTRAP)</p>
@@ -46,7 +25,7 @@
 
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">PHP</p>
-                                    <p>Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquise.
+                                    <p style="margin-bottom: 5vw">Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquise.
                                     La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
@@ -56,49 +35,90 @@
 
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
                                     <p class="text-center">JAVA</p>
-                                    <p>JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.</p>
+                                    <p style="margin-bottom: 11vw">JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
-                                    <p class="text-center">C++</p>
-                                    <p>Je n'ai pas appris ce language</p>
+                                    <p class="text-center">GIT/GITHUB</p>
+                                    <p>J'ai beaucoup utilisé git avec l'outil en ligne GITHUB afin de gérer le versionning de mon code</p>
                                 </div>
                             </div>
                           
                     </div>
 
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 pl-4 pr-4">
 
-                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 champagne font-weight-bold pl-4 pr-4">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
 
-                        <p style="font-size:1.4rem">SQL</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div><br>
+                            <p class="textecompetence2" style="color:#555b61">
+                                <i class="fas fa-database iconecompetence"></i> SQL</p>
+                                <div class="progresscompetence mb-3">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
 
-                        <p style="font-size:1.4rem">HTML/CSS (BOOSTRAP)</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar2" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div><br>
+                        </div>
 
-                        <p style="font-size:1.4rem">PHP</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div><br>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
 
-                        <p style="font-size:1.4rem">LARAVEL</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar2" role="progressbar" style="width: 45%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div><br>
+                            <p class="textecompetence2" style="color:#555b61">
+                                <i class="fab fa-html5 iconecompetence"></i> HTML 
+                                <i class="fab fa-css3-alt ml-4 iconecompetence"></i> CSS3 (BOOSTRAP)
 
-                        <p style="font-size:1.4rem">JAVA</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div><br>
+                            </p>
+                                <div class="progresscompetence mb-3">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
 
-                        <p style="font-size:1.4rem">C++</p>
-                            <div class="progress">
-                                <div class="progress-bar2" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div><br>
+                        </div>
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
+
+                            <p class="textecompetence2" style="color:#555b61">
+
+                                <i class="fab fa-php iconecompetence"></i> 
+
+                                    PHP
+                            </p>
+                                <div class="progresscompetence mb-3">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+
+                        </div>
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
+
+                            <p class="textecompetence2" style="color:#555b61">
+
+                                <i class="fab fa-git iconecompetence"></i> GIT 
+                                <i class="fab fa-github-alt ml-4 iconecompetence"></i> GITHUB
+
+                            </p>
+
+                                <div class="progresscompetence mb-3">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+
+                        </div>
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
+
+                            <p class="textecompetence2" style="color:#555b61"><i class="fab fa-laravel iconecompetence"></i> LARAVEL</p>
+                                <div class="progresscompetence mb-3">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 45%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+
+                        </div>
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
+
+                            <p class="textecompetence2" style="color:#555b61"><i class="fab fa-java iconecompetence"></i> JAVA</p>
+                                <div class="progresscompetence">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+
+                        </div>
+
                     </div>
+
                 </div>
         </div>
     </div>

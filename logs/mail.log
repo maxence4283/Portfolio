@@ -1,0 +1,4 @@
+2018-11-27 11:53:49 u95408020 zR4AWQ-1g1ERZ0Wem-00QWJc |< REMOTE=77.136.15.0 SCRIPT=/data-processing/mail.php -- /usr/sbin/sendmail -t -i
+2018-11-27 11:53:49 u95408020 zR4AWQ-1g1ERZ0Wem-00QWJc WW invalid sender address: " Coucou  "
+2018-11-27 11:53:49 u95408020 zR4AWQ-1g1ERZ0Wem-00QWJc <= S=cgi-mailer-bounces-759894087@kundenserver.de SZ=1010 D=0 SID=759894087
+2018-11-27 11:53:49 u95408020 zR4AWQ-1g1ERZ0Wem-00QWJc => maxencenicole@nmaxence.fr msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MyvFC-1fXAgp0fHG-00vuRx
