@@ -49,6 +49,9 @@
                     <li class="nav-item d-none d-xl-block" >
                         <a class="nav-link" href="index.php?action=connexion">Connexion</a>
                     </li>
+                    <li class="nav-item d-none d-xl-block" >
+                        <a class="nav-link" href="index.php?action=inscription">Inscription</a>
+                    </li>
                     <?php
                         }
                     ?>

@@ -18,19 +18,31 @@
 
                     <div class="col-10 col-xs-10 col-sm-10 col-md-10 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1">
 
-                        <form method="POST" action="index.php?action=login">
+                        <form method="POST" action="index.php?action=sign_up">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="nom" id="nomid" placeholder="Nom" required="required">
+                            </div><br>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="prenom" id="prenomid" placeholder="Prénom" required="required">
+                            </div><br>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="tel" id="telid" placeholder="Téléphone" required="required">
+                            </div><br>
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" id="emailid" placeholder="Email" required="required">
                             </div><br>
                             <div class="form-group">
                                 <input type="password" class="form-control" name="mdp" id="mdpid" placeholder="Mot de passe" required="required">
                             </div><br>
-                            <button type="submit" class="btn btn-secondary btn-lg btn-block">Se connecter</button><br>
+                            <div class="form-group">
+                                <input type="hidden" class="form-control" name="role_id" id="role_idid" value="2" required="required">
+                            </div><br>
+                            <button type="submit" class="btn btn-secondary btn-lg btn-block">S'inscrire</button><br>
                         </form>
 
                     </div>
 
-                    <a style="color:darkgrey; font-size: 130%;" href="index.php?action=inscription">S'enregistrer</a>
+                    <a style="color:darkgrey; font-size: 130%;" href="index.php?action=connexion">Se connecter</a>
 
                 </div>
 

@@ -12,14 +12,38 @@ include 'vues/header.php';
                         include("vues/connexion.php");
                     }
                 break;
+            case 'inscription' :
+                if (isset($_SESSION['connecte'])){
+                        header('Location: index.php');
+                    } else {
+                       include("vues/inscription.php"); 
+                    }
+            break;
             case 'deconnexion' :
                 $connexion = new Connexion();
                 $connexion->deconnexion();
                 break;
             case 'login':
                 $connexion = new Connexion();
-                $connexion->login();
-                break;
+                $connexion->login($email, $mdp);
+            break;
+            case 'sign_up':
+                $connexion = new Connexion();
+                $connexion->inscription();
+            break;
+            case 'inscriptionreussi':
+                header('Location: index.php?inscriptionreussi=1');
+            break;
+            case 'inscriptionechoue':
+                $echec = "L'inscription n'a pas aboutie";
+                echo $echec;
+                include('Location: inscription.php');
+            break;
+            case 'errorinscription':
+                $echec = "Veuillez remplir tout les champs !";
+                echo $echec;
+                include('Location: inscription.php');
+            break;
             case 'reussi':
                 header('Location: index.php?coreussi=1');
             break;
