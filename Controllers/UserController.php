@@ -11,20 +11,20 @@ class Connexion {
                 $mdp = htmlspecialchars($_POST['mdp']);
 
                 $model = new User();
-                $user = $model->getUser($email, $mdp);
+                $user = $model->getUser($email,$mdp);
 
                 if ($user != null) {
 
                     $userDetails = $user->fetch();
                     $nom = $userDetails['nom'];
                     $prenom = $userDetails['prenom'];
-                    $email = $userDetails['email'];
+                    $mail = $userDetails['email'];
                     $tel = $userDetails['tel'];
                     $role_id = $userDetails['role_id'];
 
                     $_SESSION['nom'] = $nom;
                     $_SESSION['prenom'] = $prenom;
-                    $_SESSION['email'] = $email;
+                    $_SESSION['email'] = $mail;
                     $_SESSION['tel'] = $tel;
                     $_SESSION['role_id'] = $role_id;
                     $_SESSION['connecte'] = 1;
@@ -34,6 +34,7 @@ class Connexion {
                 } else {
                     header('Location: index.php?action=echec');
                 }
+
         } else {
             header('Location: index.php?action=coerror');
         }

@@ -25,7 +25,7 @@ include 'vues/header.php';
                 break;
             case 'login':
                 $connexion = new Connexion();
-                $connexion->login($email, $mdp);
+                $connexion->login();
             break;
             case 'sign_up':
                 $connexion = new Connexion();
