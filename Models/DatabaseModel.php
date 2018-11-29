@@ -1,12 +1,14 @@
 <?php
 class Pdoco {
 
-	protected $userpdo = "maxence";
+	protected $loginpdo = "maxence";
 	protected $mdppdo = "123";
+	protected $hostpdo = '127.0.0.1';
+	protected $dbnamepdo = 'portfolio';
 
-	protected function getPdo(){
+	public function getPdo(){
 
-			$bdd = new PDO('mysql:host=localhost;dbname=portfolio', $this->userpdo, $this->mdppdo);
+				$bdd = new PDO('mysql:host='.$this->hostpdo.';dbname='.$this->dbnamepdo.';charset=utf8', $this->loginpdo, $this->mdppdo);
 			return $bdd;
 	}
 }

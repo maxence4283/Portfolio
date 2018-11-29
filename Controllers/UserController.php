@@ -11,11 +11,11 @@ class Connexion {
                 $mdp = htmlspecialchars($_POST['mdp']);
 
                 $model = new User();
-                $user = $model->getUser($email,$mdp);
+                $user = $model->getUser($email, $mdp);
+                $userDetails = $user->fetch();
 
-                if ($user != null) {
+                if ($userDetails != null) {
 
-                    $userDetails = $user->fetch();
                     $nom = $userDetails['nom'];
                     $prenom = $userDetails['prenom'];
                     $mail = $userDetails['email'];
@@ -34,7 +34,6 @@ class Connexion {
                 } else {
                     header('Location: index.php?action=echec');
                 }
-
         } else {
             header('Location: index.php?action=coerror');
         }
