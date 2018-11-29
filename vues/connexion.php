@@ -18,7 +18,7 @@
 
                     <div class="col-10 col-xs-10 col-sm-10 col-md-10 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1">
 
-                        <form method="POST" action="Controllers/UserController.php">
+                        <form method="POST" action="index.php?action=login">
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" id="emailid" placeholder="Email" required="required">
                             </div><br>

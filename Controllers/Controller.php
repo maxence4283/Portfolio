@@ -1,39 +1,40 @@
 <?php
-require("../Models/UserModel.php");
+require 'Models/Model.php';
 
-function connexion(){
-    if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])) {
+class Connexion {
 
-        $email = $_POST['email'];
-        $mdp = $_POST['mdp'];
+    public function login(){
+        if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])) {
 
-        $user = getUser($email, $mdp);
+                $email = $_POST['email'];
+                $mdp = $_POST['mdp'];
 
-        $usermail = $user['email'];
-        $usermdp = $user['mdp'];
-        $usernom = $user['nom'];
-        $userprenom = $user['prenom'];
-        $usertel = $user['tel'];
+                $model = new Pdoco();
+                $user = $model->getUser($email, $mdp);
 
+                if ($user != null) {
 
-        if ($email == $usermail && $mdp == $usermdp) {
-            $_SESSION['connecte'] = 1;
-            $_SESSION['nom'] = $usernom;
-            $_SESSION['prenom'] = $userprenom;
-            $_SESSION['email'] = $usermail;
-            $_SESSION['tel'] = $usertel;
+                    $userDetails = $user->fetch();
+                    $nom = $userDetails['nom'];
+                    $prenom = $userDetails['prenom'];
+                    $email = $userDetails['email'];
+                    $tel = $userDetails['tel'];
+                    $role_id = $userDetails['role_id'];
 
-            header("Location: ../index.php?connexion=True");
+                    $_SESSION['nom'] = $nom;
+                    $_SESSION['prenom'] = $prenom;
+                    $_SESSION['email'] = $email;
+                    $_SESSION['tel'] = $tel;
+                    $_SESSION['role_id'] = $role_id;
 
+                    header('Location: index.php?action=reussi');
+
+                } else {
+                    header('Location: index.php?action=echec');
+                }
         } else {
-
-            header("Location: ../index.php?connexion=False");
-
+            header('Location: index.php?action=coerror');
         }
-    } else {
-
-        header("Location: ../index.php?error=1");
-
     }
+
 }
-?>

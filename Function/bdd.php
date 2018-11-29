@@ -1,5 +1,13 @@
 <?php
-$user = "maxence";
-$mdp = "123";
 
-$bdd = new PDO('mysql:host=localhost;dbname=portfolio', $user, $pass);
+class Pdo {
+
+private $user = "maxence";
+private $mdp = "123";
+
+	public function getPdo(){
+		$bdd = new PDO('mysql:host=localhost;dbname=portfolio', $user, $pass);
+		return $bdd;
+	}
+
+}
