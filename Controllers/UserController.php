@@ -48,22 +48,17 @@ class Connexion {
     public function inscription(){
         if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['tel']) && !empty($_POST['tel']) && isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp']) && isset($_POST['role_id']) && !empty($_POST['role_id'])) {
 
-            $nom = htmlspecialchars($_POST['nom']);
-            $prenom = htmlspecialchars($_POST['prenom']);
-            $tel = htmlspecialchars($_POST['tel']);
-            $email = htmlspecialchars($_POST['email']);
-            $mdp = htmlspecialchars($_POST['mdp']);
-            $role_id = htmlspecialchars($_POST ['role_id']);
+                $nom = htmlspecialchars($_POST['nom']);
+                $prenom = htmlspecialchars($_POST['prenom']);
+                $tel = htmlspecialchars($_POST['tel']);
+                $email = htmlspecialchars($_POST['email']);
+                $mdp = htmlspecialchars($_POST['mdp']);
+                $role_id = htmlspecialchars($_POST ['role_id']);
 
-            $model = new User;
-            $model->insertUser($nom, $prenom, $tel, $email, $mdp, $role_id);
+                $model = new User();
+                $model->insertUser($nom, $prenom, $tel, $email, $mdp, $role_id);
 
-            header('Location: index.php');
-            // if ($insertUser != null) {
-            //     header('Location: index.php?action=inscriptionreussi');
-            // } else {
-            //     header('Location: index.php?action=inscriptionechoue');
-            // }
+                header('Location: index.php');
 
         } else { 
             header('Location: index.php?action=errorinscription');

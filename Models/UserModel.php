@@ -14,7 +14,7 @@ class User extends Pdoco {
 
 		public function insertUser($nom, $prenom, $tel, $email, $mdp, $role_id){
 			$bdd = $this->getPdo();
-			$req = $bdd->prepare("INSERT INTO users (nom,prenom,tel,email,mdp,role_id) VALUES (':nom',':prenom',':tel',':email',':mdp',':role_id");
+			$req = $bdd->prepare("INSERT INTO users (nom,prenom,tel,email,mdp,role_id) VALUES (:nom,:prenom,:tel,:email,:mdp,:role_id)");
 			$req->bindParam(':nom', $nom, PDO::PARAM_STR, 100);
 			$req->bindParam(':prenom', $prenom, PDO::PARAM_STR, 100);
 			$req->bindParam(':tel', $tel, PDO::PARAM_STR, 10);
