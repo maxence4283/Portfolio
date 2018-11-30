@@ -3,7 +3,7 @@ require 'Models/UserModel.php';
 
 class Connexion {
 
-    public function login(){
+    public function loginuser(){
 
         if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])) {
 
