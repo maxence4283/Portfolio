@@ -1,6 +1,6 @@
 <div id="Presentation">
   <div class="container-fluid">
-
+        <!-- Gestion des alerts -->
         <?php
             if (!empty($_GET['success']) && isset($_GET['success'])) {
                 if ($_GET['success'] == 2 ) {
@@ -36,7 +36,30 @@
         <?php
                 }
             }
+
+            if (isset($_GET['coreussi']) && $_GET['coreussi'] == 1) {
         ?>
+            <div class="alert alert-success alert-dismissible fade show" style="margin-top: -3%" role="alert">
+               Bonjour <?php echo $_SESSION['prenom']." ".$_SESSION['nom'] ?>.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+        <?php
+            }
+
+            if (isset($_GET['inscriptionreussi']) && $_GET['inscriptionreussi'] == 1) {
+        ?>
+            <div class="alert alert-success alert-dismissible fade show" style="margin-top: -3%" role="alert">
+               Inscription réussie !
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+        <?php
+            }
+        ?>
+        <!-- Fin de gestion des alerts -->
         
 
     <div class="row mr-1">

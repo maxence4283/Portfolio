@@ -58,7 +58,7 @@ include 'vues/header.php';
                 include('vues/connexion.php');
             break;
             default:
-             echo '1';
+             echo 'Aucune requête ne correspond à votre demande..';
             break;
         }
     } else {
