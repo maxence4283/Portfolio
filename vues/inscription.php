@@ -4,7 +4,7 @@
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 titre" style="background-color: white">
 
                 <p class="text-center funsized pt-2">
-                    Connexion
+                    Inscription
                 </p>
 
             </div>
@@ -44,7 +44,7 @@
 
                     <a style="color:darkgrey; font-size: 130%;" href="index.php?action=connexion">Se connecter</a>
 
-                </div>
+                </div><br>
 
             </div>
 

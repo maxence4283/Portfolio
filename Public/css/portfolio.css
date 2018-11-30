@@ -340,45 +340,33 @@ a#cRetour.cVisible{
 }
 
 @media screen and (max-width: 992px) {
+  .titreprojet{
+    font-size: 130%;
+  }
   .titrecv {
     font-size: 8vw;
   }
-}
-
-@media screen and (max-width: 992px) {
   .titre {
     font-size: 10vw;
   }
-}
-
-@media screen and (max-width: 992px) {
   .titrewebdev {
     font-size: 11vw;
   }
-@media screen and (max-width: 992px) {
   .textepresentation {
     font-size: 130%;
     margin-left: 2%;
     margin-right: 2%;
     color:white;
   }
-}
-@media screen and (max-width: 992px) {
   .texteprojet {
     font-size: 110%;
   }
-}
-@media screen and (max-width: 992px) {
   .textecompetence {
     font-size: 110%;
   }
-}
-@media screen and (max-width: 992px) {
   .textecompetence2 {
   font-size: 1.4rem;
   }
-}
-@media screen and (max-width: 992px) {
   .iconecompetence {
   font-size: 175%;
   }

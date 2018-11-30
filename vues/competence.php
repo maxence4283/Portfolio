@@ -26,7 +26,7 @@
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">PHP</p>
                                     <p style="margin-bottom: 5vw">Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquise.
-                                    La programmation orientée objet et le modèle MVC sont partiellement acquis et en cours d'acquisition.</p>
+                                    La programmation orientée objet et le modèle MVC sont partiellement acquis, ce site est développé en MVC.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
                                     <p class="text-center">LARAVEL</p>
@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">GIT/GITHUB</p>
-                                    <p>J'ai beaucoup utilisé git avec l'outil en ligne GITHUB afin de gérer le versionning de mon code</p>
+                                    <p>J'ai beaucoup utilisé git avec l'outil en ligne GITHUB afin de gérer le versionning de mon code, notemment pour ce site.</p>
                                 </div>
                             </div>
                           
