@@ -16,7 +16,7 @@
 
                     <hr style="width: 85%"><br>
 
-                    <div class="col-10 col-xs-10 col-sm-10 col-md-10 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1">
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1">
 
                         <form method="POST" action="index.php?action=sign_up">
                             <div class="form-group">
@@ -42,7 +42,11 @@
 
                     </div>
 
-                    <a style="color:darkgrey; font-size: 130%;" href="index.php?action=connexion">Se connecter</a>
+                    <a style="color:darkgrey; font-size: 130%;" href="index.php?action=connexion">Se connecter</a><br><br>
+
+                    <a class="champagne font-weight-bold" style="color:#e74c3c; font-size: 100%; text-decoration: none" href="index.php">Retourner à l'accueil</a>
+
+
 
                 </div><br>
 

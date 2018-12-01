@@ -10,13 +10,13 @@
             </div>
 
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 offset-xl-4">
-                <div class="shadow-lg rounded p-2 bg-light mt-5 text-center">
+                <div class="shadow-lg rounded p-2 bg-light mt-5 text-center mb-5">
 
                     <img src="Public/img/nmco.jpg" alt="imgco" style="max-width: 30%" class="rounded-circle border border-dark">
 
                     <hr style="width: 85%"><br>
 
-                    <div class="col-10 col-xs-10 col-sm-10 col-md-10 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1">
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-10 col-lg-10 offset-xl-1 offset-lg-1">
 
                         <form method="POST" action="index.php?action=login">
                             <div class="form-group">
@@ -30,7 +30,9 @@
 
                     </div>
 
-                    <a style="color:darkgrey; font-size: 130%;" href="index.php?action=inscription">S'enregistrer</a>
+                    <a style="color:darkgrey; font-size: 130%;" href="index.php?action=inscription">S'enregistrer</a><br><br>
+
+                    <a class="champagne font-weight-bold" style="color:#e74c3c; font-size: 100%; text-decoration: none" href="index.php">Retourner à l'accueil</a>
 
                 </div>
 

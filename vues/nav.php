@@ -40,16 +40,16 @@
                     <?php
                         if (isset($_SESSION['connecte'])) {
                     ?>
-                    <li class="nav-item d-none d-xl-block" >
+                    <li class="nav-item" >
                         <a class="nav-link" href="index.php?action=deconnexion">Déconnexion</a>
                     </li>
                     <?php
                         } else {
                     ?>
-                    <li class="nav-item d-none d-xl-block" >
+                    <li class="nav-item" >
                         <a class="nav-link" href="index.php?action=connexion">Connexion</a>
                     </li>
-                    <li class="nav-item d-none d-xl-block" >
+                    <li class="nav-itemk" >
                         <a class="nav-link" href="index.php?action=inscription">Inscription</a>
                     </li>
                     <?php
