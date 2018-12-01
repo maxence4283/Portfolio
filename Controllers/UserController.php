@@ -1,6 +1,4 @@
 <?php
-require 'Models/UserModel.php';
-
 class Connexion {
 
     public function login(){
@@ -10,7 +8,7 @@ class Connexion {
                 $email = htmlspecialchars($_POST['email']);
                 $mdp = htmlspecialchars($_POST['mdp']);
 
-                $model = new User();
+                $model = new PortfolioModel();
                 $user = $model->getUser($email, $mdp);
                 $userDetails = $user->fetch();
 
@@ -55,7 +53,7 @@ class Connexion {
                 $mdp = htmlspecialchars($_POST['mdp']);
                 $role_id = htmlspecialchars($_POST ['role_id']);
 
-                $model = new User();
+                $model = new PortfolioModel();
                 $model->insertUser($nom, $prenom, $tel, $email, $mdp, $role_id);
 
                 header('Location: index.php');

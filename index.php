@@ -1,6 +1,9 @@
 <?php
+ob_start();
 session_start();
+require_once 'Models/Model.php';
 require_once 'Controllers/UserController.php';
+require_once 'Controllers/ProjectController.php';
 include 'vues/header.php';
 
     if(isset($_GET['action'])){

@@ -1,6 +1,17 @@
 <?php 
-require 'DatabaseModel.php';
-class User extends Pdoco {
+class PortfolioModel {
+
+	protected $loginpdo = "maxence";
+	protected $mdppdo = "123";
+	protected $hostpdo = '127.0.0.1';
+	protected $dbnamepdo = 'portfolio';
+
+		public function getPdo(){
+
+				$bdd = new PDO('mysql:host='.$this->hostpdo.';dbname='.$this->dbnamepdo.';charset=utf8', $this->loginpdo, $this->mdppdo);
+			return $bdd;
+		}
+
 
 		public function getUser($email, $mdp) {
 		$bdd = $this->getPdo();
@@ -22,6 +33,13 @@ class User extends Pdoco {
 			$req->bindParam(':mdp', $mdp, PDO::PARAM_STR, 255);
 			$req->bindParam(':role_id', $role_id, PDO::PARAM_INT);
 			$req->execute();
+		}
+
+		public function getProjects(){
+		$bdd = $this->getPdo();
+		$req = $bdd->prepare("SELECT * FROM projects");
+		$req->execute();
+		return $req->fetchAll();
 		}
 
 }
