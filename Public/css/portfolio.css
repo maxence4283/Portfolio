@@ -109,22 +109,13 @@ html {
 /* MODALS PROJETS */
 
 /* Style the Image Used to Trigger the Modal */
-#arcenciel {
+.imgprojet {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#arcenciel:hover {opacity: 0.7;}
-
-/* Style the Image Used to Trigger the Modal */
-#carrefour {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#carrefour:hover {opacity: 0.7;}
+.imgprojet:hover {opacity: 0.7;}
 
 
 /* The Modal (background) */
@@ -332,7 +323,7 @@ a#cRetour.cVisible{
 }
 /*Titre des card des projets*/
 .titreprojet{
-  font-size: 1.6vw;
+  font-size: 2vw;
 }
 /*"Téléchargement"*/
 .titrecv {
