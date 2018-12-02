@@ -39,20 +39,24 @@ include 'vues/header.php';
                     }
             break;
             case 'deconnexion' :
-                $connexion = new Connexion();
-                $connexion->deconnexion();
+                $controller = new Connexion();
+                $controller->deconnexion();
                 break;
             case 'login':
-                $connexion = new Connexion();
-                $connexion->login();
+                $controller = new Connexion();
+                $controller->login();
             break;
             case 'submitmajinfo':
-                $connexion = new Connexion();
-                $connexion->majInfo();
+                $controller = new Connexion();
+                $controller->majInfo();
+            break;
+            case 'ajoutprojet':
+                $controller = new ProjectController();
+                $controller->insertProject();
             break;
             case 'sign_up':
-                $connexion = new Connexion();
-                $connexion->inscription();
+                $controller = new Connexion();
+                $controller->inscription();
             break;
             case 'inscriptionreussi':
                 header('Location: index.php?inscriptionreussi=1');

@@ -66,6 +66,14 @@
                             <?php echo $_SERVER['REMOTE_ADDR'];?>
                         </li>
 
+                        <li class="list-group-item2 lead">
+                            Status
+                        </li>
+
+                        <li class="list-group-item2">
+                            <?php echo $user['libelle'];?>
+                        </li>
+
                     </ul><br>
 
                     <a class="btn btn-secondary" href="index.php?action=majinfo">Mettre à jour mes information</a><br><br>

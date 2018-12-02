@@ -25,7 +25,7 @@ class PortfolioModel {
 
 		public function getInfoUser($id){
 			$bdd = $this->getPdo();
-			$req = $bdd->prepare("SELECT * FROM users WHERE id=:id");
+			$req = $bdd->prepare("SELECT * FROM users,roles WHERE users.id=:id AND users.role_id = roles.id");
 			$req->bindParam(':id', $id, PDO::PARAM_INT, 11);
 			$req->execute();
 
@@ -64,6 +64,18 @@ class PortfolioModel {
 			$req->bindParam(':id', $id, PDO::PARAM_INT);
 			$req->execute();
 
+		}
+
+		public function ajoutProjet($titre, $texte, $img, $userid, $idimage, $datatarget){
+			$bdd = $this->getPdo();
+			$req = $bdd->prepare("INSERT INTO projects (titre, texte, img, user_id, idimage, data-target) VALUES (:titre, :texte, :img, :userid, :idimage, :datatarget)");
+			$req->bindParam(':titre', $titre, PDO::PARAM_STR, 255);
+			$req->bindParam(':texte', $texte, PDO::PARAM_STR);
+			$req->bindParam(':img', $img, PDO::PARAM_STR, 255);
+			$req->bindParam(':userid', $userid, PDO::PARAM_INT);
+			$req->bindParam(':idimage', $idimage, PDO::PARAM_STR, 100);
+			$req->bindParam(':datatarget', $datatarget, PDO::PARAM_STR, 60);
+			$req->execute();
 		}
 
 }
