@@ -330,9 +330,35 @@ a#cRetour.cVisible{
   font-size: 5vw;
 }
 
+.dispositioncompetence {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.dispositionpresentation {
+  margin-bottom: 1.7rem;
+}
+
+.dispositionprojet {
+  margin-right: : 1rem;
+  margin-left: : 1rem;
+}
+
 @media screen and (max-width: 992px) {
+  .dispositionprojet {
+  margin-bottom: 0%;
+  margin-left: 0rem;
+  }
   .titreprojet{
     font-size: 130%;
+  }
+  .dispositionpresentation {
+  margin-bottom: 0rem;
+  }
+  .dispositioncompetence {
+  padding-right: 0rem;
+  padding-left: 0rem;
+  margin-bottom: -25%;
   }
   .titrecv {
     font-size: 8vw;
@@ -341,10 +367,10 @@ a#cRetour.cVisible{
     font-size: 10vw;
   }
   .titrewebdev {
-    font-size: 11vw;
+    font-size: 14vw;
   }
   .textepresentation {
-    font-size: 130%;
+    font-size: 100%;
     margin-left: 2%;
     margin-right: 2%;
     color:white;
@@ -361,4 +387,27 @@ a#cRetour.cVisible{
   .iconecompetence {
   font-size: 175%;
   }
+}
+
+.list-group-item2 {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-flush2 .list-group-item2 {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+
+.list-group-flush2:first-child .list-group-item2:first-child {
+  border-top: 0;
+}
+
+.list-group-flush2:last-child .list-group-item2:last-child {
+  border-bottom: 0;
 }

@@ -45,7 +45,7 @@
                           
                     </div>
 
-                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 pl-4 pr-4">
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 dispositioncompetence">
 
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
 

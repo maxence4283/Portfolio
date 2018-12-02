@@ -74,7 +74,7 @@
             </div>
 
             <div class="row">
-                <div class="shadow-lg p-3 mb-4 rounded border2 border-light2 ml-3" style="background-color: #555b61;">
+                <div class="shadow-lg p-3 dispositionpresentation rounded border2 border-light2 ml-3" style="background-color: #555b61;">
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
                         <div class="row textepresentation">
                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">

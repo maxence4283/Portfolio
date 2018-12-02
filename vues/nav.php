@@ -41,6 +41,9 @@
                         if (isset($_SESSION['connecte'])) {
                     ?>
                     <li class="nav-item" >
+                        <a class="nav-link" href="index.php?action=compte">Mon compte</a>
+                    </li>
+                    <li class="nav-item" >
                         <a class="nav-link" href="index.php?action=deconnexion">Déconnexion</a>
                     </li>
                     <?php

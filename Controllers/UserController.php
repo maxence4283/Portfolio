@@ -14,12 +14,14 @@ class Connexion {
 
                 if ($userDetails != null) {
 
+                    $id = $userDetails['id'];
                     $nom = $userDetails['nom'];
                     $prenom = $userDetails['prenom'];
                     $mail = $userDetails['email'];
                     $tel = $userDetails['tel'];
                     $role_id = $userDetails['role_id'];
 
+                    $_SESSION['id'] = $id;
                     $_SESSION['nom'] = $nom;
                     $_SESSION['prenom'] = $prenom;
                     $_SESSION['email'] = $mail;
@@ -62,6 +64,32 @@ class Connexion {
             header('Location: index.php?action=errorinscription');
         }
 
+    }
+
+    public function majInfo(){
+        if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['tel']) && !empty($_POST['tel']) && isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])  && isset($_POST['id']) && !empty($_POST['id'])) {
+
+                $nom = htmlspecialchars($_POST['nom']);
+                $prenom = htmlspecialchars($_POST['prenom']);
+                $tel = htmlspecialchars($_POST['tel']);
+                $email = htmlspecialchars($_POST['email']);
+                $mdp = htmlspecialchars($_POST['mdp']);
+                $id = htmlspecialchars($_POST['id']);
+
+                $model = new PortfolioModel();
+                $model->majInfo($id, $nom, $prenom, $tel, $email, $mdp);
+
+                header('Location: index.php?action=compte');
+        } else { 
+            header('Location: index.php?action=errormajinfo');
+        }
+
+    }
+
+    public function affInfoUser($id) {
+        $model = new PortfolioModel();
+        $user = $model->getInfoUser($id);
+        return $user;
     }
 
 }

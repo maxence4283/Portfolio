@@ -10,7 +10,7 @@ class ProjectController {
 		?>
 			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center mb-3">
 
-	            <div class=" shadow-lg p-3 mb-5 rounded" style="background-color: #555b61">
+	            <div class=" shadow-lg p-3 mb-2 rounded" style="background-color: #555b61">
 
 	                  <img id=<?php echo $ligne['idimage']; ?>  class="imgprojet card-img-top rounded" src=<?php echo "https://nmaxence.fr/Public/img/".$ligne['img'];?> alt=<?php echo $ligne['titre']; ?> >
 

@@ -22,6 +22,22 @@ include 'vues/header.php';
                        include("vues/inscription.php"); 
                     }
             break;
+            case 'compte' :
+                if (!empty($_SESSION['connecte'])){
+                        include("vues/moncompte.php"); 
+                        
+                    } else {
+                       header('Location: index.php');
+                    }
+            break;
+            case 'majinfo' :
+                if (!empty($_SESSION['connecte'])){
+                        include("vues/modifmoncompte.php"); 
+                        
+                    } else {
+                       header('Location: index.php');
+                    }
+            break;
             case 'deconnexion' :
                 $connexion = new Connexion();
                 $connexion->deconnexion();
@@ -29,6 +45,10 @@ include 'vues/header.php';
             case 'login':
                 $connexion = new Connexion();
                 $connexion->login();
+            break;
+            case 'submitmajinfo':
+                $connexion = new Connexion();
+                $connexion->majInfo();
             break;
             case 'sign_up':
                 $connexion = new Connexion();
@@ -43,6 +63,11 @@ include 'vues/header.php';
                 include('Location: inscription.php');
             break;
             case 'errorinscription':
+                $echec = "Veuillez remplir tout les champs !";
+                echo $echec;
+                include('Location: moncompte.php');
+            break;
+            case 'errormajinfo':
                 $echec = "Veuillez remplir tout les champs !";
                 echo $echec;
                 include('Location: inscription.php');

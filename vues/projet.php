@@ -10,7 +10,7 @@
           </div>
       </div>
 
-      <div class="row mr-2 ml-2 mt-4">
+      <div class="row dispositionprojet mt-4">
            <div id="myModal" class="modal">
                       <span class="close">&times;</span>
                       <img class="modal-content" alt="modal" src="#" id="img01">
