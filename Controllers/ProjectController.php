@@ -43,4 +43,34 @@ class ProjectController {
 
 		}
 	}
+
+	public function getUnProject($id){
+
+			$model = new PortfolioModel();
+			$lignes = $model->getUnProject($id);
+
+			return $lignes;
+	}
+
+	public function modifierProjet(){
+		if (isset($_POST['titre']) && !empty($_POST['titre']) && isset($_POST['description']) && !empty($_POST['description']) && isset($_POST['image']) && !empty($_POST['image']) && isset($_POST['userid']) && !empty($_POST['userid']) && isset($_POST['idimage']) && !empty($_POST['idimage']) && isset($_POST['datatarget']) && !empty($_POST['datatarget']) && isset($_POST['idprojet']) && !empty($_POST['idprojet'])) {
+
+
+				$titre = $_POST['titre'];
+				$texte = $_POST['description'];
+				$img = $_POST['image'];
+				$userid = $_POST['userid'];
+				$idimage = $_POST['idimage'];
+				$datatarget = $_POST['datatarget'];
+				$id = $_POST['idprojet'];
+
+		$model = new PortfolioModel();
+		$model->modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id);
+
+		header('Location: index.php?#projets');
+
+		} else {
+			header('Location : index.php?modifprojet=erreur');
+		}
+	}
 }

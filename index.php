@@ -58,6 +58,10 @@ include 'vues/header.php';
                 $controller = new ProjectController();
                 $controller->supprimerProject();
             break;
+            case 'modifprojet':
+                $controller = new ProjectController();
+                $controller->modifierProjet();
+            break;
             case 'sign_up':
                 $controller = new Connexion();
                 $controller->inscription();

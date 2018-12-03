@@ -85,4 +85,27 @@ class PortfolioModel {
 			$req->execute();
 		}
 
+		public function getUnProject($id){
+			$bdd = $this->getPdo();
+			$req = $bdd->prepare("SELECT * FROM projects WHERE id=:id");
+			$req->bindParam(':id', $id, PDO::PARAM_INT);
+			$req->execute();
+			return $req->fetch();
+		}
+
+		public function modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id){
+			$bdd = $this->getPdo();
+			$req = $bdd->prepare("UPDATE projects 
+				SET titre = :titre, texte = :texte, img = :img, userid = :userid, idimage = :idimage, datatarget = :datatarget 
+				WHERE id = :id");
+			$req->bindParam(':titre', $titre, PDO::PARAM_STR, 255);
+			$req->bindParam(':texte', $texte, PDO::PARAM_STR);
+			$req->bindParam(':img', $img, PDO::PARAM_STR, 255);
+			$req->bindParam(':userid', $userid, PDO::PARAM_INT);
+			$req->bindParam(':idimage', $idimage, PDO::PARAM_STR, 100);
+			$req->bindParam(':datatarget', $datatarget, PDO::PARAM_STR, 60);
+			$req->bindParam(':id', $id, PDO::PARAM_INT);
+			$req->execute();
+		}
+
 }
