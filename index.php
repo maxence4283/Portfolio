@@ -1,13 +1,19 @@
 <?php
+// Activation des redirections (header).
 ob_start();
+// Démarrage des sessions
 session_start();
+
+// Appel des fichiers Models et Controllers
 require_once 'Models/Model.php';
 require_once 'Controllers/UserController.php';
 require_once 'Controllers/ProjectController.php';
 include 'vues/header.php';
 
+    // Gestion des différents lien permettant de faire l'intéraction entre la vue et le controller
     if(isset($_GET['action'])){
         switch ($_GET['action']) {
+            // Appel de la page connexion
             case 'connexion':
                     if (isset($_SESSION['connecte'])){
                         header('Location: index.php');
@@ -15,6 +21,7 @@ include 'vues/header.php';
                         include("vues/connexion.php");
                     }
                 break;
+            // Appel de la page inscription
             case 'inscription' :
                 if (isset($_SESSION['connecte'])){
                         header('Location: index.php');
@@ -22,6 +29,7 @@ include 'vues/header.php';
                        include("vues/inscription.php"); 
                     }
             break;
+            // Appel de la page de gestion du compte
             case 'compte' :
                 if (!empty($_SESSION['connecte'])){
                         include("vues/moncompte.php"); 
@@ -30,6 +38,7 @@ include 'vues/header.php';
                        header('Location: index.php');
                     }
             break;
+            // Appel de la page permettant de modifier les informations du compte
             case 'majinfo' :
                 if (!empty($_SESSION['connecte'])){
                         include("vues/modifmoncompte.php"); 
@@ -38,71 +47,49 @@ include 'vues/header.php';
                        header('Location: index.php');
                     }
             break;
+            // Action permettant de se déconnecter
             case 'deconnexion' :
+                // Appel du controller Connexion
                 $controller = new Connexion();
+                // Appel de la méthode deconnexion du controller Connexion
                 $controller->deconnexion();
                 break;
+            // Action permettant de se connecter
             case 'login':
                 $controller = new Connexion();
                 $controller->login();
             break;
+            // Action permettant d'envoyer la modification faite aux information du compte
             case 'submitmajinfo':
                 $controller = new Connexion();
                 $controller->majInfo();
             break;
+            // Action permettant d'ajouter un projet
             case 'ajoutprojet':
                 $controller = new ProjectController();
                 $controller->insertProject();
             break;
+            // Action permettant de supprimer un projet
             case 'supprimerprojet':
                 $controller = new ProjectController();
                 $controller->supprimerProject();
             break;
+            // Action permettant de modifier un projet
             case 'modifprojet':
                 $controller = new ProjectController();
                 $controller->modifierProjet();
             break;
+            // Action permettant de s'inscrire
             case 'sign_up':
                 $controller = new Connexion();
                 $controller->inscription();
-            break;
-            case 'inscriptionreussi':
-                header('Location: index.php?inscriptionreussi=1');
-            break;
-            case 'inscriptionechoue':
-                $echec = "L'inscription n'a pas aboutie";
-                echo $echec;
-                include('Location: inscription.php');
-            break;
-            case 'errorinscription':
-                $echec = "Veuillez remplir tout les champs !";
-                echo $echec;
-                include('Location: moncompte.php');
-            break;
-            case 'errormajinfo':
-                $echec = "Veuillez remplir tout les champs !";
-                echo $echec;
-                include('Location: inscription.php');
-            break;
-            case 'reussi':
-                header('Location: index.php?coreussi=1');
-            break;
-            case 'echec' :
-                $erreur = "Vos identifiants ne sont pas connrects !";
-                echo $erreur;
-                include('vues/connexion.php');
-            break;
-            case 'error':
-                $erreur = "Veuillez remplir tout les champs";
-                echo $erreur;
-                include('vues/connexion.php');
             break;
             default:
              echo 'Aucune requête ne correspond à votre demande..';
             break;
         }
     } else {
-
+// Appel de tout les fichiers du OnePage.
 include("vues/nav.php");
 
 include("vues/presentation.php");

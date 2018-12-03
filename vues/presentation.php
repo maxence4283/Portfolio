@@ -5,7 +5,7 @@
             if (!empty($_GET['success']) && isset($_GET['success'])) {
                 if ($_GET['success'] == 2 ) {
         ?>
-            <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
+            <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert" style="margin-top: -3%">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -14,26 +14,22 @@
         <?php
                 } elseif ($_GET['success'] == 1 ) {
         ?>
-            <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert">
+            <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert" style="margin-top: -3%">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
               Mail envoyé ! Une réponse vous sera rapidement attribuée.
             </div>
         <?php
-                }
-            }
-
-            if (!empty($_GET['error']) && isset($_GET['error'])) {
-                if ($_GET['error'] == 1) {
+                } elseif ($_GET['success'] == 3 ) {
         ?>
-            <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-              Veuillez remplir tout les champs.
-            </div>
-        <?php
+                <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert" style="margin-top: -3%">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                      Vous etes déconnecté !
+                </div>
+        <?php  
                 }
             }
 

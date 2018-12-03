@@ -10,7 +10,7 @@
           </div>
       </div>
 
-      <div class="row dispositionprojet mt-4">
+      <div class="row dispositionprojet">
            <div id="myModal" class="modal">
                       <span class="close">&times;</span>
                       <img class="modal-content" alt="modal" src="#" id="img01">
@@ -21,7 +21,7 @@
            $lignesprojets = $controller->listProjects();
            foreach ($lignesprojets as $ligne) {
             ?>
-              <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
+              <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center ">
 
                   <div class=" shadow-lg p-3 mb-2 rounded" style="background-color: #555b61">
 

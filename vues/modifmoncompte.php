@@ -1,11 +1,28 @@
 <div id="Cv">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 titre" style="background-color: white">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 " style="background-color: white">
 
-                <p class="text-center funsized pt-2">
+                <p class="text-center funsized pt-2 titre">
                     Mon compte
                 </p>
+
+            <!-- Gestion des alerts -->
+                <?php
+                    if (!empty($_GET['erreur']) && isset($_GET['erreur'])) {
+                        if ($_GET['erreur'] == 1 ) {
+                ?>
+                    <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                      Veuillez remplir tout les champs.
+                    </div>
+                <?php
+                        }
+                    }
+                ?>
+                <!-- Fin des alerts -->
 
             </div>
 

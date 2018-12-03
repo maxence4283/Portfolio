@@ -1,19 +1,29 @@
 <?php
+// Les controllers permettent d'intéragir avec la vue et le model (La vue appel le controller qui lui appel le model)
+// Déclaration de la class Controller gérant le rapport au utilisateur
 class Connexion {
 
+    // Méthode permettant de se connecter
     public function login(){
 
+        // Si tout les champs sont remplis
         if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])) {
 
+                // On stock les données rentrées dans une variable 
                 $email = htmlspecialchars($_POST['email']);
                 $mdp = htmlspecialchars($_POST['mdp']);
 
+                // On fait appel au model principal
                 $model = new PortfolioModel();
+                // On fait appel a la méthode getUser
                 $user = $model->getUser($email, $mdp);
+                // On rentre les données renvoyé par la méthode dans une variable
                 $userDetails = $user->fetch();
 
+                // Si la méthode retourne une valeur cela veut dire que les identifiants sont bon
                 if ($userDetails != null) {
 
+                    // Nous rentrons toute les données venant de la bdd dont nous avons besoin dans des variables
                     $id = $userDetails['id'];
                     $nom = $userDetails['nom'];
                     $prenom = $userDetails['prenom'];
@@ -21,33 +31,40 @@ class Connexion {
                     $tel = $userDetails['tel'];
                     $role_id = $userDetails['role_id'];
 
+                    // Nous assigons ces variables à des variables globales de session
                     $_SESSION['id'] = $id;
                     $_SESSION['nom'] = $nom;
                     $_SESSION['prenom'] = $prenom;
                     $_SESSION['email'] = $mail;
                     $_SESSION['tel'] = $tel;
                     $_SESSION['role_id'] = $role_id;
+                    // Variable de session permettant de déterminer si nous sommes connecter ou non
                     $_SESSION['connecte'] = 1;
 
-                    header('Location: index.php?action=reussi');
+                    header('Location: index.php?coreussi=1');
 
                 } else {
-                    header('Location: index.php?action=echec');
+                    header('Location: index.php?action=connexion&erreur=1');
                 }
         } else {
-            header('Location: index.php?action=coerror');
+            header('Location: index.php?action=connexion&erreur=2');
         }
     }
 
+    // Méthode permettant de se déconnecter
     public function deconnexion () {
+        // Nous détruisons la sessions et donc le status connecte est supprimé
         session_destroy();
-        header('Location: index.php');
+        header('Location: index.php?success=3');
 
     }
 
+    // Méthode permettant de s'inscrire
     public function inscription(){
+        // Si tout les champs sont remplis
         if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['tel']) && !empty($_POST['tel']) && isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp']) && isset($_POST['role_id']) && !empty($_POST['role_id'])) {
 
+                // Nous rentrons toute les données rentrées dans une variables
                 $nom = htmlspecialchars($_POST['nom']);
                 $prenom = htmlspecialchars($_POST['prenom']);
                 $tel = htmlspecialchars($_POST['tel']);
@@ -55,20 +72,25 @@ class Connexion {
                 $mdp = htmlspecialchars($_POST['mdp']);
                 $role_id = htmlspecialchars($_POST ['role_id']);
 
+                // Appel du model
                 $model = new PortfolioModel();
+                // Execution de la méthode insertUser
                 $model->insertUser($nom, $prenom, $tel, $email, $mdp, $role_id);
 
-                header('Location: index.php');
+                header('Location: index.php?inscriptionreussi=1');
 
         } else { 
-            header('Location: index.php?action=errorinscription');
+            header('Location: index.php?action=inscription&erreur=1');
         }
 
     }
 
+    // Méthode permettant de mettre à jour les informations de sont compte
     public function majInfo(){
+        // Si tout les champs sont remplis
         if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['tel']) && !empty($_POST['tel']) && isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['mdp']) && !empty($_POST['mdp'])  && isset($_POST['id']) && !empty($_POST['id'])) {
 
+                // Nous rentrons toute les données rentrées dans une variables
                 $nom = htmlspecialchars($_POST['nom']);
                 $prenom = htmlspecialchars($_POST['prenom']);
                 $tel = htmlspecialchars($_POST['tel']);
@@ -76,18 +98,25 @@ class Connexion {
                 $mdp = htmlspecialchars($_POST['mdp']);
                 $id = htmlspecialchars($_POST['id']);
 
+                // Appel du model
                 $model = new PortfolioModel();
+
+                // Appel de la méthode permettant de mettre à jour les infos de l'utilisateur
                 $model->majInfo($id, $nom, $prenom, $tel, $email, $mdp);
 
                 header('Location: index.php?action=compte');
         } else { 
-            header('Location: index.php?action=errormajinfo');
+            header('Location: index.php?action=majinfo&erreur=1');
         }
 
     }
 
+    // Méthode permettant de récupérer les informations de l'utilisateur
     public function affInfoUser($id) {
+
+        // Appel du model
         $model = new PortfolioModel();
+        // Assignation de la valeur retourner pas la méthode getInfoUser dans une variable
         $user = $model->getInfoUser($id);
         return $user;
     }
