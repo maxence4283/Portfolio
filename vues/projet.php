@@ -31,10 +31,10 @@
 
                             <a href="https://www.lesenfantsdarcenciel.ovh/" target="_blank" style="text-decoration:none"><div class="champagne font-weight-bold titreprojet" style="color:white"><?php echo $ligne['titre'];?></div></a><br>
 
-                            <button class="btn btn-light btn-block champagne font-weight-bold titreprojet" type="button" data-toggle="collapse" data-target=<?php echo "#".$ligne['data-target']; ?> aria-expanded="false" aria-controls="collapseExample">
+                            <button class="btn btn-light btn-block champagne font-weight-bold titreprojet" type="button" data-toggle="collapse" data-target=<?php echo "#".$ligne['datatarget']; ?> aria-expanded="false" aria-controls="collapseExample">
                               En Savoir Plus
                             </button>
-                            <div class="collapse champagne font-weight-bold texteprojet" id=<?php echo $ligne['data-target']; ?> >
+                            <div class="collapse champagne font-weight-bold texteprojet mt-2" id=<?php echo $ligne['datatarget']; ?> >
                               <div class="card card-body">
                                 <?php echo $ligne['texte']; ?>
                               </div>
@@ -49,7 +49,7 @@
                               <a href="#" class="btn btn-warning btn-block btn-lg active" role="button" aria-pressed="true">Modifier</a>
                           </div>
                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
-                              <a href="#" class="btn btn-danger btn-block btn-lg active" role="button" aria-pressed="true">Supprimer</a>
+                              <a href=<?php echo "index.php?action=supprimerprojet&idprojet=".$ligne['id']; ?> class="btn btn-danger btn-block btn-lg active" role="button" aria-pressed="true">Supprimer</a>
                           </div>
                         </div>
                       <?php                          

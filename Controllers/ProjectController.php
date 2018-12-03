@@ -26,4 +26,21 @@ class ProjectController {
 			header('Location: index.php?erreur=projet');
 		}
 	}
+
+	public function supprimerProject(){
+		if (isset($_GET['idprojet']) && !empty($_GET['idprojet'])){
+
+			$id = $_GET['idprojet'];
+
+			$model = new PortfolioModel();
+			$model->supprimerProject($id);
+
+			header('Location: index.php#projets');
+
+		} else {
+
+			header('Location: index.php?suprimmerprojet=erreur');
+
+		}
+	}
 }

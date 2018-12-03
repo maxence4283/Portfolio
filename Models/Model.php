@@ -68,13 +68,20 @@ class PortfolioModel {
 
 		public function ajoutProjet($titre, $texte, $img, $userid, $idimage, $datatarget){
 			$bdd = $this->getPdo();
-			$req = $bdd->prepare("INSERT INTO projects (titre, texte, img, user_id, idimage, data-target) VALUES (:titre, :texte, :img, :userid, :idimage, :datatarget)");
+			$req = $bdd->prepare("INSERT INTO projects (titre, texte, img, userid, idimage, datatarget) VALUES (:titre, :texte, :img, :userid, :idimage, :datatarget)");
 			$req->bindParam(':titre', $titre, PDO::PARAM_STR, 255);
 			$req->bindParam(':texte', $texte, PDO::PARAM_STR);
 			$req->bindParam(':img', $img, PDO::PARAM_STR, 255);
 			$req->bindParam(':userid', $userid, PDO::PARAM_INT);
 			$req->bindParam(':idimage', $idimage, PDO::PARAM_STR, 100);
 			$req->bindParam(':datatarget', $datatarget, PDO::PARAM_STR, 60);
+			$req->execute();
+		}
+
+		public function supprimerProject($id){
+			$bdd = $this->getPdo();
+			$req = $bdd->prepare("DELETE FROM projects WHERE id=:id");
+			$req->bindParam(':id', $id, PDO::PARAM_INT);
 			$req->execute();
 		}
 
