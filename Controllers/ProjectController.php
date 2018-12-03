@@ -64,13 +64,13 @@ class ProjectController {
 				$datatarget = $_POST['datatarget'];
 				$id = $_POST['idprojet'];
 
-		$model = new PortfolioModel();
-		$model->modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id);
+			$model = new PortfolioModel();
+			$model->modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id);
 
-		header('Location: index.php?#projets');
+			header('Location: index.php#projets');
 
 		} else {
-			header('Location : index.php?modifprojet=erreur');
+			header('Location: index.php?modifprojet=erreur');
 		}
 	}
 }

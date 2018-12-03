@@ -29,7 +29,7 @@
 
                         <div class="card-body rounded" style="background-color: #555b61">
 
-                            <a href="https://www.lesenfantsdarcenciel.ovh/" target="_blank" style="text-decoration:none"><div class="champagne font-weight-bold titreprojet" style="color:white"><?php echo $ligne['titre'];?></div></a><br>
+                            <div class="champagne font-weight-bold titreprojet" style="color:white"><?php echo $ligne['titre'];?></div><br>
 
                             <button class="btn btn-light btn-block champagne font-weight-bold titreprojet" type="button" data-toggle="collapse" data-target=<?php echo "#".$ligne['datatarget']; ?> aria-expanded="false" aria-controls="collapseExample">
                               En Savoir Plus
@@ -67,7 +67,7 @@
               }
               if (isset($_SESSION['role_id']) && !empty($_SESSION['role_id'])) {
                           if ($_SESSION['role_id'] == 1 ){
-                            if ($_GET['modifprojet'] == 1 ) {
+                            if (isset($_GET['modifprojet'])) {
                               if (!empty($_GET['idprojet'])) {
                                 $id = $_GET['idprojet'];
 
@@ -102,7 +102,10 @@
                   <textarea name="description" class="form-control" id="texteid" rows="3"><?php echo $lignes['texte']; ?></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="hidden" name="idprojet" class="form-control" id="userid" value=<?php echo $lignes['id'];?>>
+                    <input type="hidden" name="idprojet" class="form-control" id="projetid" value=<?php echo $lignes['id'];?>>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" name="userid" class="form-control" id="useridsss" value=<?php echo $lignes['userid'];?>>
                 </div>
 
                 <button type="submit" class="btn btn-secondary btn-lg btn-block">Valider</button>
