@@ -18,6 +18,17 @@
                       Veuillez remplir tout les champs.
                     </div>
                 <?php
+                        } else if ($_GET['erreur'] == 2 ){
+                ?>
+
+                    <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                      Les deux mots de passes que vous avez rentrés ne correspondent pas.
+                    </div>
+
+                <?php
                         }
                     }
                 ?>
@@ -49,6 +60,9 @@
                             </div><br>
                             <div class="form-group">
                                 <input type="password" class="form-control" name="mdp" id="mdpid" placeholder="Mot de passe" required="required">
+                            </div><br>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="mdpconfirm" id="mdpconfirmid" placeholder="Retaper votre de passe" required="required">
                             </div><br>
                             <div class="form-group">
                                 <input type="hidden" class="form-control" name="role_id" id="role_idid" value="2" required="required">

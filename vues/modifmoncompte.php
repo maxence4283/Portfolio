@@ -59,10 +59,6 @@
                         <input type="text" class="form-control" id="emailid" name="email" value=<?php echo $user['email']; ?>>
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Mot de passe</label>
-                        <input type="password" class="form-control" id="mdpid" name="mdp" value=<?php echo $user['mdp']; ?>>
-                      </div>
-                      <div class="form-group">
                         <input type="hidden" class="form-control" id="ididid" name="id" value=<?php echo $_SESSION['id']; ?>>
                       </div>
                       <button type="submit" class="btn btn-secondary">Mettre à jour</button>

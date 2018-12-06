@@ -83,19 +83,18 @@ class PortfolioModel {
 
 
 		// Déclaration de la méthode majInfo
-		public function majInfo($id, $nom, $prenom, $tel, $email, $mdp) {
+		public function majInfo($id, $nom, $prenom, $tel, $email) {
 			// Appel de la méthode getPdo permettant la connexion à la bdd
 			$bdd = $this->getPdo();
 			// Stockage de la requête dans une variable 
 			$req = $bdd->prepare("UPDATE users 
-									SET nom = :nom ,prenom = :prenom, tel = :tel, email = :email, mdp = :mdp
+									SET nom = :nom ,prenom = :prenom, tel = :tel, email = :email
 									WHERE id = :id");
 			// Assignation des differents paramètre de la requête
 			$req->bindParam(':nom', $nom, PDO::PARAM_STR, 100);
 			$req->bindParam(':prenom', $prenom, PDO::PARAM_STR, 100);
 			$req->bindParam(':tel', $tel, PDO::PARAM_STR, 10);
 			$req->bindParam(':email', $email, PDO::PARAM_STR, 60);
-			$req->bindParam(':mdp', $mdp, PDO::PARAM_STR, 255);
 			$req->bindParam(':id', $id, PDO::PARAM_INT);
 			// Exécution de la requête
 			$req->execute();
