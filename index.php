@@ -8,7 +8,6 @@ session_start();
 require_once 'Models/Model.php';
 require_once 'Controllers/UserController.php';
 require_once 'Controllers/ProjectController.php';
-include 'vues/header.php';
 
     // Gestion des différents lien permettant de faire l'intéraction entre la vue et le controller
     if(isset($_GET['action'])){
@@ -46,6 +45,9 @@ include 'vues/header.php';
                     } else {
                        header('Location: index.php');
                     }
+            break;
+            case 'veilles' :
+                include("vues/veilles.php"); 
             break;
             // Action permettant de se déconnecter
             case 'deconnexion' :
@@ -88,22 +90,11 @@ include 'vues/header.php';
              echo 'Aucune requête ne correspond à votre demande..';
             break;
         }
+
     } else {
-// Appel de tout les fichiers du OnePage.
-include("vues/nav.php");
+        include ('vues/onepage.php');
+    }
 
-include("vues/presentation.php");
+    include ('vues/template.php');
 
-include("vues/competence.php");
-
-include("vues/projet.php");
-
-include("vues/cv.php");
-
-include("vues/contact.php");
-
-include("vues/footerbar.php");
-
-include("vues/footer.php");
-}
 ?>

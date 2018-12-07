@@ -14,27 +14,31 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item ">
-                        <a class="nav-link" href="#haut">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php#haut">Accueil <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#Presentation">Présentation</a>
+                        <a class="nav-link" href="index.php#Presentation">Présentation</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#Competence">Compétences</a>
+                        <a class="nav-link" href="index.php#Competence">Compétences</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#projets">Projets</a>
+                        <a class="nav-link" href="index.php#projets">Projets</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#Cv">CV</a>
+                        <a class="nav-link" href="index.php#Cv">CV</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="index.php#contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?action=veilles">Veilles technologiques</a>
                     </li>
 
                     <?php
@@ -47,18 +51,14 @@
                         <a class="nav-link" href="index.php?action=deconnexion">Déconnexion</a>
                     </li>
                     <?php
-                        } else {
+                         }
                     ?>
-                    <li class="nav-item" >
+                    <!-- <li class="nav-item" >
                         <a class="nav-link" href="index.php?action=connexion">Connexion</a>
                     </li>
                     <li class="nav-itemk" >
                         <a class="nav-link" href="index.php?action=inscription">Inscription</a>
-                    </li>
-                    <?php
-                        }
-                    ?>
-
+                    </li> -->
                 </ul>
             </div>
         </nav>

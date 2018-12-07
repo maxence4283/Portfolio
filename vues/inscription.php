@@ -1,42 +1,36 @@
+<?php ob_start(); ?>
 <div id="Cv">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 " style="background-color: white">
-
-                <p class="text-center funsized pt-2 titre">
-                    Inscription
-                </p>
-            <!-- Gestion des alerts -->
-                <?php
-                    if (!empty($_GET['erreur']) && isset($_GET['erreur'])) {
-                        if ($_GET['erreur'] == 1 ) {
-                ?>
-                    <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                      Veuillez remplir tout les champs.
-                    </div>
-                <?php
-                        } else if ($_GET['erreur'] == 2 ){
-                ?>
-
-                    <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                      Les deux mots de passes que vous avez rentrés ne correspondent pas.
-                    </div>
-
-                <?php
-                        }
-                    }
-                ?>
-                <!-- Fin des alerts -->
-
-            </div>
 
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 offset-xl-4">
+                    <!-- Gestion des alerts -->
+                    <?php
+                        if (!empty($_GET['erreur']) && isset($_GET['erreur'])) {
+                            if ($_GET['erreur'] == 1 ) {
+                    ?>
+                        <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                          Veuillez remplir tout les champs.
+                        </div>
+                    <?php
+                            } else if ($_GET['erreur'] == 2 ){
+                    ?>
+
+                        <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                          Les deux mots de passes que vous avez rentrés ne correspondent pas.
+                        </div>
+
+                    <?php
+                            }
+                        }
+                    ?>
+                    <!-- Fin des alerts -->
                 <div class="shadow-lg rounded p-2 bg-light mt-5 text-center">
 
                     <img src="Public/img/nmco.jpg" alt="imgco" style="max-width: 30%" class="rounded-circle border border-dark">
@@ -85,3 +79,5 @@
         </div>
     </div>
 </div>
+
+<?php $content = ob_get_clean();?>

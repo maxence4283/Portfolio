@@ -1,3 +1,4 @@
+<?php ob_start(); ?> 
 <div id="Cv">
     <div class="container-fluid">
         <div class="row">
@@ -91,3 +92,5 @@
         </div>
     </div>
 </div>
+
+<?php $content = ob_get_clean(); ?>
