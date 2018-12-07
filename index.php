@@ -17,6 +17,7 @@ require_once 'Controllers/ProjectController.php';
                     if (isset($_SESSION['connecte'])){
                         header('Location: index.php');
                     } else {
+                        $titre = 'Connexion';
                         include("vues/connexion.php");
                     }
                 break;
@@ -25,12 +26,14 @@ require_once 'Controllers/ProjectController.php';
                 if (isset($_SESSION['connecte'])){
                         header('Location: index.php');
                     } else {
+                        $titre = 'Inscription';
                        include("vues/inscription.php"); 
                     }
             break;
             // Appel de la page de gestion du compte
             case 'compte' :
                 if (!empty($_SESSION['connecte'])){
+                        $titre = 'Mon compte';
                         include("vues/moncompte.php"); 
                         
                     } else {
@@ -40,6 +43,7 @@ require_once 'Controllers/ProjectController.php';
             // Appel de la page permettant de modifier les informations du compte
             case 'majinfo' :
                 if (!empty($_SESSION['connecte'])){
+                        $titre = 'Mon compte';
                         include("vues/modifmoncompte.php"); 
                         
                     } else {
@@ -47,6 +51,7 @@ require_once 'Controllers/ProjectController.php';
                     }
             break;
             case 'veilles' :
+                $titre = 'Veilles technologiques';
                 include("vues/veilles.php"); 
             break;
             // Action permettant de se déconnecter

@@ -15,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://nmaxence.fr/Public/js/bootstrap.js"></script>
 
-    <title>Maxence NICOLE</title>
+    <title><?php echo $titre;?></title>
 
   </head>
       <body data-spy="scroll" data-target=".navbar" data-offset="50">
