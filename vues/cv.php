@@ -3,15 +3,15 @@
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 titre" style="background-color: white">
 
-                <p class="text-center funsized pt-2">
+                <p class="text-center funsized">
                     Mon CV
                 </p>
 
             </div>
 
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="background-color: #B7BDBF">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
 
-                <div class="col-12 col-xs12 col-sm-12 col-md-12  offset-xl-3 col-xl-6 col-lg-12 mt-4 mb-5">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12  offset-xl-3 col-xl-6 col-lg-12 mt-4 mb-5">
 
                   <div class="shadow-lg p-1 mb-5 rounded border2 border-light2" style="background-color: #555b61; margin-left: 1.5%">
 

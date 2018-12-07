@@ -2,6 +2,8 @@
 	ob_start();
 
 	$titre = 'Maxence NICOLE';
+	
+	include ('vues/head.php');
 
 	include("vues/presentation.php");
 

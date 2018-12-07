@@ -1,4 +1,4 @@
-<div id="nav" class="container-fluid sticky-top border-bottom2" style="background-color: white; margin-bottom: 4%">
+<div id="nav" class="container-fluid sticky-top border-bottom2" style="background-color: white;">
     <div  class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
         <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light2">
 

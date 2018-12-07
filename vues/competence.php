@@ -8,7 +8,7 @@
             </p>
 
         </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pb-4 pt-4" style="background-color: #B7BDBF">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 pb-4 pt-4">
                 <div class="row  mb-5">
 
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 champagne font-weight-bold pl-4 pr-4 mb-3 textecompetence">

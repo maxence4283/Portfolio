@@ -264,7 +264,22 @@ a#cRetour.cVisible{
 }
 
 .border-dev {
-  border: 3px solid #555b61 !important;
+  border: 3px solid white !important;
+}
+
+.bg-img {
+  background-image: url('../img/bghead2.jpg'); 
+  background-size: 100% 50vw; 
+  height: 50vw;
+}
+
+.titrewebdev {
+  font-size:6vw;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
 }
 
 .progress-barcompetence {
@@ -293,10 +308,6 @@ a#cRetour.cVisible{
 
 .titre {
   font-size : 5vw;
-}
-
-.titrewebdev {
-  font-size:6vw;
 }
 
 .textepresentation {
@@ -344,7 +355,8 @@ a#cRetour.cVisible{
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media screen and (max-width: 992px) {
