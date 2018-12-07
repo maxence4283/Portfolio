@@ -12,22 +12,31 @@
             <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 mb-5">
               <div class="row">
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4 champagne font-weight-bold" >
-                  <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+                  <div class="shadow-lg rounded bg-light p-2">
 
-                  <img class="img-fluid" src="Public/img/location.png" alt="location"> 8 avenue de la libération<br>
-                  <div style="margin-left: 13%">43120<br>
-                  Monistrol-Sur-Loire</div><br>
-                  
+                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
 
-                  </div>
-                  <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 mt-4">
+                      <p> <i class="fas fa-map-marker-alt"></i> 8 avenue de la libération <br>
+                        43120<br>
+                      Monistrol-Sur-Loire </p>
+                    
+                    </div>
+                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
 
-                  <img class="img-fluid" src="Public/img/call.png" alt="tel"> +33 6 72 66 87 37 
-                  
+                      <p> <i class="fas fa-mobile-alt"></i> +33 6 72 66 87 37 </p>
+                    
+                    </div>
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+
+                      <p> <i class="far fa-envelope"></i> maxencen.contact@gmail.com </p>
+                    
+                    </div>
+
                   </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-6 col-lg-6 text-center mt-4">
-                 <form action="Function/mail.php" method="post" class="needs-validation" data-form-title="CONTACT US">
+                 <form action="index.php?action=mail" method="post" class="needs-validation" data-form-title="CONTACT US">
 
                     <div class="input-group">
                             <div class="input-group-prepend">
@@ -91,11 +100,7 @@
                     </form>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4  champagne font-weight-bold">
-                   <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
 
-                      <img class="img-fluid mb-4" src="Public/img/arroba.png" alt="mail"> maxencen.contact@gmail.com
-
-                  </div>
                 </div>
               </div>
             </div>

@@ -71,6 +71,10 @@ require_once 'Controllers/ProjectController.php';
                 $controller = new Connexion();
                 $controller->majInfo();
             break;
+            case 'email' :
+                $controller = new ContactController();
+                $controller->mail();
+            break;
             // Action permettant d'ajouter un projet
             case 'ajoutprojet':
                 $controller = new ProjectController();
