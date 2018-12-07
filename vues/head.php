@@ -61,10 +61,11 @@
         <div class="row">
                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-dev bg-img">
 
-                    <div class="titrewebdev">
-                        <p class="text-center champagne font-weight-bold " style=" font-size: 6vw; color:white; margin-top: 10%">
+                    <div class="">
+                        <p class="text-center champagne font-weight-bold titrewebdev" style=" color:white; margin-top: 10%">
                             < Maxence NICOLE /> <br>
-                            Web Developer
+                            Web Developer<br><br>
+                            <i class="far fa-arrow-alt-circle-down"></i>
                         </p>
                     </div>
 

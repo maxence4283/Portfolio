@@ -360,6 +360,11 @@ a#cRetour.cVisible{
 }
 
 @media screen and (max-width: 992px) {
+  .bg-img {
+  background-image: url('../img/bghead2.jpg'); 
+  background-size: auto 140vw; 
+  height: 140vw;
+  }
   .dispositionprojet {
     padding-right: 0rem;
     padding-left: 0rem;
@@ -385,7 +390,7 @@ a#cRetour.cVisible{
     font-size: 10vw;
   }
   .titrewebdev {
-    font-size: 14vw;
+    font-size: 8vw;
   }
   .textepresentation {
     font-size: 100%;
