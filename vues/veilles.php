@@ -10,10 +10,9 @@
                         <div class="card" style="width: 100%;">
                           <img class="card-img-top" src="Public/img/refgoogle.png" alt="Card image cap">
                           <div class="card-body">
-                            <h5 class="card-title champagne font-weight-bold titreprojet">Le Référencement Google</h5>
+                            <a href="index.php?action=referencement" style="color:black" class="card-title champagne font-weight-bold titreprojet">Le Référencement Web</a>
                             <hr>
-                            <p class="card-text">Dans cette veilles technologique, je vais vous présenter tout ce que j'ai pu apprendre sur le référencement Google durant mes différents projets... Rédaction en cours, disponible prochainement.</p>
-                            <a href="#" class="btn btn-secondary">En savoir plus</a>
+                            <p class="card-text">Dans cette veilles technologique, je vais vous présenter tout ce que j'ai pu apprendre sur le référencement Web durant mes différents projets.</p>
                           </div>
                         </div>
 
@@ -33,7 +32,6 @@
                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <a href="#" class="btn btn-secondary">En savoir plus</a>
                           </div>
                         </div>
 

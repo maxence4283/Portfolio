@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>https://www.nmaxence.fr/index.php</loc>
-    <lastmod>2018-11-01</lastmod>
+    <lastmod>2018-12-09</lastmod>
+    <loc>https://www.nmaxence.fr/index.php?action=veilles</loc>
+    <lastmod>2018-12-09</lastmod>
+    <loc>https://www.nmaxence.fr/index.php?action=referencement</loc>
+    <lastmod>2018-12-09</lastmod>
   </url>
 </urlset>

@@ -5,7 +5,7 @@
             if (!empty($_GET['success']) && isset($_GET['success'])) {
                 if ($_GET['success'] == 2 ) {
         ?>
-            <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert" style="margin-top: -3%">
+            <div class="alert alert-danger alert-dismissible fade show champagne font-weight-bold" role="alert">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -14,7 +14,7 @@
         <?php
                 } elseif ($_GET['success'] == 1 ) {
         ?>
-            <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert" style="margin-top: -3%">
+            <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -23,7 +23,7 @@
         <?php
                 } elseif ($_GET['success'] == 3 ) {
         ?>
-                <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert" style="margin-top: -3%">
+                <div class="alert alert-success alert-dismissible fade show champagne font-weight-bold" role="alert">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
@@ -35,7 +35,7 @@
 
             if (isset($_GET['coreussi']) && $_GET['coreussi'] == 1) {
         ?>
-            <div class="alert alert-success alert-dismissible fade show" style="margin-top: -3%" role="alert">
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
                Bonjour <?php echo $_SESSION['prenom']." ".$_SESSION['nom'] ?>.
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -46,7 +46,7 @@
 
             if (isset($_GET['inscriptionreussi']) && $_GET['inscriptionreussi'] == 1) {
         ?>
-            <div class="alert alert-success alert-dismissible fade show" style="margin-top: -3%" role="alert">
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
                Inscription réussie !
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -64,7 +64,7 @@
                     <div class="">
                         <p class="text-center champagne font-weight-bold titrewebdev" style=" color:white; margin-top: 10%">
                             < Maxence NICOLE /> <br>
-                            Web Developer<br><br>
+                            Développeur Web<br><br>
                             <i class="far fa-arrow-alt-circle-down"></i>
                         </p>
                     </div>

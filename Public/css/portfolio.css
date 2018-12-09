@@ -359,7 +359,14 @@ a#cRetour.cVisible{
   padding-bottom: 3rem;
 }
 
+.texteveilles{
+  font-size: 1.4vw;
+}
+
 @media screen and (max-width: 992px) {
+  .texteveilles{
+  font-size: 110%;
+}
   .bg-img {
   background-image: url('../img/bghead2.jpg'); 
   background-size: auto 140vw; 

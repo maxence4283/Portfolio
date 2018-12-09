@@ -8,6 +8,7 @@ session_start();
 require_once 'Models/Model.php';
 require_once 'Controllers/UserController.php';
 require_once 'Controllers/ProjectController.php';
+require_once 'Controllers/ContactController.php';
 
     // Gestion des différents lien permettant de faire l'intéraction entre la vue et le controller
     if(isset($_GET['action'])){
@@ -54,6 +55,10 @@ require_once 'Controllers/ProjectController.php';
                 $titre = 'Veilles technologiques';
                 include("vues/veilles.php"); 
             break;
+            case 'referencement' :
+                $titre = 'Référencement Google';
+                include("vues/veillereferencement.php"); 
+            break;
             // Action permettant de se déconnecter
             case 'deconnexion' :
                 // Appel du controller Connexion
@@ -71,7 +76,7 @@ require_once 'Controllers/ProjectController.php';
                 $controller = new Connexion();
                 $controller->majInfo();
             break;
-            case 'email' :
+            case 'mail' :
                 $controller = new ContactController();
                 $controller->mail();
             break;
