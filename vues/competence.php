@@ -16,16 +16,16 @@
                             <div class="row">
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
                                     <p class="text-center">SQL</p>
-                                   <p style="margin-bottom: 7vw">Je suis passionné par les bases de données et tout ce qui les entoures et notamment le langage SQL que je maîtrise pratiquement à 100% seule quelque notions me sont à apprendre.</p>
+                                   <p style="margin-bottom: 7vw">Je suis passionné par les bases de données dans toutes leurs globalités et notamment le langage SQL que je maîtrise pratiquement à 100% seule quelque notions me sont à apprendre.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">HTML/CSS (BOOTSTRAP)</p>
-                                    <p>En ce qui concerne le HTML je n'ai absolument aucun soucis et pour le CSS de nombreuses compétences me sont acquise notamment avec le framework BOOTSTRAP que je pratique beaucoup.</p>
+                                    <p>En ce qui concerne le HTML je le maîtrise en grande partie et pour le CSS de nombreuses compétences me sont acquises notamment avec le framework BOOTSTRAP que je pratique beaucoup.</p>
                                 </div>
 
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">PHP</p>
-                                    <p style="margin-bottom: 5vw">Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquise.
+                                    <p style="margin-bottom: 5vw">Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquises.
                                     La programmation orientée objet et le modèle MVC sont partiellement acquis, ce site est développé en MVC.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">GIT/GITHUB</p>
-                                    <p>J'ai beaucoup utilisé git avec l'outil en ligne GITHUB afin de gérer le versionning de mon code, notemment pour ce site.</p>
+                                    <p>J'ai beaucoup utilisé GIT avec l'outil en ligne GITHUB afin de gérer le versionning de mon code, notamment pour ce site.</p>
                                 </div>
                             </div>
                           

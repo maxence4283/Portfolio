@@ -86,7 +86,7 @@
                 <div class="form-group">
                   <label class="lead" for="img">Image</label>
                     <input type="text" name="image" class="form-control" id="img" aria-describedby="imgHelp" value=<?php echo $lignes['img']; ?>>
-                        <small id="imgHelp" class="form-text text-muted">Une fois avoir prélablement insérée l'image dans le dossier présent sur le serveur : Public/img, veuillez rentrer le nom de celle ci ici.</small>
+                        <small id="imgHelp" class="form-text text-muted">Une fois avoir préalablement insérée l'image dans le dossier présent sur le serveur : Public/img, veuillez rentrer le nom de celle ci ici.</small>
                 </div>
                 <div class="form-group">
                   <label class="lead" for="idimg">ID de l'image</label>
@@ -130,7 +130,7 @@
                 <div class="form-group">
                   <label class="lead" for="img">Image</label>
                     <input type="text" name="image" class="form-control" id="img" aria-describedby="imgHelp"  placeholder="Entrer le nom de l'image">
-                        <small id="imgHelp" class="form-text text-muted">Une fois avoir prélablement insérée l'image dans le dossier présent sur le serveur : Public/img, veuillez rentrer le nom de celle ci ici.</small>
+                        <small id="imgHelp" class="form-text text-muted">Une fois avoir préalablement insérée l'image dans le dossier présent sur le serveur : Public/img, veuillez rentrer le nom de celle ci ici.</small>
                 </div>
                 <div class="form-group">
                   <label class="lead" for="idimg">ID de l'image</label>
