@@ -64,9 +64,13 @@
                     <div class="">
                         <p class="text-center champagne font-weight-bold titrewebdev" style=" color:white; margin-top: 10%">
                             < Maxence NICOLE /> <br>
-                            Développeur Web<br><br>
-                            <a style="color:white" href="#présentation"><i class="far fa-arrow-alt-circle-down"></i></a>
+                            Développeur Web<br>
                         </p>
+
+                        <div class="text-center">
+                         <a class="champagne font-weight-bold titrewebdev" style="color:white;" href="#présentation"><i class="far fa-arrow-alt-circle-down"></i></a>
+                        </div>
+
                     </div>
 
                 </div>

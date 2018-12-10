@@ -9,7 +9,7 @@ require_once 'Models/Model.php';
 require_once 'Controllers/UserController.php';
 require_once 'Controllers/ProjectController.php';
 require_once 'Controllers/ContactController.php';
-
+    
     // Gestion des différents lien permettant de faire l'intéraction entre la vue et le controller
     if(isset($_GET['action'])){
         switch ($_GET['action']) {
