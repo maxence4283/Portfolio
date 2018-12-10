@@ -18,7 +18,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php#Presentation">Présentation</a>
+                        <a class="nav-link" href="index.php#présentation">Présentation</a>
                     </li>
 
                     <li class="nav-item">

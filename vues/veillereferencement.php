@@ -13,18 +13,47 @@ ob_start();
 								Sommaire<br>
 							</p>
 
-							<p class="ml-4 h4 mt-4 text-center">
-								I/ Les balises META <br><br>
-								II/ L'organisation du code <br><br>
-								III/ Contenu <br><br>
-								IV/ Google + <br><br>
-								V/ Google Search Console <br><br>
-								VI/ Le sitemap <br><br>
-								VII/ Lien vers votre site <br><br>
-								VIII/ Référencement naturel <br><br>
-								IX/ Normes W3C<br><br>
-								X/ Le responsive design <br><br>
-							</p>
+							<ul class="h4 mt-4">
+								<li style="list-style:none">
+									<a href="#I" style="text-decoration: none; color:#272b2f;">I/ Les balises META</a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#II" style="text-decoration: none; color:#272b2f;">II/ L'organisation du code </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#III" style="text-decoration: none; color:#272b2f;">III/ Contenu </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#IV" style="text-decoration: none; color:#272b2f;">IV/ Google + </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#V" style="text-decoration: none; color:#272b2f;">V/ Google Search Console </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#VI" style="text-decoration: none; color:#272b2f;">VI/ Le sitemap </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#VII" style="text-decoration: none; color:#272b2f;">VII/ Lien vers votre site </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#VIII" style="text-decoration: none; color:#272b2f;">VIII/ Référencement naturel </a> <br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#IX" style="text-decoration: none; color:#272b2f;">IX/ Normes W3C </a><br><br>
+								</li>
+
+								<li style="list-style:none">
+									<a href="#X" style="text-decoration: none; color:#272b2f;">X/ Le responsive design </a> <br><br>
+								</il>
+							</ul>
 						</div>
 					</div><br><br>
 

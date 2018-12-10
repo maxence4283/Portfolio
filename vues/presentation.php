@@ -1,4 +1,4 @@
-<div id="présentation"> 
+<div id="présentation">
     <div class="container-fluid">           
         <div class="row">
                 <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center border-bottom2 pb-1 titre" style="background-color: white">
