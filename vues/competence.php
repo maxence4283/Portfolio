@@ -35,7 +35,7 @@
 
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: #555b61; color:white">
                                     <p class="text-center">JAVA</p>
-                                    <p style="margin-bottom: 11vw">JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.</p>
+                                    <p style="margin-bottom: 15vw">JAVA à été vue en première année avec la pratique du JAVA de base et du JAVA en programmation orientée objet.</p>
                                 </div>
                                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 col-lg-6 p-2" style="background-color: white;">
                                     <p class="text-center">GIT/GITHUB</p>
@@ -51,7 +51,7 @@
 
                             <p class="textecompetence2" style="color:#555b61">
                                 <i class="fas fa-database iconecompetence"></i> SQL</p>
-                                <div class="progresscompetence mb-3">
+                                <div class="progresscompetence">
                                     <div class="progress-barcompetence" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div><br>
 
@@ -64,7 +64,19 @@
                                 <i class="fab fa-css3-alt ml-4 iconecompetence"></i> CSS3 (BOOSTRAP)
 
                             </p>
-                                <div class="progresscompetence mb-3">
+                                <div class="progresscompetence">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+
+                        </div>
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
+
+                            <p class="textecompetence2" style="color:#555b61">
+                                <i class="fab fa-wordpress-simple iconecompetence"></i> WORDPRESS
+
+                            </p>
+                                <div class="progresscompetence">
                                     <div class="progress-barcompetence" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div><br>
 
@@ -78,7 +90,7 @@
 
                                     PHP
                             </p>
-                                <div class="progresscompetence mb-3">
+                                <div class="progresscompetence">
                                     <div class="progress-barcompetence" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div><br>
 
@@ -93,7 +105,7 @@
 
                             </p>
 
-                                <div class="progresscompetence mb-3">
+                                <div class="progresscompetence">
                                     <div class="progress-barcompetence" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div><br>
 
@@ -102,7 +114,7 @@
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
 
                             <p class="textecompetence2" style="color:#555b61"><i class="fab fa-laravel iconecompetence"></i> LARAVEL</p>
-                                <div class="progresscompetence mb-3">
+                                <div class="progresscompetence">
                                     <div class="progress-barcompetence" role="progressbar" style="width: 45%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div><br>
 
