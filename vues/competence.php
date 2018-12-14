@@ -73,18 +73,6 @@
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
 
                             <p class="textecompetence2" style="color:#555b61">
-                                <i class="fab fa-wordpress-simple iconecompetence"></i> WORDPRESS
-
-                            </p>
-                                <div class="progresscompetence">
-                                    <div class="progress-barcompetence" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div><br>
-
-                        </div>
-
-                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
-
-                            <p class="textecompetence2" style="color:#555b61">
 
                                 <i class="fab fa-php iconecompetence"></i> 
 
@@ -106,7 +94,19 @@
                             </p>
 
                                 <div class="progresscompetence">
-                                    <div class="progress-barcompetence" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+
+                        </div>
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2 shadow-lg" style="background-color:white">
+
+                            <p class="textecompetence2" style="color:#555b61">
+                                <i class="fab fa-wordpress-simple iconecompetence"></i> WORDPRESS
+
+                            </p>
+                                <div class="progresscompetence">
+                                    <div class="progress-barcompetence" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div><br>
 
                         </div>
