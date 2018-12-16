@@ -5,7 +5,6 @@ ob_start();
 session_start();
 
 // Appel des fichiers Models et Controllers
-require_once 'Models/Model.php';
 require_once 'Controllers/UserController.php';
 require_once 'Controllers/ProjectController.php';
 require_once 'Controllers/ContactController.php';

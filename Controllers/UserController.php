@@ -1,4 +1,7 @@
 <?php
+// Nous faisons appel au model correspondant au utilisateurs
+require_once 'Models/UserModel.php';
+
 // Les controllers permettent d'intéragir avec la vue et le model (La vue appel le controller qui lui appel le model)
 // Déclaration de la class Controller gérant le rapport au utilisateur
 class Connexion {
@@ -18,7 +21,7 @@ class Connexion {
                 $hashmdpfinal = $hashemail."0".$hashmdp;
 
                 // On fait appel au model principal
-                $model = new PortfolioModel();
+                $model = new UserModel();
                 // On fait appel a la méthode getUser
                 $user = $model->getUser($email, $hashmdpfinal);
                 // On rentre les données renvoyé par la méthode dans une variable
@@ -86,7 +89,7 @@ class Connexion {
 
 
                 // Appel du model
-                $model = new PortfolioModel();
+                $model = new UserModel();
                 // Execution de la méthode insertUser
                 $model->insertUser($nom, $prenom, $tel, $email, $hashmdpfinal, $role_id);
 
@@ -115,7 +118,7 @@ class Connexion {
                 $id = htmlspecialchars($_POST['id']);
 
                 // Appel du model
-                $model = new PortfolioModel();
+                $model = new UserModel();
 
                 // Appel de la méthode permettant de mettre à jour les infos de l'utilisateur
                 $model->majInfo($id, $nom, $prenom, $tel, $email);
@@ -131,7 +134,7 @@ class Connexion {
     public function affInfoUser($id) {
 
         // Appel du model
-        $model = new PortfolioModel();
+        $model = new UserModel();
         // Assignation de la valeur retourner pas la méthode getInfoUser dans une variable
         $user = $model->getInfoUser($id);
         return $user;

@@ -1,16 +1,20 @@
 <?php 
-
+// Déclaration de la classe concernant l'envoie de mail
 class ContactController {
 	
+	// Fonction permettant d'envoyer un mail via le serveur SMTP (simple mail transfert protocole)
 	public function mail() {
 
+		// Si tout les champs du formulaire de contact sont bien remplis alors
 		if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['object']) && !empty($_POST['object']) && isset($_POST['contenue']) && !empty($_POST['contenue'])) {
 
+			// Déclaration des différentes variable 
 			 $nom=$_POST['nom'];
 			 $email = $_POST['mail'];
 			 $object = $_POST['object'];
 			 $contenue = $_POST['contenue'];
 
+			 	// Construction du mail au format HTML
 			   $to    = "maxencenicole@nmaxence.fr";
 			   $JOUR  = date("Y-m-d");
 			   $HEURE = date("H:i");
@@ -38,16 +42,19 @@ class ContactController {
 			   $CR_Mail = TRUE;
 			   $CR_Mail = @mail ($to, $Subject, $mail_Data, $headers);
 
+			   // Si le mail ne s'est pas envoyé alors
 			   if ($CR_Mail === FALSE) {
 
 			      header("Location: ../?success=2");
 
+			      // Sinon
 			      } else {
 			      	
 			      header("Location: ../?success=1");
 
 			      }
 
+			    // Si tout les champs ne sont pas remplis
 				} else {
 				   header("Location: ../?error=1");
 				}

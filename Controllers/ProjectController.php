@@ -1,4 +1,6 @@
 <?php
+// Nous faison appel au model correspondant aux projets
+require_once 'Models/ProjectModel.php';
 // Les controllers permettent d'intéragir avec la vue et le model (La vue appel le controller qui lui appel le model)
 // Déclaration de la class Controller gérant le rapport au projets
 class ProjectController {
@@ -6,7 +8,7 @@ class ProjectController {
 	// Déclaration de la méthode permettant d'afficher la list des projets 
 	public function listProjects(){
 		// Appel du model
-		$model = new PortfolioModel();
+		$model = new ProjectModel();
 		// Appel de la méthode getProjects du model
 		$lignes = $model->getProjects();
 		// Retourne les différentes info concernant les projets 
@@ -48,7 +50,7 @@ class ProjectController {
 			$id = $_GET['idprojet'];
 
 			// Appel du model
-			$model = new PortfolioModel();
+			$model = new ProjectModel();
 			// Exécution de la méthode supprimerProject
 			$model->supprimerProject($id);
 
@@ -65,7 +67,7 @@ class ProjectController {
 	public function getUnProject($id){
 
 			// Appel du model
-			$model = new PortfolioModel();
+			$model = new ProjectModel();
 			// Appel de la méthode getUnProject du model
 			$lignes = $model->getUnProject($id);
 
@@ -88,7 +90,7 @@ class ProjectController {
 				$id = $_POST['idprojet'];
 
 			// Appel du model
-			$model = new PortfolioModel();
+			$model = new ProjectModel();
 			// Exécution de la méthode modifierProjet
 			$model->modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id);
 

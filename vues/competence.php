@@ -25,7 +25,7 @@
                                 <div class="p-2" style="background-color: white;">
                                     <p class="text-center">PHP</p>
                                     <p style="margin-bottom: 3.75vw">Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquises.
-                                    La programmation orientée objet et le modèle MVC sont partiellement acquis, ce site est développé en MVC.</p>
+                                    La programmation orientée objet et le modèle MVC sont en grandes parties acquis, ce site est développé en MVC et POO.</p>
                                 </div>
                                 <div class="p-2" style="background-color: #555b61; color:white">
                                     <p class="text-center">LARAVEL</p>
