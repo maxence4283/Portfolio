@@ -7,7 +7,7 @@
     <meta name="keywords" content="Portfolio, port-folio, port, folio, maxence, nicole, Maxence, NICOLE, Monistrol sur loire, saint-etienne, saint-priest-en-jarez, 20, ans, Lycée, Simone, Weil, Lycée Simone Weil, Etudiant, étudiant, BTS, sio, informatique, developpement web, developpement, web.">
     <link rel="canonical" href="https://www.nmaxence.fr/" />
     <meta name="author" content="NICOLE Maxence">
-    <link rel="shortcut icon" href="https://nmaxence.fr/Public/img/NM2.png">
+    <link rel="shortcut icon" href="https://nmaxence.fr/Public/img/5.png">
 
     <link rel="stylesheet" href="Public/css/portfolio.css">
     <link rel="stylesheet" href="Public/css/bootstrap.css">
