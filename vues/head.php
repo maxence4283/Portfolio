@@ -59,7 +59,7 @@
         
 
         <div class="row">
-                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="height: 50vw;">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 taillehead">
 
                     <div class="text-center">
                         <p class="champagne font-weight-bold titrewebdev" style=" color:white; margin-top: 10%">
@@ -68,8 +68,8 @@
 
                         <small class="champagne font-weight-bold" style="color:white"> "Le succès est un mauvais professeur. Il pousse les gens intelligents à croire qu’ils sont infaillibles." </small>
 
-                        <div class="text-center">
-                         <a class="champagne font-weight-bold titrewebdev" style="color:white;" href="#présentation"><i class="far fa-arrow-alt-circle-down"></i></a>
+                        <div class="text-center dispositionlogohead">
+                         <a class="logohead" style="color:white;" href="#présentation"><i class="fas fa-arrow-down"></i></a>
                         </div>
 
                     </div>

@@ -2,13 +2,18 @@
     <div  class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
         <nav id="navigation" class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand display-4 funsized" href="index.php#haut"><img class="img-fluid" src="Public/img/NM2.png" alt="logo"/></a>
+            <a class="navbar-brand display-4 funsized" href="index.php#haut">
+                <img class="img-fluid"/>
+                    <p id="navbrandid" style="color:white">mn</p>
+            </a>
 
-            <button class="navbar-toggler2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="d-xl-none">
+                <button class="navbar-toggler2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-                <span id="navbartoggler"></span>
+                    <span id="navbartoggler"></span>
 
-            </button>
+                </button>
+            </div>
 
             <div class="collapse navbar-collapse justify-content-end caviardreams font-weight-bold" id="navbarNav">
                 <ul class="navbar-nav">
