@@ -18,7 +18,7 @@
     <title><?php echo $titre;?></title>
 
   </head>
-      <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: #f8f8f8">
+      <body class="bg-img" data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: #f8f8f8">
 			<a id="haut"></a>
 	
 	<?php include ('vues/nav.php'); ?>

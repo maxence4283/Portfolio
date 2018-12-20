@@ -1,19 +1,19 @@
-<div id="nav" class="container-fluid sticky-top border-bottom2" style="background-color: white;">
+<div id="nav" class="container-fluid sticky-top">
     <div  class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
-        <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light2">
+        <nav id="navigation" class="navbar navbar-expand-lg">
 
             <a class="navbar-brand display-4 funsized" href="index.php#haut"><img class="img-fluid" src="Public/img/NM2.png" alt="logo"/></a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-                <span class="navbar-toggler-icon"></span>
+                <span id="navbartoggler"></span>
 
             </button>
 
             <div class="collapse navbar-collapse justify-content-end caviardreams font-weight-bold" id="navbarNav">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.php#haut">Accueil <span class="sr-only">(current)</span></a>
                     </li>
 

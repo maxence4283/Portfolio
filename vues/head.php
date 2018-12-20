@@ -59,13 +59,14 @@
         
 
         <div class="row">
-                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-dev bg-img">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="height: 50vw;">
 
-                    <div class="">
-                        <p class="text-center champagne font-weight-bold titrewebdev" style=" color:white; margin-top: 10%">
-                            < Maxence NICOLE /> <br>
-                            Développeur Web<br>
+                    <div class="text-center">
+                        <p class="champagne font-weight-bold titrewebdev" style=" color:white; margin-top: 10%">
+                            <span style="color:#507fe2"><</span> Maxence NICOLE <span style="color:#507fe2">/></span> <br>
                         </p>
+
+                        <small class="champagne font-weight-bold" style="color:white"> "Le succès est un mauvais professeur. Il pousse les gens intelligents à croire qu’ils sont infaillibles." </small>
 
                         <div class="text-center">
                          <a class="champagne font-weight-bold titrewebdev" style="color:white;" href="#présentation"><i class="far fa-arrow-alt-circle-down"></i></a>

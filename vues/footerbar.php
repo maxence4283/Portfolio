@@ -74,6 +74,7 @@
 
 <script src="Public/js/modalphoto.js"></script>
 <script src="Public/js/verifform.js"></script>
+<script src="Public/js/nav.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         window.onscroll = function(ev) {

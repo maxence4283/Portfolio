@@ -1,7 +1,7 @@
-<div id="Competence">
+<div id="Competence" style="background-color: white">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 border-bottom2 titre" style="background-color:white">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 titre">
 
             <p class="text-center funsized pt-2">
                 competences
@@ -143,6 +143,7 @@
                                     </div><br>
 
                             </div>
+                    </div>
                 </div>
             </div>
     </div>

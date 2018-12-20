@@ -1,7 +1,7 @@
-<div id="projets">
+<div id="projets" style="background-color: white">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center border-bottom2 pb-1 titre" style="background-color: white">
+          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center pb-1 titre">
 
               <p class="funsized pt-2">
                   Mes Projets
@@ -10,7 +10,7 @@
           </div>
       </div>
 
-      <div class="row dispositionprojet">
+      <div class="row dispositionprojet" style="background-color: #f8f8f8">
            <div id="myModal" class="modal">
                       <span class="close">&times;</span>
                       <img class="modal-content" alt="modal" src="#" id="img01">
@@ -47,13 +47,13 @@
                       ?>
 
                           <div class="row">
-                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
-                              <a href=<?php echo "index.php?modifprojet=1&idprojet=".$ligne['id']; ?> class="btn btn-warning btn-block btn-lg active" role="button" aria-pressed="true">Modifier</a>
+                              <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
+                                <a href=<?php echo "index.php?modifprojet=1&idprojet=".$ligne['id']; ?> class="btn btn-warning btn-block btn-lg active" role="button" aria-pressed="true">Modifier</a>
+                              </div>
+                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
+                                <a href=<?php echo "index.php?action=supprimerprojet&idprojet=".$ligne['id']; ?> class="btn btn-danger btn-block btn-lg active" role="button" aria-pressed="true">Supprimer</a>
+                            </div>
                           </div>
-                           <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
-                              <a href=<?php echo "index.php?action=supprimerprojet&idprojet=".$ligne['id']; ?> class="btn btn-danger btn-block btn-lg active" role="button" aria-pressed="true">Supprimer</a>
-                          </div>
-                        </div>
 
                       <?php                          
                           }
