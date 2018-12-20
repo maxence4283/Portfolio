@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-<div id="veilles">
+<div id="veilles" style="background-color: white">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="margin-top: 4%">

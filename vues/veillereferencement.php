@@ -1,7 +1,7 @@
 <?php 
 ob_start();
 ?>
-<div id="referencementweb">
+<div id="referencementweb" style="background-color: white">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 col-xs-12 xol-sm-12 col-md-12 col-lg-12 col-xl-12 champagne font-weight-bold">
