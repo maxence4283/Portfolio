@@ -1,16 +1,17 @@
-<div id="projets" style="background-color: white">
+<div id="projets" class="middlesection">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center pb-1 titre">
+          <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 pb-1 ">
 
-              <p class="funsized pt-2">
-                  Mes Projets
-              </p>
+              <h2 class="pt-2 titre">
+                  <i class="fas fa-laptop"></i> Projets
+              </h2>
+              <hr style="height:5px; border:none; color:#507fe2; background-color:#507fe2;width:10%;float:left">
 
           </div>
       </div>
 
-      <div class="row dispositionprojet" style="background-color: #f8f8f8">
+      <div class="row projetcol">
            <div id="myModal" class="modal">
                       <span class="close">&times;</span>
                       <img class="modal-content" alt="modal" src="#" id="img01">
@@ -40,7 +41,6 @@
                               </div>
                             </div>
                         </div>
-
                       <?php
                         if (isset($_SESSION['role_id']) && !empty($_SESSION['role_id'])) {
                           if ($_SESSION['role_id'] == 1 ){

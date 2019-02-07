@@ -1,71 +1,34 @@
-<div id="nav" class="container-fluid sticky-top">
-    <div  class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
-        <nav id="navigation" class="navbar navbar-expand-lg">
+<div id="nav" class="container-fluid sticky-top"style="padding:0;background-color:white; font-weight: 700; font-size: 15.5px; font-family: Arial, Helvetica, sans-serif">
+        <nav class="navbar navbar-expand-lg navbar-light middlesection" style="background-color:white;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="/Public/img/NM.png" alt="nm"/></a>
 
-            <a class="navbar-brand display-4 funsized" href="index.php#haut">
-                <img class="img-fluid"/>
-                    <p id="navbrandid" style="color:white">mn</p>
-            </a>
-
-            <div class="d-xl-none">
-                <button class="navbar-toggler2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-
-                    <span id="navbartoggler"></span>
-
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse justify-content-end caviardreams font-weight-bold" id="navbarNav">
-                <ul class="navbar-nav">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#haut">Accueil <span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#présentation">Présentation</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#Competence">Compétences</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#projets">Projets</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#Cv">CV</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#contact">Contact</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php?action=veilles">Veilles technologiques</a>
-                    </li>
-
-                    <?php
-                        if (isset($_SESSION['connecte'])) {
-                    ?>
-                    <li class="nav-item" >
-                        <a class="nav-link" href="index.php?action=compte">Mon compte</a>
-                    </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" href="index.php?action=deconnexion">Déconnexion</a>
-                    </li>
-                    <?php
-                         }
-                    ?>
-                    <!-- <li class="nav-item" >
-                        <a class="nav-link" href="index.php?action=connexion">Connexion</a>
-                    </li>
-                    <li class="nav-itemk" >
-                        <a class="nav-link" href="index.php?action=inscription">Inscription</a>
-                    </li> -->
-                </ul>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.php"><i class="fas fa-home"></i> ACCUEIL<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#présentation"><i class="fas fa-user-circle"></i> PRESENTATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#Competence"><i class="fas fa-list-ul"></i> COMPETENCES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#projets"><i class="fas fa-laptop"></i> PROJETS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#Cv"><i class="fas fa-graduation-cap"></i> CV </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#contact"><i class="fas fa-headset"></i> CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?action=veilles"></i><i class="fas fa-search"></i> VEILLES</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-    </div>
 </div>

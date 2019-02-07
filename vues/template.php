@@ -8,7 +8,7 @@
     <link rel="canonical" href="https://www.nmaxence.fr/" />
     <meta name="author" content="NICOLE Maxence">
     <link rel="shortcut icon" href="https://nmaxence.fr/Public/img/5.png">
-
+<link href='http://fonts.googleapis.com/css?family=lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="Public/css/portfolio.css">
     <link rel="stylesheet" href="Public/css/bootstrap.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -18,7 +18,7 @@
     <title><?php echo $titre;?></title>
 
   </head>
-      <body class="bg-img" data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: #f8f8f8">
+      <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: white;margin:auto;">
 			<a id="haut"></a>
 	
 	<?php include ('vues/nav.php'); ?>

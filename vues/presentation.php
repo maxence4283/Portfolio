@@ -1,17 +1,18 @@
-<div id="présentation"></div>
+<section><div id="présentation" class="middlesection">
     <div class="container-fluid">           
         <div class="row">
-                <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 text-center pb-1 titre" style="background-color: white">
+                <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 pb-1">
 
-                  <p class="funsized pt-2">
-                      Presentation
-                  </p>
+                  <h2 class="pt-2 titre">
+                      <i class="fas fa-user-circle"></i> Presentation
+                  </h2>
+                  <hr style="height:5px; border:none; color:#507fe2; background-color:#507fe2;width:10%;float:left">
 
                 </div>
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="background-color: white">
                 <div class="row">
                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-9 col-lg-9">
-                        <div class="shadow-lg p-3 dispositionpresentation rounded border2 border-light2" style="background-color: #555b61; margin-top: 7%">
+                        <div class="shadow-lg p-3 dispositionpresentation rounded border2 border-light2" style="background-color: #555b61; margin-top: 3%">
                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
                                 <div class="row textepresentation">
                                     <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6">
@@ -55,3 +56,5 @@
     </div>
   </div>
 </div>
+</div>
+</section>

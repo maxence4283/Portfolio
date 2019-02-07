@@ -269,8 +269,9 @@ a#cRetour.cVisible{
 
 .bg-img {
   background-image: url('../img/bghead2.jpg'); 
-  background-size: 100% 50vw;
+  background-size: 100%;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .titrewebdev {
@@ -306,14 +307,13 @@ a#cRetour.cVisible{
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #555b61;
   transition: width 0.6s ease;
 }
 
 .progresscompetence {
   display: -ms-flexbox;
   display: flex;
-  height: 1rem ;
+  height: 2rem ;
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #b7bdbf;
@@ -321,11 +321,17 @@ a#cRetour.cVisible{
 }
 
 .titre {
-  font-size : 5vw;
+  text-transform: uppercase;
+  font-weight:normal;
+  font-size : 28pt;
+  font-family:'lato',sans serif;
+  margin-bottom: -10px;
+  color:#555b61;
+  margin-top: 50px;
 }
 
 .textepresentation {
-  font-size: 1.2vw;
+  font-size: 13pt;
   margin-left: 2%;
   margin-right: 2%;
   color:white;
@@ -336,23 +342,24 @@ a#cRetour.cVisible{
 }
 
 .textecompetence {
-  font-size: 1.1vw;
+  font-size: 13pt;
 }
 
 .textecompetence2 {
-  font-size: 1.6vw;
+  font-size: 16pt;
+  margin-bottom: 0px
 }
 
 .iconecompetence {
-  font-size: 2.8vw;
+  font-size: 22pt;
 }
 /*Titre des card des projets*/
 .titreprojet{
-  font-size: 2vw;
+  font-size: 18pt;
 }
 /*"Téléchargement"*/
 .titrecv {
-  font-size: 5vw;
+  font-size: 40pt;
 }
 
 .dispositioncompetence {
@@ -365,22 +372,23 @@ a#cRetour.cVisible{
   margin-bottom: 1.7rem;
 }
 
-.dispositionprojet {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .texteveilles{
   font-size: 1.4vw;
 }
 
 .taillehead {
-  height: 50vw;"
+  height:100vh;
+min-height:100vh;
 }
-
+ .middlesection {
+  width:1240px;
+  margin:auto;
+ }
 @media screen and (max-width: 992px) {
+  .middlesection {
+  width:100%;
+  margin:auto;
+ }
   .taillehead {
   height: 115vw;"
   }
@@ -393,7 +401,7 @@ a#cRetour.cVisible{
   .bg-img {
   background-image: url('../img/bghead2.jpg'); 
   background-size: auto 140vw; 
-  height: 140vw;
+  height: 100vw;
   }
   .dispositionprojet {
     padding-right: 0rem;
@@ -427,9 +435,9 @@ a#cRetour.cVisible{
     font-size: 6vw;
   }
 
-  .navtext {
+/*  .navtext {
     color:white;
-  }
+  }*/
   .textepresentation {
     font-size: 100%;
     margin-left: 2%;
@@ -474,11 +482,11 @@ a#cRetour.cVisible{
 }
 
 .navbar-nav .nav-link {
-  color: white;
+  color: black;
 }
 
-.nav1 {
-  background-color: transparent;
+/*.nav1 {
+  background-color: white;
 }
 
 .nav2 {
@@ -522,4 +530,41 @@ a#cRetour.cVisible{
   background: no-repeat center center;
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+*/
+.equal {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+}
+.equal > [class*='col-'] {
+  width: 100%;
+  height:300px;
+  margin:0;
+  padding:0;
+}
+
+.projetcol  {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+}
+.projetcol  > [class*='col-'] > .shadow-lg{
+  width: 100%;
+  height:450px;
+  margin:0;
+  padding:0;
+}
+
+.cvimg{
+  max-width: 40%;
+   -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cvimg:hover {
+  transform: scale(0.9);
 }

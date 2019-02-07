@@ -1,39 +1,18 @@
-<div id="contact" style="background-color: white">
+<div id="contact" class="middlesection">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 titre">
+            <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 ">
 
-                <p class="text-center funsized pt-2">
-                    CONTACT
-                </p>
+                <h2 class="pt-2 titre">
+                    <i class="fas fa-headset"></i> CONTACT
+                </h2>
 
-                <hr class="mb-0">
+                <hr style="height:5px; border:none; color:#507fe2; background-color:#507fe2;width:10%;float:left">
             </div>
             <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12 mb-5">
               <div class="row">
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4 champagne font-weight-bold" >
-                  <div class="shadow-lg rounded bg-light p-2">
 
-                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
-
-                      <p> <i class="fas fa-map-marker-alt"></i> 8 avenue de la libération <br>
-                        43120<br>
-                      Monistrol-Sur-Loire </p>
-                    
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
-
-                      <p> <i class="fas fa-mobile-alt"></i> +33 6 72 66 87 37 </p>
-                    
-                    </div>
-
-                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
-
-                      <p> <i class="far fa-envelope"></i> maxencen.contact@gmail.com </p>
-                    
-                    </div>
-
-                  </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-6 col-lg-6 text-center mt-4">
                  <form action="index.php?action=mail" method="post" class="needs-validation" data-form-title="CONTACT US">
@@ -100,6 +79,28 @@
                     </form>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-xl-3 col-lg-3 mt-4  champagne font-weight-bold">
+                  <div class="shadow-lg rounded bg-light p-2">
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+
+                      <p> <i class="fas fa-map-marker-alt"></i> 8 avenue de la libération <br>
+                        43120<br>
+                      Monistrol-Sur-Loire </p>
+                    
+                    </div>
+                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+
+                      <p> <i class="fas fa-mobile-alt"></i> +33 6 72 66 87 37 </p>
+                    
+                    </div>
+
+                    <div class="col-12 col-xs-12 col-sm-12 col-xl-12 col-lg-12">
+
+                      <p> <i class="far fa-envelope"></i> maxencen.contact@gmail.com </p>
+                    
+                    </div>
+
+                  </div>
 
                 </div>
               </div>

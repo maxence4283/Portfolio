@@ -1,4 +1,5 @@
-<div id="Head">
+<section><div id="Head" class="bg-img" style="position: relative;
+left: 0;width:100%">
   <div class="container-fluid">
         <!-- Gestion des alerts -->
         <?php
@@ -78,4 +79,4 @@
         </div>
     </div>
 </div>
-
+</section>
