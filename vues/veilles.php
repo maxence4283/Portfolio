@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-<div id="veilles" style="background-color: white">
+<div id="veilles" class="middlesection">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12" style="margin-top: 4%">
@@ -8,9 +8,9 @@
                     <div class="shadow-lg rounded bg-light text-center">
 
                         <div class="card" style="width: 100%;">
-                          <img class="card-img-top" src="Public/img/refgoogle.png" alt="Card image cap">
+                          <a href="index.php?action=referencement"><img class="card-img-top" src="Public/img/refgoogle.png" alt="Card image cap"></a>
                           <div class="card-body">
-                            <a href="index.php?action=referencement" style="color:black" class="card-title champagne font-weight-bold titreprojet">Le Référencement Web</a>
+                            <a href="index.php?action=referencement" class="linkveille card-title">Le Référencement Web</a>
                             <hr>
                             <p class="card-text">Dans cette veilles technologique, je vais vous présenter tout ce que j'ai pu apprendre sur le référencement Web durant mes différents projets.</p>
                           </div>
