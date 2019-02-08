@@ -9,9 +9,9 @@
             <hr style="height:5px; border:none; color:#507fe2; background-color:#507fe2;width:10%;float:left">
 
         </div>
-                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 champagne font-weight-bold mb-1 mt-3 pl-4 pr-4 textecompetence">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 champagne font-weight-bold mb-1 mt-3 pl-4 pr-4 t ml-3 extecompetence">
 
-                      <div class="row equal" style="border:1px solid #555b61">
+                      <div class="row equal text-center" style="border:1px solid #555b61">
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4">
                                 <div class="p-2" style="background-color: #555b61; color:white;height:100%">
                                     <p class="text-center">SQL</p>
@@ -63,7 +63,7 @@
                                 <p class="textecompetence2" style="color:#555b61">
                                     <i class="fas fa-database iconecompetence"></i> SQL</p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 90%;background-color: #5cb85c" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 90%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -74,7 +74,7 @@
                                     <i class="fab fa-html5 iconecompetence"></i> HTML
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 80%; background-color: #f0ad4e" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 80%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -86,7 +86,7 @@
 
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 75%; background-color: #6e7bb2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 75%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -100,7 +100,7 @@
                                         PHP
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 70%; background-color: #ff5b5b" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 70%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -118,7 +118,7 @@
                                 </p>
 
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 60%;background-color: #ff5b5b" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 60%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -130,7 +130,7 @@
 
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 50%; background-color: #6e7bb2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 50%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -139,7 +139,7 @@
 
                                 <p class="textecompetence2" style="color:#555b61"><i class="fab fa-laravel iconecompetence"></i> LARAVEL</p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 45%;background-color: #f0ad4e" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 45%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>
@@ -148,7 +148,7 @@
 
                                 <p class="textecompetence2" style="color:#555b61"><i class="fab fa-java iconecompetence"></i> JAVA</p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 40%;background-color: #5cb85c" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 40%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div><br>
 
                             </div>

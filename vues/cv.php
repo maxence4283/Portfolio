@@ -1,4 +1,4 @@
-<div class="bg-img">
+<div class="bg-img2">
   <div id="Cv" class="middlesection">
       <div class="container-fluid ">
           <div class="row middlesection">

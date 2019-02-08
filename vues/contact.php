@@ -74,7 +74,7 @@
                       </div>
                       <div><br>
 
-                        <button type="submit" class="btn btn-lg btn-secondary btn-block sketch">ENVOYER !</button><br>
+                        <button type="submit" class="btn-contact sketch">ENVOYER !</button><br>
                       </div>
                     </form>
                 </div>
