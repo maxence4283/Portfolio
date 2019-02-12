@@ -2,14 +2,6 @@
   <div id="Cv" class="middlesection">
       <div class="container-fluid ">
           <div class="row middlesection">
-              <!-- <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
-
-                  <h2 class="titre" style="color:#DFE0DF">
-                      Mon CV
-                  </h2>
-                  <hr style="height:5px; border:none; color:#507fe2; background-color:#507fe2;width:10%;float:left">
-
-              </div> -->
 
               <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
 

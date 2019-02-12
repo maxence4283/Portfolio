@@ -23,9 +23,9 @@
                     
                         <div class="containerprojet">
 
-                         <img id=<?php echo $ligne['idimage']; ?>  class="imgprojet card-img-top rounded" src=<?php echo "https://nmaxence.fr/Public/img/".$ligne['img'];?> alt=<?php echo $ligne['titre']; ?> ></a>
+                         <img id=<?php echo $ligne['idimage']; ?>  class="imgprojet card-img-top rounded" src=<?php echo "/Public/img/".$ligne['img'];?> alt=<?php echo $ligne['titre']; ?> ></a>
                           <div class="overlay">
-                            <div class="text"><?php echo $ligne['texte']; ?><br><br><a href=<?php echo $ligne['lien']; ?> class="btn-projet" type="button" style="padding:10px;">
+                            <div class="text"><?php echo $ligne['texte']; ?><br><br><a href=<?php echo $ligne['lien']; ?> class="btn-projet" type="button" target="__blank"  style="padding:10px;">
                               VOIR LE PROJET
                             </a></div>
                             
