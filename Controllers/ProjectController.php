@@ -19,7 +19,7 @@ class ProjectController {
 	// Déclaration de la méthode insertProject
 	public function insertProject(){
 		// Si tout les champs sont remplis
-		if (isset($_POST['titre']) && !empty($_POST['titre']) && isset($_POST['description']) && !empty($_POST['description']) && isset($_POST['image']) && !empty($_POST['image']) && isset($_POST['userid']) && !empty($_POST['userid']) && isset($_POST['idimage']) && !empty($_POST['idimage']) && isset($_POST['datatarget']) && !empty($_POST['datatarget'])) {
+		if (isset($_POST['titre']) && !empty($_POST['titre']) && isset($_POST['description']) && !empty($_POST['description']) && isset($_POST['image']) && !empty($_POST['image']) && isset($_POST['userid']) && !empty($_POST['userid']) && isset($_POST['idimage']) && !empty($_POST['idimage']) && isset($_POST['lien'])) {
 
 				// On rentre toute les donnée rentré dans une variable
 				$titre = $_POST['titre'];
@@ -27,12 +27,12 @@ class ProjectController {
 				$img = $_POST['image'];
 				$userid = $_POST['userid'];
 				$idimage = $_POST['idimage'];
-				$datatarget = $_POST['datatarget'];
+				$lien = $_POST['lien'];
 
 				// Appel du model
 				$model = new PortfolioModel();
 				// Exécution de la méthode ajoutProjet permettant d'ajouter une nouveau projet
-				$model->ajoutProjet($titre, $texte, $img, $userid, $idimage, $datatarget);
+				$model->ajoutProjet($titre, $texte, $img, $userid, $idimage, $lien);
 				header('Location: index.php?reussi=ajoutprojet');
 
 		} else {
@@ -77,7 +77,7 @@ class ProjectController {
 	// Déclaration de la méthode modifierProjet
 	public function modifierProjet(){
 		// Si tout les champs sont remplis
-		if (isset($_POST['titre']) && !empty($_POST['titre']) && isset($_POST['description']) && !empty($_POST['description']) && isset($_POST['image']) && !empty($_POST['image']) && isset($_POST['userid']) && !empty($_POST['userid']) && isset($_POST['idimage']) && !empty($_POST['idimage']) && isset($_POST['datatarget']) && !empty($_POST['datatarget']) && isset($_POST['idprojet']) && !empty($_POST['idprojet'])) {
+		if (isset($_POST['titre']) && !empty($_POST['titre']) && isset($_POST['description']) && !empty($_POST['description']) && isset($_POST['image']) && !empty($_POST['image']) && isset($_POST['userid']) && !empty($_POST['userid']) && isset($_POST['idimage']) && !empty($_POST['idimage'])&& isset($_POST['idprojet']) && !empty($_POST['idprojet']) && isset($_POST['lien']) && !empty($_POST['lien'])) {
 
 
 				// On stock toutes les données rentrées dans une variable
@@ -86,13 +86,13 @@ class ProjectController {
 				$img = $_POST['image'];
 				$userid = $_POST['userid'];
 				$idimage = $_POST['idimage'];
-				$datatarget = $_POST['datatarget'];
 				$id = $_POST['idprojet'];
+				$lien = $_POST['lien'];
 
 			// Appel du model
 			$model = new ProjectModel();
 			// Exécution de la méthode modifierProjet
-			$model->modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id);
+			$model->modifierProjet($titre, $texte, $img, $userid, $idimage, $id, $lien);
 
 			header('Location: index.php#projets');
 

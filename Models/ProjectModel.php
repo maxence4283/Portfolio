@@ -18,18 +18,18 @@ class ProjectModel extends DatabaseModel {
 		}
 
 		// Déclaration de la méthode ajoutProjet
-		public function ajoutProjet($titre, $texte, $img, $userid, $idimage, $datatarget){
+		public function ajoutProjet($titre, $texte, $img, $userid, $idimage, $lien){
 			// Appel de la méthode getPdo permettant la connexion à la bdd
 			$bdd = $this->getPdo();
 			// Stockage de la requête dans une variable 
-			$req = $bdd->prepare("INSERT INTO projects (titre, texte, img, userid, idimage, datatarget) VALUES (:titre, :texte, :img, :userid, :idimage, :datatarget)");
+			$req = $bdd->prepare("INSERT INTO projects (titre, texte, img, userid, idimage, lien) VALUES (:titre, :texte, :img, :userid, :idimage, :lien)");
 			// Assignation des differents paramètre de la requête
 			$req->bindParam(':titre', $titre, PDO::PARAM_STR, 255);
 			$req->bindParam(':texte', $texte, PDO::PARAM_STR);
 			$req->bindParam(':img', $img, PDO::PARAM_STR, 255);
 			$req->bindParam(':userid', $userid, PDO::PARAM_INT);
 			$req->bindParam(':idimage', $idimage, PDO::PARAM_STR, 100);
-			$req->bindParam(':datatarget', $datatarget, PDO::PARAM_STR, 60);
+			$req->bindParam(':lien', $lien, PDO::PARAM_STR, 250);
 			// Exécution de la requête
 			$req->execute();
 		}
@@ -61,12 +61,12 @@ class ProjectModel extends DatabaseModel {
 		}
 
 		// Déclaration de la méthode modifierProjet
-		public function modifierProjet($titre, $texte, $img, $userid, $idimage, $datatarget, $id){
+		public function modifierProjet($titre, $texte, $img, $userid, $idimage, $id, $lien){
 			// Appel de la méthode getPdo permettant la connexion à la bdd
 			$bdd = $this->getPdo();
 			// Stockage de la requête dans une variable 
 			$req = $bdd->prepare("UPDATE projects 
-				SET titre = :titre, texte = :texte, img = :img, userid = :userid, idimage = :idimage, datatarget = :datatarget 
+				SET titre = :titre, texte = :texte, img = :img, userid = :userid, idimage = :idimage, lien = :lien
 				WHERE id = :id");
 			// Assignation des differents paramètre de la requête
 			$req->bindParam(':titre', $titre, PDO::PARAM_STR, 255);
@@ -74,8 +74,8 @@ class ProjectModel extends DatabaseModel {
 			$req->bindParam(':img', $img, PDO::PARAM_STR, 255);
 			$req->bindParam(':userid', $userid, PDO::PARAM_INT);
 			$req->bindParam(':idimage', $idimage, PDO::PARAM_STR, 100);
-			$req->bindParam(':datatarget', $datatarget, PDO::PARAM_STR, 60);
 			$req->bindParam(':id', $id, PDO::PARAM_INT);
+			$req->bindParam(':lien', $lien, PDO::PARAM_STR, 250);
 			// Exécution de la requête
 			$req->execute();
 		}

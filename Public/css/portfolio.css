@@ -112,10 +112,14 @@ html {
 .imgprojet {
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-.imgprojet:hover {opacity: 0.7;}
 
 
 /* The Modal (background) */
@@ -343,10 +347,6 @@ a#cRetour.cVisible{
   color:white;
 }
 
-.texteprojet {
-  font-size: 1.1vw;
-}
-
 .textecompetence {
   font-size: 13pt;
 }
@@ -361,7 +361,17 @@ a#cRetour.cVisible{
 }
 /*Titre des card des projets*/
 .titreprojet{
-  font-size: 18pt;
+  text-transform: uppercase;
+  font-weight:600;
+  font-size : 17px;
+  font-family:'lato',sans serif;
+  color:#555b61;
+  margin-top: 10px;
+}
+
+.titreprojet:hover{
+  color:#507fe2;
+  text-decoration: none;
 }
 /*"Téléchargement"*/
 .titrecv {
@@ -564,7 +574,7 @@ min-height:100vh;
 }
 .projetcol  > [class*='col-'] > .shadow-lg{
   width: 100%;
-  height:325px;
+  height:auto;
   margin:0;
   padding:0;
 }
@@ -599,15 +609,87 @@ min-height:100vh;
   border-width: 2px;
   border-color:#507fe2; 
   border-radius: 6px;
-  background-color: white;
+  background-color: transparent;
   color:#507fe2;
   width:100%;
   height:50px;
-  font-size: 16pt;
+  font-size: 17px;
   cursor:pointer;
 }
 .btn-contact:hover {
   background-color: #555b61;
   color:white;
   border: 2px solid #555b61;
+  text-decoration: none;
+}
+
+.p-10 {
+  padding: 25px 
+}
+.imgprojet {
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.containerprojet {
+  background:black;
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  padding: 20px;
+}
+.containerprojet:hover .imgprojet {
+  opacity: 0.3;
+}
+.containerprojet:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-size: 14px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight:500;
+  font-family:'lato',sans serif;
+  color:white;
+}
+
+.btn-projet {
+  border-style: solid;
+  border-width: 2px;
+  border-color:white; 
+  border-radius: 6px;
+  background-color: transparent;
+  color:white;
+  width:100%;
+  height:50px;
+  font-size: 17px;
+  cursor:pointer;
+}
+.btn-projet:hover {
+  background-color: #555b61;
+  color:white;
+  border: 2px solid #555b61;
+  text-decoration: none;
 }

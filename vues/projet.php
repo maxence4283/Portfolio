@@ -12,36 +12,33 @@
       </div>
 
       <div class="row projetcol">
-           <div id="myModal" class="modal">
-                      <span class="close">&times;</span>
-                      <img class="modal-content" alt="modal" src="#" id="img01">
-                      <div id="caption"></div>
-           </div>
            <?php
            $controller= new ProjectController();
            $lignesprojets = $controller->listProjects();
            foreach ($lignesprojets as $ligne) {
             ?>
               <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center p-4">
+                 
+                  <div class="mb-2 rounded ml-3" style="background-color: white;border: 1px solid rgb(0,0,0,0.2); border-radius: 10px">
+                    
+                        <div class="containerprojet">
 
-                  <div class=" shadow-lg p-3 mb-2 rounded ml-3" style="background-color: #555b61">
+                         <img id=<?php echo $ligne['idimage']; ?>  class="imgprojet card-img-top rounded" src=<?php echo "https://nmaxence.fr/Public/img/".$ligne['img'];?> alt=<?php echo $ligne['titre']; ?> ></a>
+                          <div class="overlay">
+                            <div class="text"><?php echo $ligne['texte']; ?><br><br><a href=<?php echo $ligne['lien']; ?> class="btn-projet" type="button" style="padding:10px;">
+                              VOIR LE PROJET
+                            </a></div>
+                            
+                          </div>
 
-                        <img id=<?php echo $ligne['idimage']; ?>  class="imgprojet card-img-top rounded" src=<?php echo "https://nmaxence.fr/Public/img/".$ligne['img'];?> alt=<?php echo $ligne['titre']; ?> >
-
-                        <div class="card-body rounded" style="background-color: #555b61">
-
-                            <div class="champagne font-weight-bold titreprojet" style="color:white"><?php echo $ligne['titre'];?></div><br>
-
-                            <button class="btn btn-light btn-block champagne font-weight-bold titreprojet" type="button" data-toggle="collapse" data-target=<?php echo "#".$ligne['datatarget']; ?> aria-expanded="false" aria-controls="collapseExample">
-                              En Savoir Plus
-                            </button>
-                            <div class="collapse champagne font-weight-bold texteprojet mt-2" id=<?php echo $ligne['datatarget']; ?> >
-                              <div class="card card-body">
-                                <?php echo $ligne['texte']; ?>
-                              </div>
-                            </div>
                         </div>
-                      <?php
+
+                  </div>
+
+
+                  <a class="titreprojet" target="__blank" href=<?php echo $ligne['lien']; ?>><?php echo $ligne['titre'];?></a><br>
+
+                  <?php
                         if (isset($_SESSION['role_id']) && !empty($_SESSION['role_id'])) {
                           if ($_SESSION['role_id'] == 1 ){
                       ?>
@@ -59,9 +56,9 @@
                           }
                         }
                       ?>
-
-                  </div>
+                            
               </div>
+
 
            <?php
               }
@@ -93,9 +90,8 @@
                     <input type="text" name="idimage" class="form-control" id="idimg" value=<?php echo $lignes['idimage']; ?>>
                 </div>
                 <div class="form-group">
-                  <label class="lead" for="idimg">Data-target</label>
-                    <input type="text" name="datatarget" class="form-control" id="idimg" aria-describedby="targetHelp" value=<?php echo $lignes['datatarget']; ?>>
-                    <small id="targetHelp" class="form-text text-muted">La chose rentrée ici n'a aucune importance il s'agit du lien entre le collapse et le texte affiché</small>
+                  <label class="lead" for="idimg">Lien du projet</label>
+                    <input type="text" name="lien" class="form-control" id="idlien" value=<?php echo $lignes['lien']; ?>>
                 </div>
                 <div class="form-group">
                   <label class="lead" for="texteid">Descriptif du projet</label>
@@ -137,9 +133,8 @@
                     <input type="text" name="idimage" class="form-control" id="idimg" placeholder="Entrer un id pour l'image ex: exemplepngid">
                 </div>
                 <div class="form-group">
-                  <label class="lead" for="idimg">Data-target</label>
-                    <input type="text" name="datatarget" class="form-control" id="idimg" aria-describedby="targetHelp" placeholder="Entrer ce que vous voulez">
-                    <small id="targetHelp" class="form-text text-muted">La chose rentrée ici n'a aucune importance il s'agit du lien entre le collapse et le texte affiché</small>
+                  <label class="lead" for="idimg">Lien du projet</label>
+                    <input type="text" name="lien" class="form-control" id="idlien" placeholder="Entrer le lien du projet">
                 </div>
                 <div class="form-group">
                   <label class="lead" for="texteid">Descriptif du projet</label>
