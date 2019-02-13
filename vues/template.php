@@ -8,9 +8,10 @@
     <link rel="canonical" href="https://www.nmaxence.fr/" />
     <meta name="author" content="NICOLE Maxence">
     <link rel="shortcut icon" href="https://nmaxence.fr/Public/img/5.png">
-<link href='http://fonts.googleapis.com/css?family=lato' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="Public/css/portfolio.css">
-    <link rel="stylesheet" href="Public/css/bootstrap.css">
+    <link rel="stylesheet" href="Public/css/portfolio.css" media="all">
+<link href='http://fonts.googleapis.com/css?family=lato' rel='stylesheet' type='text/css' media="all">
+    
+    <link rel="stylesheet" href="Public/css/bootstrap.css" media="all">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://nmaxence.fr/Public/js/bootstrap.js"></script>

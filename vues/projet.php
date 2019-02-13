@@ -11,32 +11,44 @@
           </div>
       </div>
 
-      <div class="row projetcol">
+      <div class="row" style="margin-top: 30px; margin-bottom: 30px">
            <?php
            $controller= new ProjectController();
            $lignesprojets = $controller->listProjects();
            foreach ($lignesprojets as $ligne) {
             ?>
-              <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center p-4">
-                 
-                  <div class="mb-2 rounded ml-3" style="background-color: white;border: 1px solid rgb(0,0,0,0.2); border-radius: 10px">
-                    
-                        <div class="containerprojet">
+              <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 text-center ">
 
-                         <img id=<?php echo $ligne['idimage']; ?>  class="imgprojet card-img-top rounded" src=<?php echo "/Public/img/".$ligne['img'];?> alt=<?php echo $ligne['titre']; ?> ></a>
-                          <div class="overlay">
-                            <div class="text"><?php echo $ligne['texte']; ?><br><br><a href=<?php echo $ligne['lien']; ?> class="btn-projet" type="button" target="__blank"  style="padding:10px;">
-                              VOIR LE PROJET
-                            </a></div>
-                            
-                          </div>
+          
+                        <div  style="background-color: white;position: relative;z-index: 3">
+                           <a align="center" class="titreprojet"  style="" target="__blank" href=<?php echo $ligne['lien']; ?>><?php echo $ligne['titre'];?></a><br>
+                         </div>
 
+                  <div class="mb-2 ml-3" style="border: 1px solid rgb(0,0,0,0.2); border-radius: 10px;">
+
+                        <div  class="blocimgprojet" style="width:100%;height: auto;">
+                         <img id=<?php echo $ligne['idimage']; ?> class="img-responsive imgprojet" src="https://nmaxence.fr/Public/img/<?php echo $ligne['img'];?>" alt=<?php echo $ligne['titre']; ?> >
+
+                         <a style="text-decoration: none;" href=<?php echo $ligne['lien']; ?>>
+                          <div class="bloctext">
+                            <p class="text"><?php echo $ligne['texte']; ?><br><br></p>
+                          </div></a>
+                         
                         </div>
+
+                         <div class="p-10">
+                            
+                              
+                            <a class="btn-projet" href=<?php echo $ligne['lien']; ?> target="__blank"  style="padding:10px;">
+                              VOIR LE PROJET</a>
+                          </div>
 
                   </div>
 
 
-                  <a class="titreprojet" target="__blank" href=<?php echo $ligne['lien']; ?>><?php echo $ligne['titre'];?></a><br>
+
+
+                </div>
 
                   <?php
                         if (isset($_SESSION['role_id']) && !empty($_SESSION['role_id'])) {
@@ -57,7 +69,6 @@
                         }
                       ?>
                             
-              </div>
 
 
            <?php

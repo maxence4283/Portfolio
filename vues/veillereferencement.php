@@ -4,7 +4,7 @@ ob_start();
 <div id="referencementweb">
 	<div class="container-fluid">
 		<div class="row">
-			<img style="border-bottom: 1px solid #555b61;max-width:100%;max-height:400px" class="img-responsive" src="Public/img/banièreref.png" alt="baniereref" />
+			<img class="banniere" src="Public/img/banièreref.png" alt="baniereref" />
 				<div class="middlesection">
 					<div class="col-12 col-xs-12 xol-sm-12 col-md-12 col-lg-12 col-xl-12 champagne font-weight-bold middlesection">
 						<h1 class="text-center display-4" style="margin-top: 2%;"> Le référencement Web (SEO)</h1>
