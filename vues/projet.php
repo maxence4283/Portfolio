@@ -1,5 +1,5 @@
-<div id="projets" class="middlesection">
-  <div class="container-fluid">
+<section id="projets" class="middlesection">
+  <div class="container-fluid" style="padding-top:50px;">
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 pb-1 ">
 
@@ -11,7 +11,7 @@
           </div>
       </div>
 
-      <div class="row" style="margin-top: 30px; margin-bottom: 30px">
+      <div class="row" style="margin-top: 70px; margin-bottom: 70px">
            <?php
            $controller= new ProjectController();
            $lignesprojets = $controller->listProjects();
@@ -21,7 +21,7 @@
 
           
                         <div  style="background-color: white;position: relative;z-index: 3">
-                           <a align="center" class="titreprojet"  style="" target="__blank" href=<?php echo $ligne['lien']; ?>><?php echo $ligne['titre'];?></a><br>
+                           <a class="titreprojet"  style="text-align: center;" target="_blank" href=<?php echo $ligne['lien']; ?>><?php echo $ligne['titre'];?></a><br>
                          </div>
 
                   <div class="mb-2 ml-3" style="border: 1px solid rgb(0,0,0,0.2); border-radius: 10px;">
@@ -29,8 +29,9 @@
                         <div  class="blocimgprojet" style="width:100%;height: auto;">
                          <img id=<?php echo $ligne['idimage']; ?> class="img-responsive imgprojet" src="https://nmaxence.fr/Public/img/<?php echo $ligne['img'];?>" alt=<?php echo $ligne['titre']; ?> >
 
-                         <a style="text-decoration: none;" href=<?php echo $ligne['lien']; ?>>
+                         <a style="text-decoration: none;" target="_blank" href=<?php echo $ligne['lien']; ?>>
                           <div class="bloctext">
+                            <i style="font-size:80px; color:white; margin-bottom:20px" class="fas fa-laptop-code"></i>
                             <p class="text"><?php echo $ligne['texte']; ?><br><br></p>
                           </div></a>
                          
@@ -168,4 +169,4 @@
 
       </div>
   </div>
-</div>
+</section>

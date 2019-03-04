@@ -1,5 +1,4 @@
-<section><div id="Head" class="bg-img" style="position: relative;
-left: 0;width:100%">
+<div id="Head" class="bg-img" style="position: relative;">
   <div class="container-fluid">
         <!-- Gestion des alerts -->
         <?php
@@ -67,10 +66,10 @@ left: 0;width:100%">
                             <span style="color:#507fe2"><</span> Maxence NICOLE <span style="color:#507fe2">/></span> <br>
                         </p>
 
-                        <small class="champagne font-weight-bold" style="color:white"> "Le succès est un mauvais professeur. Il pousse les gens intelligents à croire qu’ils sont infaillibles." </small>
+                        <p class="champagne font-weight-bold" style="color:white;letter-spacing: 5px;font-size: 20px"> «Le succès est un mauvais professeur. Il pousse <br>les gens intelligents à croire qu’ils sont <br>infaillibles.» </p>
 
                         <div class="text-center dispositionlogohead">
-                         <a class="logohead" style="color:white;" href="#présentation"><i class="fas fa-arrow-down"></i></a>
+                         <a class="logohead" style="color:white;" href="#presentation"><i id="arrow" class="fas fa-arrow-circle-down bounce"></i></a>
                         </div>
 
                     </div>
@@ -79,4 +78,3 @@ left: 0;width:100%">
         </div>
     </div>
 </div>
-</section>

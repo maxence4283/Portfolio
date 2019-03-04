@@ -54,6 +54,10 @@ require_once 'Controllers/ContactController.php';
                 $titre = 'Veilles technologiques';
                 include("vues/veilles.php"); 
             break;
+            case 'bootstrap' :
+                $titre = 'Bootstrap';
+                include("vues/bootstrap.php"); 
+            break;
             case 'referencement' :
                 $titre = 'Référencement Google';
                 include("vues/veillereferencement.php"); 

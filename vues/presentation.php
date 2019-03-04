@@ -1,5 +1,5 @@
-<section><div id="présentation" class="middlesection">
-    <div class="container-fluid">           
+<section id="presentation" class="middlesection">
+    <div class="container-fluid" style="padding-top:50px;">           
         <div class="row">
                 <div class="col-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 pb-1">
 
@@ -53,8 +53,6 @@
                         </div>
                 </div>
             </div>
+        </div>
     </div>
-  </div>
-</div>
-</div>
 </section>

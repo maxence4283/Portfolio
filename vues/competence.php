@@ -1,5 +1,5 @@
-<div id="Competence" class="middlesection" >
-  <div class="container-fluid">
+<section id="competence" class="middlesection" >
+  <div class="container-fluid" style="padding-top:50px;">
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12">
 
@@ -28,13 +28,13 @@
                                 <div class="p-2" style="background-color: #555b61; color:white;height:100%">
                                     <p class="text-center">PHP</p>
                                     <p >Pour ce qui est du PHP je le pratique assez régulièrement mais étant donné la richesse de ce langage je ne le maîtrise pas à 100%, de nombreuse bases du langages sont acquises.
-                                    La programmation orientée objet et le modèle MVC sont en grandes parties acquis, ce site est développé en MVC et POO.</p>
+                                    La programmation orientée objet et le modèle MVC sont en grandes parties acquis, ce site est développé en MVC et POO. Quant au framework Laravel je m'y intéresse activement et suis de nombreux tutoriels le concernant.</p>
                                 </div>
                         </div>
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 ">
                                 <div class="p-2" style="background-color: white;height:100%">
-                                    <p class="text-center">LARAVEL</p>
-                                    <p >Quant au framework Laravel je m'y intéresse activement et suis de nombreux tutoriels le concernant.</p>
+                                    <p class="text-center">WORDPRESS</p>
+                                    <p>Durant mes stages et projets personnels, j'ai beaucoup utilisé le CMS wordpress, de nombreux projets ont été réalisé et nottament une version de ce portfolio mais en wordpress. D'autre projets dans le cadre de mes stages ont été réalisés et sont ou seront présents dans la partie projet pour la plupart. (Certains clients ne veulent pas que leur site ne figure sur d'autre site en raison de souhait de discretion).</p>
                                 </div>
                         </div>
                         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 ">
@@ -63,7 +63,7 @@
                                 <p class="textecompetence2" style="color:#555b61">
                                     <i class="fas fa-database iconecompetence"></i> SQL</p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 90%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 90%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">Acquis</span><span style="float:right;margin-top: 15px;margin-right: 20px">90%</span></p></div>
                                     </div><br>
 
                             </div>
@@ -74,7 +74,7 @@
                                     <i class="fab fa-html5 iconecompetence"></i> HTML
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 80%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 80%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">Acquis</span><span style="float:right;margin-top: 15px;margin-right: 20px">80%</span></p></div>
                                     </div><br>
 
                             </div>
@@ -86,39 +86,7 @@
 
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 75%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div><br>
-
-                            </div>
-
-                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2">
-
-                                <p class="textecompetence2" style="color:#555b61">
-
-                                    <i class="fab fa-php iconecompetence"></i> 
-
-                                        PHP
-                                </p>
-                                    <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 70%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div><br>
-
-                            </div>
-
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 mt-1">
-
-                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2">
-
-                                <p class="textecompetence2" style="color:#555b61">
-
-                                    <i class="fab fa-git iconecompetence"></i> GIT 
-                                    <i class="fab fa-github-alt ml-4 iconecompetence"></i> GITHUB
-
-                                </p>
-
-                                    <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 60%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 75%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">Acquis</span><span style="float:right;margin-top: 15px;margin-right: 20px">75%</span></p></div>
                                     </div><br>
 
                             </div>
@@ -130,16 +98,50 @@
 
                                 </p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 50%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 70%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">Acquis</span><span style="float:right;margin-top: 15px;margin-right: 20px">70%</span></p></div>
+                                    </div><br>
+
+                            </div>
+
+
+                    </div>
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-6 col-lg-6 mt-1">
+
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2">
+
+                                <p class="textecompetence2" style="color:#555b61">
+
+                                    <i class="fab fa-php iconecompetence"></i> 
+
+                                        PHP
+                                </p>
+                                    <div class="progresscompetence">
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 70%; background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">Acquis</span><span style="float:right;margin-top: 15px;margin-right: 20px">70%</span></p></div>
                                     </div><br>
 
                             </div>
 
                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2">
 
+                                <p class="textecompetence2" style="color:#555b61">
+
+                                    <i class="fab fa-git iconecompetence"></i> GIT 
+                                    <i class="fab fa-github-alt ml-4 iconecompetence"></i> GITHUB
+
+                                </p>
+
+                                    <div class="progresscompetence">
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 60%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">Acquis</span><span style="float:right;margin-top: 15px;margin-right: 20px">60%</span></p></div>
+                                    </div><br>
+
+                            </div>
+
+
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-xl-12 col-lg-12 mb-4 rounded pt-2 pr-2 pl-2">
+
                                 <p class="textecompetence2" style="color:#555b61"><i class="fab fa-laravel iconecompetence"></i> LARAVEL</p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 45%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 45%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">En cours...</span><span style="float:right;margin-top: 15px;margin-right: 20px">45%</span></p></div>
                                     </div><br>
 
                             </div>
@@ -148,7 +150,7 @@
 
                                 <p class="textecompetence2" style="color:#555b61"><i class="fab fa-java iconecompetence"></i> JAVA</p>
                                     <div class="progresscompetence">
-                                        <div class="progress-barcompetence" role="progressbar" style="width: 40%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-barcompetence" role="progressbar" style="width: 45%;background-color: #507fe2" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="text2"><span style="float:left;margin-top: 15px;margin-left: 20px">En cours...</span><span style="float:right;margin-top: 15px;margin-right: 20px">45%</span></p></div>
                                     </div><br>
 
                             </div>
@@ -157,4 +159,4 @@
             </div>
     </div>
   </div>
-</div>
+</section>

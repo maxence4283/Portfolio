@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} /veilles/
+RewriteRule (.*) /?action=veilles
+
+RewriteCond %{REQUEST_URI} /veilles/referencement/
+RewriteRule (.*) /?action=referencement
+
+RewriteCond %{REQUEST_URI} /veilles/bootstrap/
+RewriteRule (.*) /?action=bootstrap
